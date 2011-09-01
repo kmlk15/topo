@@ -5,3 +5,4 @@ eclipse/*
 .project
 .DS_Store
 .classpath
+tmp/*
