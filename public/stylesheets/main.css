@@ -270,23 +270,27 @@ p {
 	font-size: 11px;
 	line-height: 13px;
 }
-.locNameBtn {
+.removeCell {
 	float: left;
-	cursor:pointer;
 	width:18px;
  	height:13px;
+}
+.removeBtn {
+	display: block;
  	text-indent:-999em;
 	background:url('../images/general/btn_remove.gif') no-repeat;
 }
-.locNameBtn:hover {
+.removeBtn:hover {
 	background:url('../images/general/btn_remove_hover.gif') no-repeat;
 }
-
-.itnBtn {
-	cursor:pointer;
+.itnCell {
+	float: left;
 	width:70px;
  	height:17px;
- 	margin: 5px 15px 5px 150px;
+	margin: 5px 15px 5px 150px;
+}
+.itnBtn {
+	display: block;
  	text-indent:-999em;
 	background:url('../images/general/btn_itinerary.gif') no-repeat;
 }
@@ -303,7 +307,7 @@ p {
 .contentImg {
 	width:870px;
 	font-size: 12px;
-	line-height: 13px;
+	line-height: 10px;
 	font-style: italic;
 	color: #3e3e3e;
 }
@@ -316,7 +320,6 @@ p {
 	padding-bottom: 10px;
 }
 .heroImg {
-	width:780px;
 	padding-bottom: 30px;
 }
 .bdyImg {
@@ -333,3 +336,134 @@ p {
 .clear {
 	clear:both;
 }
+
+/* Image Rollover Box */
+.infoboxHr {
+	position:relative;
+   	width:870px;
+	height: 320px;
+	}
+.infoboxHr img {
+	position:relative;
+	z-index:1;
+   }
+.infoboxHr .content {
+	display:none;
+   }
+.infoboxHr:hover .content {
+	display:block;
+   	position:absolute;
+   	width:270px;
+   	height:100px;
+   	z-index:2;
+   	left:0px;
+   	bottom:0px;
+   }
+
+.infobox {
+	position:relative;
+   	width:270px;
+	height: 200px;
+	}
+.infobox img {
+	position:relative;
+	z-index:1;
+   }
+.infobox .content {
+	display:none;
+   }
+.infobox:hover .content {
+	display:block;
+   	position:absolute;
+   	width:270px;
+   	height:100px;
+   	z-index:2;
+   	left:0px;
+   	bottom:0px;
+   }
+.boxDes {
+	width:270px;
+ 	height:83px;
+ 	background-color:#333;
+ 	opacity:0.8;
+ 	filter:alpha(opacity=80)
+}
+.boxDes p {
+	padding: 5px 10px;
+	font: 12px Verdana, Helvetica, sans-serif;
+	color: #fff;
+}
+/* Image Rollover Box Button*/
+.addBtn {
+	float: left;
+	cursor:pointer;
+	width:52px;
+ 	height:17px;
+ 	text-indent:-999em;
+	background:url('/public/images/general/btn_add.gif') no-repeat;
+}
+.addBtn:hover {
+	background:url('/public/images/general/btn_add_hover.gif') no-repeat;
+}
+.dismissBtn {
+	float: left;
+	cursor:pointer;
+	width:75px;
+ 	height:17px;
+ 	text-indent:-999em;
+ 	margin-left: 10px;
+	background:url('/public/images/general/btn_dismiss.gif') no-repeat;
+}
+.dismissBtn:hover {
+	background:url('/public/images/general/btn_dismiss_hover.gif') no-repeat;
+}
+
+/*pagination*/
+.pagination {
+	height: 50px;
+	font: 10px Verdana, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.pagination ul{
+margin: 0;
+padding: 0;
+text-align: right; /*Set to "right" to right align pagination interface*/
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+color: #515151;
+}
+
+.pagination a, .pagination a:visited{
+padding: 0 5px;
+text-decoration: none;
+color: #515151;
+}
+
+.pagination a:hover, .pagination a:active{
+color: #fff;
+background-color: #0072bc;
+}
+
+.pagination a.currentpage{
+background-color: #969696;
+color: #FFF !important;
+cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+background-color: white;
+cursor: default;
+color: #969696;
+font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+font-weight: normal;
+}
+
+/*pagination*/

@@ -34,13 +34,13 @@
 	list-style: none; 
 }
 */
-.ui-helper-clearfix:after { 
+/*.ui-helper-clearfix:after { 
 	content: "."; 
 	display: block; 
 	height: 0; 
 	clear: both; 
 	visibility: show; 
-}
+}*/
 .ui-helper-clearfix {
 	display: inline-block; 
 	}
