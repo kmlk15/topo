@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Topofin Demo</title>
+<script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+<script src="@{'/public/javascripts/jquery.tokeninput.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+<link rel="stylesheet" type="text/css" href="@{'/public/stylesheets/search.css'}" />
+<link rel="stylesheet" type="text/css" href="@{'/public/stylesheets/token-input.css'}" />
+<link rel="stylesheet" type="text/css" href="@{'/public/stylesheets/token-input-mac.css'}" />
+<script type="text/javascript">
+	$(document).ready(
+			function() {
+				$("#searchField").tokenInput("/search/suggest", {theme: "mac"});
+				$("#go").click(function(e){
+					e.preventDefault();
+					$('#searchForm').submit();
+				});
+			});
+</script>
+</head>
+<body class="home" id="page_home">
+  <!-- start frame -->
+  <div id="frame">
+    <!-- logo -->
+    <div id="logo">
+      <div id="signIn">
+        <a href="#">sign in / join us</a>
+      </div>
+    </div>
+    <!-- search box -->
+    <div id="searchbox">
+      <h1>What places will you discover?</h1>
+      <div class="fieldBox">
+        #{form @search(), id:"searchForm"} 
+            #{field 'query'}
+            <input class="SearchField" id="searchField" name="${field.name}" type="text" value="Search" maxlength="200" />
+            #{/field} 
+        #{/form}
+      </div>
+      <div class="searchBtn">
+        <a href="#" id="go" class="btn">GO!</a>
+      </div>
+    </div>
+    <!-- 1-hero image / user box -->
+    <div class="heroImage">
+      <img src="@{'public/images/hm/img_hm_01.jpg'}" alt="image" width="1200" height="800" />
+    </div>
+    <div class="userBox">
+      <div class="hmUser">
+        <img src="@{'public/images/hm/img_user_01.jpg'}" alt="user" width="70" height="70" />
+      </div>
+      Susie discovered ChungKing Mansions in Hong Kong<br /> <span class="credit">photo by Susie</span>
+    </div>
+
+    <!-- 2-hero image / user box -->
+    <div class="heroImage">
+      <img src="@{'public/images/hm/img_hm_02.jpg'}" alt="image" width="1200" height="800" />
+    </div>
+    <div class="userBox">
+      <div class="hmUser">
+        <img src="@{'public/images/hm/img_user_02.jpg'}" alt="user" width="70" height="70" />
+      </div>
+      Duo discovered Shanghai Art<br /> <span class="credit">photo by Duo</span>
+    </div>
+
+    <!-- 3-hero image / user box -->
+    <div class="heroImage">
+      <img src="@{'public/images/hm/img_hm_03.jpg'}" alt="image" width="1200" height="800" />
+    </div>
+    <div class="userBox">
+      <div class="hmUser">
+        <img src="@{'public/images/hm/img_user_03.jpg'}" alt="user" width="70" height="70" />
+      </div>
+      Jack discovered Wan Chai Alley in Hong Kong<br /> <span class="credit">photo by Jack</span>
+    </div>
+
+    <!-- user box / back and next buttons -->
+    <div class="backArw">BACK</div>
+    <div class="nxtArw">NEXT</div>
+
+  </div>
+  <!-- end frame -->
+</body>
+</html>

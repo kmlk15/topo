@@ -1,0 +1,8 @@
+# Application dependencies
+
+require:
+    - play
+    - play -> betterlogs 1.0
+    - play -> dotcloud 0.2
+    - crud
+    

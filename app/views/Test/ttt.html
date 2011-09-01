@@ -1,0 +1,21 @@
+#{extends 'main.html' /}
+#{set title:'Test' /}
+
+#{if l}
+    name: ${l.name} <br/>
+    key: ${l.i18nKey} <br/>
+    
+    #{if l.address.size() > 0} 
+        #{list items:l.address, as:'a'}
+            Longitude: ${a.longitude} <br/>
+            Latitude: ${a.latitude} <br/>
+        #{/list}
+    #{/if}
+    
+    #{if l.category.size() > 0} 
+        #{list items:l.category, as:'cat'}
+            Cat: ${cat.name} <br/>
+        #{/list}
+    #{/if}
+    
+#{/if}

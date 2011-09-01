@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Topofin Demo</title>
+  <link rel="stylesheet" type="text/css" href="@{'public/stylesheets/main.css'}" />
+  
+  <link rel="stylesheet" href="@{'public/stylesheets/jquery.ui.all.css'}"> 
+	<script src="@{'public/javascripts/jquery-1.6.2.js'}"></script> 
+	<script src="@{'public/javascripts/jquery.ui.core.js'}"></script> 
+	<script src="@{'public/javascripts/jquery.ui.widget.js'}"></script> 
+	<script src="@{'public/javascripts/jquery.ui.tabs.js'}"></script> 
+	<link rel="stylesheet" href="@{'public/stylesheets/demos.css'}">
+	
+	<script> 
+	$(function() {
+		$( "#tabs" ).tabs({
+			ajaxOptions: {
+				error: function( xhr, status, index, anchor ) {
+					$( anchor.hash ).html(
+						"Couldn't load this tab. We'll try to fix this as soon as possible. " +
+						"If this wouldn't be a demo." );
+				}
+			}
+		});
+	});
+	</script> 
+</head>
+<body>
+<!-- start frame -->
+<div id="framePage">
+	<!-- Top Row -->
+		<div id="logo_box">
+			<div id="logo"><a href="index.html"><img src="@{'public/images/general/logo.png'}" alt="topofin" width="176" height="40" /></a></div>
+			<div id="signIn"><a href="#">sign in / join us</a></div>
+		</div>
+		
+		<div id="leftCol">
+			<div class="trvTab">TRAVELER</div>
+			<div class="trvHolder">
+				<div class="trvBdy"><h1>Mauri Smith</h1>
+					<div class="trvImg"><img src="@{'public/images/users/user_mauri.jpg'}" alt="Mauri Smith" /></div>
+					<div class="trvCont">heading towards:<br />
+					<h3>Hong Kong, China</h3>
+					from: <br />
+					8/25 - 9/8</div>
+					<div class="clear"></div>
+					<br />
+					&nbsp;&nbsp;&nbsp;with 6 companies<br />
+					<img src="@{'public/images/users/FPO_companies.png'}" alt="FPO" />
+				</div>
+				<div class="locTab"><strong>Location Added</strong></div>
+				
+				<div class="locList">
+					<div class="locName">Temple Street</div>
+					<div class="locNameBtn"><a href="#">Remove</a></div>
+				</div>
+				
+				<div class="locList">
+					<div class="locName">Hong Kong Park</div>
+					<div class="locNameBtn"><a href="#">Remove</a></div>
+				</div>
+				
+				<div class="locList">
+					<div class="locName">IFC Tower</div>
+					<div class="locNameBtn"><a href="#">Remove</a></div>
+				</div>
+				
+				<div class="locList">
+					<div class="locName">Hollywood Road</div>
+					<div class="locNameBtn"><a href="#">Remove</a></div>
+				</div>
+				
+				<div class="locList">
+					<div class="locName">Ocean Park</div>
+					<div class="locNameBtn"><a href="#">Remove</a></div>
+				</div>
+				
+				<div class="clear"></div>
+				
+				<div class="itnBtn"><a href="#">itinerary</a></div>
+			</div>
+		</div>
+		
+		<div id="rightCol">
+				<div id="tabs"> 
+					<ul> 
+					<li><a href="@{'public/ajax/content1.html'}">RECOMMENDED</a></li> 
+					<li><a href="@{'public/ajax/content2.html'}">POPULAR</a></li> 
+					<li><a href="@{'public/ajax/content3.html'}">OBCURE</a></li> 
+					</ul> 
+				</div> 
+		</div>
+</div>
+<!-- end frame -->
+</body>
+</html>

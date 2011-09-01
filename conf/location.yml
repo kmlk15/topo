@@ -1,0 +1,64 @@
+Category(cat1):
+    name: father
+    
+Category(cat2):
+    parent: cat1
+    name: son
+
+Category(cat3):
+    parent: cat2
+    name: grandson
+
+Location(location1):
+    category: cat3
+    name: Test Name
+    i18nKey: Test Key
+    
+HoursOfOperation(hour1):
+    location: location1
+    mondayOpen: 0900
+    mondayClosed: 1800
+    
+Admission(admission1):
+    location: location1
+    type: adult
+    amount: 50
+    currency: HKD
+
+Country(country1):
+    name: China
+    nameKey: china     
+    
+StateProvince(state1):
+    name: SARs
+    nameKey: china.sars      
+    
+City(city1):
+    name: Hong Kong
+    nameKey: china.sars.hongkong        
+    
+Address(address1):
+    location: location1
+    street1: 123 st
+    city: city1
+    stateProvince: state1
+    country: country1
+    longitude: 100
+    latitude: 100
+    
+Phone(phone1):
+    location: location1
+    type: work
+    countryCode: 852
+    number: 21213434
+    
+User(user1):
+    email: test@test.com
+    displayName: Test user
+    
+Itinerary(itin1):
+    name: Itinerary Test
+    user: user1
+    location: location1
+    
+    
