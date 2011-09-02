@@ -278,10 +278,10 @@ p {
 .removeBtn {
 	display: block;
  	text-indent:-999em;
-	background:url('../images/general/btn_remove.gif') no-repeat;
+	background:url('/public/images/general/btn_remove.gif') no-repeat;
 }
 .removeBtn:hover {
-	background:url('../images/general/btn_remove_hover.gif') no-repeat;
+	background:url('/public/images/general/btn_remove_hover.gif') no-repeat;
 }
 .itnCell {
 	float: left;
@@ -292,10 +292,10 @@ p {
 .itnBtn {
 	display: block;
  	text-indent:-999em;
-	background:url('../images/general/btn_itinerary.gif') no-repeat;
+	background:url('/public/images/general/btn_itinerary.gif') no-repeat;
 }
 .itnBtn:hover {
-	background:url('../images/general/btn_itinerary_hover.gif') no-repeat;
+	background:url('/public/images/general/btn_itinerary_hover.gif') no-repeat;
 }
 
 

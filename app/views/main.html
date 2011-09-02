@@ -5,10 +5,32 @@
         <title>#{get 'title' /}</title>
         <meta charset="${_response_encoding}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/jquery.ui.all.css'}">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/demos.css'}">
+		
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
         <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+		<script src="@{'/public/javascripts/jquery-1.6.2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.core.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.widget.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.tabs.js'}" type="text/javascript" charset="${_response_encoding}"></script>
         #{get 'moreScripts' /}
+
+		<script> 
+			$(function() {
+				$( "#tabs" ).tabs({
+					ajaxOptions: {
+						error: function( xhr, status, index, anchor ) {
+							$( anchor.hash ).html(
+								"Couldn't load this tab. We'll try to fix this as soon as possible. " +
+								"If this wouldn't be a demo." );
+						}
+					}
+				});
+			});
+			</script>
     </head>
     <body>
         #{doLayout /}

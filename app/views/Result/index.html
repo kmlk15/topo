@@ -1,32 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
-<head profile="http://gmpg.org/xfn/11">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Topofin Demo</title>
-  <link rel="stylesheet" type="text/css" href="@{'public/stylesheets/main.css'}" />
-  
-  <link rel="stylesheet" href="@{'public/stylesheets/jquery.ui.all.css'}"> 
-	<script src="@{'public/javascripts/jquery-1.6.2.js'}"></script> 
-	<script src="@{'public/javascripts/jquery.ui.core.js'}"></script> 
-	<script src="@{'public/javascripts/jquery.ui.widget.js'}"></script> 
-	<script src="@{'public/javascripts/jquery.ui.tabs.js'}"></script> 
-	<link rel="stylesheet" href="@{'public/stylesheets/demos.css'}">
-	
-	<script> 
-	$(function() {
-		$( "#tabs" ).tabs({
-			ajaxOptions: {
-				error: function( xhr, status, index, anchor ) {
-					$( anchor.hash ).html(
-						"Couldn't load this tab. We'll try to fix this as soon as possible. " +
-						"If this wouldn't be a demo." );
-				}
-			}
-		});
-	});
-	</script> 
-</head>
-<body>
+#{extends 'main.html' /}
+#{set title:'Reselt' /}
+
 <!-- start frame -->
 <div id="framePage">
 	<!-- Top Row -->
@@ -53,32 +27,32 @@
 				
 				<div class="locList">
 					<div class="locName">Temple Street</div>
-					<div class="locNameBtn"><a href="#">Remove</a></div>
+					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
 				</div>
 				
 				<div class="locList">
 					<div class="locName">Hong Kong Park</div>
-					<div class="locNameBtn"><a href="#">Remove</a></div>
+					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
 				</div>
 				
 				<div class="locList">
 					<div class="locName">IFC Tower</div>
-					<div class="locNameBtn"><a href="#">Remove</a></div>
+					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
 				</div>
 				
 				<div class="locList">
 					<div class="locName">Hollywood Road</div>
-					<div class="locNameBtn"><a href="#">Remove</a></div>
+					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
 				</div>
 				
 				<div class="locList">
 					<div class="locName">Ocean Park</div>
-					<div class="locNameBtn"><a href="#">Remove</a></div>
+					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
 				</div>
 				
-				<div class="clear"></div>
+				<div class="itnCell"><a class="itnBtn" href="#">itinerary</a></div>
 				
-				<div class="itnBtn"><a href="#">itinerary</a></div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		
