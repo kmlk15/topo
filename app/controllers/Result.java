@@ -7,4 +7,8 @@ public class Result extends Controller {
 	public static void index() {
 		render();
 	}
+	
+	public static void content() {
+		render();
+	}
 }
