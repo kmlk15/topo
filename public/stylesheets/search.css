@@ -174,32 +174,3 @@ div.userBox {
 .nxtArw:hover {
 	background:url('../images/hm/btn_arw_nxt_hover.png') no-repeat;
 }
-
-/* Result Page */
-.topImageBg {
-	position:absolute;
-	top:0px;
- 	left:0px;
-	width:1200px;
-	height:111px;
-	z-index:1;
-	background:url('../images/general/top_bg.jpg') no-repeat;
-}
-#logo_row {
-	position:relative;
-	width:1200px;
- 	height:88px;
-	background:url('../images/general/logo_bg.jpg') no-repeat;
-}
-#logo_box {
-	width:305px;
- 	height:55px;
- 	margin-left:35px;
-	background:url('../images/hm/logo_bx.png') no-repeat;
-}
-#nav_row {
-	position:relative;
-	width:1200px;
- 	height:88px;
-	background:url('../images/general/logo_bg.jpg') no-repeat;
-}
