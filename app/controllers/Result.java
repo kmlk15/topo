@@ -8,7 +8,13 @@ public class Result extends Controller {
 		render();
 	}
 	
-	public static void content() {
+	public static void recommended() {
+		render();
+	}
+	public static void popular() {
+		render();
+	}
+	public static void obcure() {
 		render();
 	}
 }

@@ -7,7 +7,7 @@
 	list-style-type:none;
 }
 html {
-	height:101%;
+	overflow-y: scroll;
 }
 /* -------------- LINKS -----------------*/
 a {
@@ -33,14 +33,7 @@ p {
 	color:#000;
 	padding-bottom: 5px;
 }
-#frame {
-	position:relative;
-	width:1200px;
-	margin:0 auto;
-	background-color:#fff;
-}
 
-/* --------------  home search -----------------*/
 /* logo - signIn */
 #logo {
 	position:absolute;
@@ -50,6 +43,51 @@ p {
  	height:55px;
  	z-index:5;
 	background:url('../images/hm/logo_bx.png') no-repeat;
+}
+
+#logo_box {
+	width:355px;
+ 	height:60px;
+	z-index:5;
+ 	margin-left:35px;
+ 	margin-bottom:28px;
+	background-color: #fff;
+	-moz-box-shadow: 3px 3px 3px #535353;
+	-webkit-box-shadow: 3px 3px 3px #535353;
+	box-shadow: 3px 3px 3px #535353;
+}
+#logo {
+	float:left;
+	width:180px;
+	z-index:5;
+	padding: 15px 0 0 0px;
+}
+#signIn {
+	float:left;
+	z-index:5;
+	width:340px;
+	text-align:right;
+	padding-top:38px;
+	padding-right:15px;
+}
+
+
+/* --------------  home search -----------------*/
+
+#searchPage {
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+}
+
+.imgUserCell {
+	position:absolute;
+	width:1200px;
+	height:800px;
+	z-index:1;
+	top:0;
+	left:0;
+	background:url('../images/hm/img_hm_01.jpg');
 }
 
 /* search */
@@ -168,36 +206,15 @@ p {
 	background:url('../images/hm/btn_arw_nxt_hover.png') no-repeat;
 }
 
-/* Result Page */
-#framePage {
+/* -----------------------Result Page------------------------ */
+#resultPage {
 	position:relative;
 	width:1200px;
 	margin:0 auto;
 	background: #fff url('../images/general/nav_bg.jpg') no-repeat;
 	overflow: hidden;
 }
-#logo_box {
-	width:355px;
- 	height:60px;
- 	margin-left:35px;
- 	margin-bottom:28px;
-	background-color: #fff;
-	-moz-box-shadow: 3px 3px 3px #535353;
-	-webkit-box-shadow: 3px 3px 3px #535353;
-	box-shadow: 3px 3px 3px #535353;
-}
-#logo {
-	float:left;
-	width:180px;
-	padding: 15px 0 0 0px;
-}
-#signIn {
-	float:left;
-	width:340px;
-	text-align:right;
-	padding-top:38px;
-	padding-right:15px;
-}
+
 #leftCol {
 	float:left;
 	width:230px;
@@ -467,3 +484,4 @@ font-weight: normal;
 }
 
 /*pagination*/
+/* -----------------------Result Page------------------------ */

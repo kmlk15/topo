@@ -1,8 +1,8 @@
 #{extends 'main.html' /}
-#{set title:'Reselt' /}
+#{set title:'Result' /}
 
 <!-- start frame -->
-<div id="framePage">
+<div id="resultPage">
 	<!-- Top Row -->
 		<div id="logo_box">
 			<div id="logo"><a href="index.html"><img src="@{'public/images/general/logo.png'}" alt="topofin" width="176" height="40" /></a></div>
@@ -59,13 +59,10 @@
 		<div id="rightCol">
 				<div id="tabs"> 
 					<ul> 
-					<li><a href="@{result.content()}">RECOMMENDED</a></li> 
-					<li><a href="@{result.content()}">POPULAR</a></li> 
-					<li><a href="@{result.content()}">OBCURE</a></li> 
+					<li><a href="@{result.recommended()}">RECOMMENDED</a></li> 
+					<li><a href="@{result.popular()}">POPULAR</a></li> 
+					<li><a href="@{result.obcure()}">OBCURE</a></li> 
 					</ul> 
 				</div> 
 		</div>
 </div>
-<!-- end frame -->
-</body>
-</html>
