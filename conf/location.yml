@@ -12,7 +12,7 @@ Category(cat3):
 Location(location1):
     category: cat3
     name: Test Name
-    i18nKey: Test Key
+    nameKey: Test Key
     
 HoursOfOperation(hour1):
     location: location1

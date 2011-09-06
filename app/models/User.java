@@ -26,4 +26,12 @@ public class User extends Model {
 		sb.append(displayName).append(": ").append(email);
 		return sb.toString(); 
 	}
+	
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("User(user").append(id).append("):\n");
+		sb.append("    email: ").append(email).append("\n");
+		sb.append("    displayName: ").append(displayName).append("\n");
+		return sb.toString();
+	}	
 }

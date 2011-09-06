@@ -55,7 +55,6 @@ public class Category extends Model {
 		if (parent != null) {
 			sb.append("    parent: category").append(parent.id).append("\n");
 		}
-		sb.append("\n");
 		return sb.toString();
 	}
 }

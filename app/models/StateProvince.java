@@ -26,4 +26,12 @@ public class StateProvince extends Model {
 		return name;
 	}
 	
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("StateProvince(stateProvince").append(id).append("):\n");
+		sb.append("    name: ").append(name).append("\n");
+		sb.append("    nameKey: ").append(nameKey).append("\n");
+		return sb.toString();
+	}
+
 }

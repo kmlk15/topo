@@ -64,4 +64,26 @@ public class Address extends Model {
 		return sb.toString();
 	}
 
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Address(address").append(id).append("):\n");
+		sb.append("    street1: ").append(street1).append("\n");
+		sb.append("    street2: ").append(street2).append("\n");
+		sb.append("    latitude: ").append(latitude).append("\n");
+		sb.append("    longitude: ").append(longitude).append("\n");
+		if (location != null) {
+			sb.append("    location: location").append(location.id).append("\n");
+		}
+		if (city != null) {
+			sb.append("    city: city").append(city.id).append("\n");
+		}
+		if (stateProvince != null) {
+			sb.append("    stateProvince: stateProvince").append(stateProvince.id).append("\n");
+		}
+		if (location != null) {
+			sb.append("    country: country").append(country.id).append("\n");
+		}
+		return sb.toString();
+	}
+
 }

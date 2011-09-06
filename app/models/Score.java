@@ -39,4 +39,17 @@ public class Score extends Model {
 		s.save();
 		return s;
 	}
+	
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Score(score").append(id).append("):\n");
+		sb.append("    score: ").append(score).append("\n");
+		if (user != null) {
+			sb.append("    user: user").append(user.id).append("\n");
+		}
+		if (category != null) {
+			sb.append("    category: category").append(category.id).append("\n");
+		}
+		return sb.toString();
+	}	
 }

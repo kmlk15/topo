@@ -22,7 +22,7 @@ public class Location extends Model {
 	public String name;
 	
 	@Expose
-    public String i18nKey;
+    public String nameKey;
     
     @OneToMany(mappedBy = "location", cascade = CascadeType.ALL)
     @Expose
@@ -54,6 +54,19 @@ public class Location extends Model {
 		map.put("id", "location:"+id);
 		map.put("name", "Location: "+name);
 		return map;
+	}
+
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Location(location").append(id).append("):\n");
+		sb.append("    name: ").append(name).append("\n");
+		sb.append("    nameKey: ").append(nameKey).append("\n");
+		if (category != null) {
+			for (Category c : category) {
+				sb.append("    category: category").append(c.id).append("\n");
+			}
+		}
+		return sb.toString();
 	}
 
 }

@@ -28,4 +28,19 @@ public class Itinerary extends Model {
 		sb.append(user.toString()).append(": ").append(name);
 		return sb.toString();
 	}
+	
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Itinerary(itinerary").append(id).append("):\n");
+		sb.append("    name: ").append(name).append("\n");
+		if (user != null) {
+			sb.append("    user: user").append(user.id).append("\n");
+		}
+		if (location != null) {
+			for (Location l : location) {
+				sb.append("    location: location").append(l.id).append("\n");
+			}
+		}
+		return sb.toString();
+	}
 }

@@ -34,4 +34,13 @@ public class City extends Model {
 		map.put("name", "City: "+name);
 		return map;
 	}
+	
+	public String toYML() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("City(city").append(id).append("):\n");
+		sb.append("    name: ").append(name).append("\n");
+		sb.append("    nameKey: ").append(nameKey).append("\n");
+		return sb.toString();
+	}
+	
 }
