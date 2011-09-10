@@ -50,6 +50,7 @@ public class Score extends Model {
 		if (category != null) {
 			sb.append("    category: category").append(category.id).append("\n");
 		}
+		sb.append("\n");
 		return sb.toString();
 	}	
 }

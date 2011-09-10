@@ -32,7 +32,9 @@ public class Itinerary extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Itinerary(itinerary").append(id).append("):\n");
-		sb.append("    name: ").append(name).append("\n");
+		if (name != null) {
+			sb.append("    name: ").append(name).append("\n");
+		}
 		if (user != null) {
 			sb.append("    user: user").append(user.id).append("\n");
 		}
@@ -41,6 +43,7 @@ public class Itinerary extends Model {
 				sb.append("    location: location").append(l.id).append("\n");
 			}
 		}
+		sb.append("\n");
 		return sb.toString();
 	}
 }

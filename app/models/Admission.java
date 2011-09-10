@@ -36,12 +36,17 @@ public class Admission extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Admission(admission").append(id).append("):\n");
-		sb.append("    type: ").append(type).append("\n");
+		if (type != null) {
+			sb.append("    type: ").append(type).append("\n");
+		}
 		sb.append("    amount: ").append(amount).append("\n");
-		sb.append("    currency: ").append(currency).append("\n");
+		if (currency != null) {
+			sb.append("    currency: ").append(currency).append("\n");
+		}
 		if (location != null) {
 			sb.append("    location: location").append(location.id).append("\n");
 		}
+		sb.append("\n");
 		return sb.toString();
 	}
 

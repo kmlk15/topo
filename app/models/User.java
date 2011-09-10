@@ -30,8 +30,13 @@ public class User extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("User(user").append(id).append("):\n");
-		sb.append("    email: ").append(email).append("\n");
-		sb.append("    displayName: ").append(displayName).append("\n");
+		if (email != null) {
+			sb.append("    email: ").append(email).append("\n");
+		}
+		if (displayName != null) {
+			sb.append("    displayName: ").append(displayName).append("\n");
+		}
+		sb.append("\n");
 		return sb.toString();
 	}	
 }

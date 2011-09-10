@@ -29,8 +29,13 @@ public class Country extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Country(country").append(id).append("):\n");
-		sb.append("    name: ").append(name).append("\n");
-		sb.append("    nameKey: ").append(nameKey).append("\n");
+		if (name != null) {
+			sb.append("    name: ").append(name).append("\n");
+		}
+		if (nameKey != null) { 
+			sb.append("    nameKey: ").append(nameKey).append("\n");
+		}
+		sb.append("\n");
 		return sb.toString();
 	}
 

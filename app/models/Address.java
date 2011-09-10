@@ -67,8 +67,12 @@ public class Address extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Address(address").append(id).append("):\n");
-		sb.append("    street1: ").append(street1).append("\n");
-		sb.append("    street2: ").append(street2).append("\n");
+		if (street1 != null) {
+			sb.append("    street1: ").append(street1).append("\n");
+		}
+		if (street2 != null) {
+			sb.append("    street2: ").append(street2).append("\n");
+		}
 		sb.append("    latitude: ").append(latitude).append("\n");
 		sb.append("    longitude: ").append(longitude).append("\n");
 		if (location != null) {
@@ -83,6 +87,7 @@ public class Address extends Model {
 		if (location != null) {
 			sb.append("    country: country").append(country.id).append("\n");
 		}
+		sb.append("\n");
 		return sb.toString();
 	}
 

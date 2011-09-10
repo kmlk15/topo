@@ -11,9 +11,11 @@ public class Result extends Controller {
 	public static void recommended() {
 		render();
 	}
+	
 	public static void popular() {
 		render();
 	}
+	
 	public static void obcure() {
 		render();
 	}

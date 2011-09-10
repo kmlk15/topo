@@ -51,10 +51,13 @@ public class Category extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Category(category").append(id).append("):\n");
-		sb.append("    name: ").append(name).append("\n");
+		if (name != null) {
+			sb.append("    name: ").append(name).append("\n");
+		}
 		if (parent != null) {
 			sb.append("    parent: category").append(parent.id).append("\n");
 		}
+		sb.append("\n");
 		return sb.toString();
 	}
 }
