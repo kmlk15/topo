@@ -20,7 +20,7 @@ public class Search extends Controller {
 	
     public static void search(String query) {
     	System.out.println(query);
-    	renderText(query);
+    	Result.index();
     }
     
     public static void suggest(String q) {
