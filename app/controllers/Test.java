@@ -5,8 +5,8 @@ import java.util.List;
 import models.Category;
 import models.Location;
 import play.mvc.Controller;
-import services.ScoringService;
-import services.UserAction;
+import service.constants.UserAction;
+import service.impl.ScoringServiceImpl;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -25,7 +25,7 @@ public class Test extends Controller {
 	}
 	
 	public static void sss() {
-		ScoringService s = new ScoringService();
+		ScoringServiceImpl s = new ScoringServiceImpl();
 		s.calculate(1, 1, UserAction.DETAIL_LIKE);
 		renderText("haha");
 	}

@@ -19,4 +19,5 @@ public class Result extends Controller {
 	public static void obcure() {
 		render();
 	}
+	
 }

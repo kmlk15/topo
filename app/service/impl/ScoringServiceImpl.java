@@ -1,12 +1,14 @@
-package services;
+package service.impl;
 
 import models.Category;
 import models.Location;
 import models.Score;
 import models.User;
 import play.data.validation.Validation;
+import service.api.ScoringService;
+import service.constants.UserAction;
 
-public class ScoringService {
+public class ScoringServiceImpl implements ScoringService {
 
 	public void calculate(long userId, long locationId, UserAction action) {
 		User u = User.findById(userId);
