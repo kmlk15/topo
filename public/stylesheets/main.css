@@ -22,7 +22,7 @@ a:hover {
 
 /* --------------  MAIN PAGE/GRID -----------------*/
 body {
-	font:normal 87.5%/1.5em Verdana,Arial,Helvetica,sans-serif;
+	font:normal 87.5% Verdana,Arial,Helvetica,sans-serif;
 	margin:0 10px;
 	background-color:#969696;
 	color:#515151;
@@ -71,8 +71,7 @@ p {
 	padding-right:15px;
 }
 
-
-/* --------------  home search -----------------*/
+/* --------------  home search REWORK -----------------*/
 
 #searchPage {
 	position:relative;
@@ -80,131 +79,116 @@ p {
 	margin:0 auto;
 }
 
-.imgUserCell {
-	position:absolute;
+.schFrame {
 	width:1200px;
 	height:800px;
-	z-index:1;
-	top:0;
-	left:0;
 	background:url('../images/hm/img_hm_01.jpg');
 }
 
-/* search */
-#searchbox {
-	position:absolute;
-	top:330px;
- 	left:60px;
- 	width:435px;
- 	height:70px;
- 	z-index:5;
- 	padding:15px;
-	background-color:#f1581c;
+/* search REWORK Logo - SignIn*/
+.schLogoBox {
+	width:355px;
+ 	height:60px;
+	z-index:5;
+ 	margin-left:35px;
+ 	margin-bottom:280px;
+	background-color: #fff;
+	-moz-box-shadow: 3px 3px 3px #535353;
+	-webkit-box-shadow: 3px 3px 3px #535353;
+	box-shadow: 3px 3px 3px #535353;
 }
-#searchbox h1 {
-	color:#fff;
-	padding-bottom:15px;
+#schLogo {
+	float:left;
+	width:180px;
+	padding: 15px 0 0 25px;
 }
-.fieldBox {
+#schSignIn {
+	float:left;
+	width:135px;
+	text-align:right;
+	padding-top:38px;
+	padding-right:15px;
+}
+
+/* search REWORK SearchField*/
+
+.schCell {
+	width:465px;
+ 	height:100px;
+	margin:0 0 0 35px;
+ 	background-color: #f1581c; /*oragne color*/
+	-moz-box-shadow: 3px 3px 3px #535353;
+	-webkit-box-shadow: 3px 3px 3px #535353;
+	box-shadow: 3px 3px 3px #535353;
+}
+.schBox {
+	padding: 10px 0 0 15px;
+}
+.schBox h1{
+	font-size: 25px;
+   	color: #fff;
+	padding-bottom: 8px;
+}
+.btnGoBox {
 	float: left;
+	margin-left:5px;
+	background-color: #333;
 }
-.searchBtn {
+.btnGo {
 	float: left;
-}
-.btn {
 	display:block;
+	margin-left:5px;
 	color:#6e6e6e;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size:19px;
 	width:45px;
-	height:27px;
+	height:37px;
 	text-align: center;
-	padding-top: 8px;
 	border-width: 1px;
-   border-style: solid;
-   border-color: #3d3d3d; 
+   	border-style: solid;
+   	border-color: #3d3d3d; 
 	text-decoration:none;
-	background:url('../images/hm/btn_bg.gif') repeat-x;
+	cursor: pointer;
+	background:url('../images/hm/btnGo_bg.gif') repeat-x;
 }
-.btn:hover {
+.btnGo:hover {
 	color:#3e3e3e;
-	background:url('../images/hm/btn_bg_hover.gif') repeat-x;
+	background:url('../images/hm/btnGo_bg_hover.gif') repeat-x;
 	text-decoration:none;
 }
-.SearchField {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3d3d3d;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #6e6c6c;
-    padding-left:5px;
-    background-color:#ebebeb;
-    width: 380px;
-    height: 35px;
-}
-/* hero image - user box */
-.heroImage {
-	position:absolute;
-	top:0px;
- 	left:0px;
-	width:1200px;
-	z-index:1;
-}
-.userBox {
-	position:absolute;
-	top:530px;
- 	right:0px;
- 	width:238px;
- 	height:83px;
- 	padding: 7px 10px 0 12px;
- 	color:#fff;
- 	font-size: 0.9em;
-	line-height: 1.3em;
-	background:url('../images/hm/hm_user_box_bg.png') no-repeat;
-	z-index:2;
-}
-.userBox p {
-	color:#fff;
-}
-.hmUser {
+
+/* search REWORK UserBox*/
+.schUserCell {
+	width:255px;
+	height:86px;
+	margin-top:50px;
+	float: right;
+	background-color: #4d4c4c;
+	-moz-box-shadow: -3px 3px 3px #535353;
+	-webkit-box-shadow: -3px 3px 3px #535353;
+	box-shadow: -3px 3px 3px #535353;
+	}
+.schUserImg {
 	float: left;
-	padding-right: 10px;
+	width:70px;
+ 	height:70px;
+	padding: 8px;
 }
-.credit {
-	color:#fff;
- 	font-size: 0.8em;
-	line-height: 3.5em;
-	font-style: italic;
+.schUserDes {
+	float: left;
+	width:160px;
+	padding-top: 8px;
+	font-size: 11px;
+   	color: #fff;
 }
-/* user box arrow */
-.backArw {
-	position:absolute;
-	cursor:pointer;
-	top:596px;
- 	right:30px;
- 	width:10px;
- 	height:10px;
- 	text-indent:-999em;
-	background:url('../images/hm/btn_arw_back.png') no-repeat;
-	z-index:3;
+.schUserDes p {
+	font-size: 9px;
+   	line-height:30px;
+   	font-style: italic;
+   	color: #fff;
 }
-.backArw:hover {
-	background:url('../images/hm/btn_arw_back_hover.png') no-repeat;
-}
-.nxtArw {
-	position:absolute;
-	cursor:pointer;
-	top:596px;
- 	right:15px;
- 	width:10px;
- 	height:10px;
- 	text-indent:-999em;
-	background:url('../images/hm/btn_arw_nxt.png') no-repeat;
-	z-index:3;
-}
-.nxtArw:hover {
-	background:url('../images/hm/btn_arw_nxt_hover.png') no-repeat;
-}
+/* --------------  end home search REWORK -----------------*/
+
 
 /* -----------------------Result Page------------------------ */
 #resultPage {

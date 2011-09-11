@@ -3,50 +3,28 @@
 
   <!-- start frame -->
   <div id="searchPage">
-    <div class="jflow-content-slider">
-			<div id="slides">
-				<div class="slide-wrapper">
-					<div class="slide-thumbnail"><img src="@{'public/images/hm/img_hm_01.jpg'}" alt="photo" /></div>
-
-					<div class="slide-details">
-						<div class="userImg"><img src="@{'public/images/hm/img_user_01.jpg'}" alt="photo" /></div>
-						<div class="userDes">Susie discovered ChungKing Mansions in Hong Kong <br />
-						<span class="credit">photo by Susie</span></div>
-					</div>
-					<div class="clear"></div>
-				</div>
-
-				<div class="slide-wrapper">
-					<div class="slide-thumbnail"><img src="@{'public/images/hm/img_hm_02.jpg'}" alt="photo" /></div>
-
-					<div class="slide-details">
-						<div class="userImg"><img src="@{'public/images/hm/img_user_02.jpg'}" alt="photo" /></div>
-						<div class="userDes">Keane discovered JR Wall Art in Shanghai<br />
-						<span class="credit">photo by Keane</span></div>
-					</div>
-					<div class="clear"></div>
-				</div>
-
-				<div class="slide-wrapper">
-					<div class="slide-thumbnail"><img src="@{'public/images/hm/img_hm_03.jpg'}" alt="photo" /></div>
-
-					<div class="slide-details">
-						<div class="userImg"><img src="@{'public/images/hm/img_user_03.jpg'}" alt="photo" /></div>
-						<div class="userDes">Wanchai street old style cafe in Hong Kong <br />
-						<span class="credit">photo by Rob</span></div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-
-			<div id="myController">
-				<span class="jFlowPrev">« previous</span>
-				<span class="jFlowControl">1</span>
-				<span class="jFlowControl">2</span>
-				<span class="jFlowControl">3</span>
-				<span class="jFlowNext">next »</span>
-			</div>
-			<div class="clear"></div>
+	<div class="schFrame">
+		<div class="schLogoBox">
+			<div id="schLogo"><img src="@{'public/images/general/logo.png'}" alt="topofin" /></div>
+			<div id="schSignIn"><a href="#">sign in / join us</a></div>
 		</div>
+		
+		<div class="schCell">
+			<div class="schBox"><h1>What places will you discover?</h1>
+				#{form @search(), id:"searchForm"} 
+					#{field 'query'}
+						<input class="searchField" id="searchField" name="${field.name}" type="text" value="Search" />
+					#{/field} 
+				#{/form} 
+				<input type="submit" value="GO" class="btnGo" />
+			</div>
+		</div>
+		
+		<div class="schUserCell">
+			<div class="schUserImg"><img src="@{'public/images/hm/img_user_01.jpg'}" alt="user" /></div>
+			<div class="schUserDes">Susie discovered ChungKing Mansions in Hong Kong
+				<p>photo by Susie</p></div>
+		</div>
+	</div>
   </div>
   <!-- end frame -->

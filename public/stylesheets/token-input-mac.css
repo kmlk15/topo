@@ -4,34 +4,36 @@ fieldset.token-input-mac {
   padding: 0;
   margin: 5px 0;
   background: #fff;
-  width: 400px;
+  width: 100px;
   border: 1px solid #A4BDEC;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
 
-fieldset.token-input-mac.token-input-dropdown-mac {
+/*fieldset.token-input-mac.token-input-dropdown-mac {
   border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   -webkit-border-radius: 10px 10px 0 0;
   box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
   -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
   -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
-}
+}*/
 
 ul.token-input-list-mac {
-    overflow: hidden; 
-    height: auto !important; 
-    height: 1%;
+	float: left;
+    overflow: hidden;
+ 	width: 380px;
+    height: 35px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: #3d3d3d;
     cursor: text;
-    font-size: 12px;
+    font-size: 18px;
     font-family: Verdana;
-    min-height: 1px;
     z-index: 999;
     margin: 0;
-    padding: 3px;
-    background: transparent;
+    background: #ebebeb;
 }
 
 ul.token-input-list-mac.error {
@@ -50,35 +52,32 @@ li.token-input-token-mac p {
 
 li.token-input-token-mac span {
     color: #a6b3cf;
+	font-size: 20px;
     margin-left: 5px;
-    font-weight: bold;
+    font-weight: normal;
     cursor: pointer;
 }
 
 /* TOKENS */
 
 li.token-input-token-mac {
-    font-family: "Lucida Grande", Arial, serif;
-    font-size: 9pt;
-    line-height: 12pt;
-    overflow: hidden; 
-    height: 16px; 
-    margin: 3px;
-    padding: 0 10px;   
-    background: none; 
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+	overflow: hidden; 
+    height: 38px; 
     background-color: #dee7f8;
     color: #000;
     cursor: default;
-    border: 1px solid #a4bdec;
-    border-radius: 15px;
+    /*border: 1px solid #a4bdec;padding: 0 10px;
+	border-radius: 15px;margin: 3px;
     -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+	-webkit-border-radius: 15px;*/
     float: left;
 }
 
 li.token-input-highlighted-token-mac {
     background-color: #bbcef1;
-    border: 1px solid #598bec;
+   /* border: 1px solid #598bec;*/
     color: #000;
 }
 
@@ -97,6 +96,7 @@ li.token-input-selected-token-mac span.token-input-delete-token-mac {
 }
 
 li.token-input-input-token-mac {
+	width: 300px;
     border: none;
     background: transparent;
     float: left;
@@ -105,32 +105,37 @@ li.token-input-input-token-mac {
 }
 
 li.token-input-input-token-mac input {
-  border: 0;
-  width: 100px;
-  padding: 3px;
-  background-color: transparent;
-  margin: 0;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 18pt;
+	color: #6e6c6c;
+  	border: 0;
+  	width: 300px;
+  	padding: 3px;
+  	background-color: transparent;
+  	margin: 0;
 }
 
 div.token-input-dropdown-mac {
     position: absolute;
-    border: 1px solid #A4BDEC;
+	width: 380px;
+	height: 35px;
     border-top: none;
     left: -1px;
     right: -1px;
-    background-color: #fff;
+    background-color: #c7c7c7;
     overflow: hidden;
     cursor: default;
     font-size: 10pt;
-    font-family: "Lucida Grande", Arial, serif;
-    padding: 5px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    /*padding: 5px;
+	border: 1px solid #A4BDEC;
     border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 10px 10px;
-    -webkit-border-radius: 0 0 10px 10px;
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
-    -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
-    clip:rect(0px, 1000px, 1000px, -10px);
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.25);
+	clip:rect(0px, 1000px, 1000px, -10px);*/
 }
 
 div.token-input-dropdown-mac p {
@@ -191,11 +196,11 @@ div.token-input-dropdown-mac ul li strong {
 
 div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac,
 div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac.odd {
-    background-color: #598bec;
-    color: #fff;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+    color: #5e5e5e;
+	background-color: #c7c7c7;
+    /*border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;*/
 }
 
 div.token-input-dropdown-mac ul li.token-input-selected-dropdown-item-mac span.token-input-dropdown-item-description-mac,
