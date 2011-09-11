@@ -11,6 +11,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 import com.google.gson.annotations.Expose;
@@ -23,6 +25,10 @@ public class Location extends Model {
 	
 	@Expose
     public String nameKey;
+	
+	public String shortDescKey;
+	
+	public String longDescKey;
     
     @OneToMany(mappedBy = "location", cascade = CascadeType.ALL)
     @Expose
@@ -40,6 +46,9 @@ public class Location extends Model {
     @Expose
     public List<Phone> phone;
 
+    @OneToMany(mappedBy = "location", cascade = CascadeType.ALL)
+    public List<Picture> picture;
+    
 	@ManyToMany(cascade = CascadeType.ALL)
 	@JoinTable(name = "Location_Category", joinColumns = { @JoinColumn(name = "location_id") }, inverseJoinColumns = { @JoinColumn(name = "category_id") })
 	@Expose
@@ -59,11 +68,17 @@ public class Location extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Location(location").append(id).append("):\n");
-		if (name != null) { 
+		if (StringUtils.isNotEmpty(name)) { 
 			sb.append("    name: ").append(name).append("\n");
 		}
-		if (nameKey != null) {
+		if (StringUtils.isNotEmpty(nameKey)) {
 			sb.append("    nameKey: ").append(nameKey).append("\n");
+		}
+		if (StringUtils.isNotEmpty(shortDescKey)) {
+			sb.append("    shortDescKey: ").append(shortDescKey).append("\n");
+		}
+		if (StringUtils.isNotEmpty(longDescKey)) {
+			sb.append("    longDescKey: ").append(longDescKey).append("\n");
 		}
 		if (category != null) {
 			for (Category c : category) {

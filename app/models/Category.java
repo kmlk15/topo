@@ -9,6 +9,8 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 import com.google.gson.annotations.Expose;
@@ -51,7 +53,7 @@ public class Category extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Category(category").append(id).append("):\n");
-		if (name != null) {
+		if (StringUtils.isNotEmpty(name)) {
 			sb.append("    name: ").append(name).append("\n");
 		}
 		if (parent != null) {

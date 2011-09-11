@@ -9,6 +9,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 @Entity
@@ -32,7 +34,7 @@ public class Itinerary extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Itinerary(itinerary").append(id).append("):\n");
-		if (name != null) {
+		if (StringUtils.isNotEmpty(name)) {
 			sb.append("    name: ").append(name).append("\n");
 		}
 		if (user != null) {

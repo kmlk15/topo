@@ -6,6 +6,8 @@ import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 @Entity
@@ -30,10 +32,10 @@ public class User extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("User(user").append(id).append("):\n");
-		if (email != null) {
+		if (StringUtils.isNotEmpty(email)) {
 			sb.append("    email: ").append(email).append("\n");
 		}
-		if (displayName != null) {
+		if (StringUtils.isNotEmpty(displayName)) {
 			sb.append("    displayName: ").append(displayName).append("\n");
 		}
 		sb.append("\n");

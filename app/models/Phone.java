@@ -47,16 +47,16 @@ public class Phone extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Phone(phone").append(id).append("):\n");
-		if (type != null) {
+		if (StringUtils.isNotEmpty(type)) {
 			sb.append("    type: ").append(type).append("\n");
 		}
-		if (countryCode != null) {
+		if (StringUtils.isNotEmpty(countryCode)) {
 			sb.append("    countryCode: ").append(countryCode).append("\n");
 		}
-		if (areaCode != null) {
+		if (StringUtils.isNotEmpty(areaCode)) {
 			sb.append("    areaCode: ").append(areaCode).append("\n");
 		}
-		if (number != null) {
+		if (StringUtils.isNotEmpty(number)) {
 			sb.append("    number: ").append(number).append("\n");
 		}
 		if (location != null) {

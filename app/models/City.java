@@ -8,6 +8,8 @@ import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 import com.google.gson.annotations.Expose;
@@ -38,10 +40,10 @@ public class City extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("City(city").append(id).append("):\n");
-		if (name != null) {
+		if (StringUtils.isNotEmpty(name)) {
 			sb.append("    name: ").append(name).append("\n");
 		}
-		if (nameKey != null) {
+		if (StringUtils.isNotEmpty(nameKey)) {
 			sb.append("    nameKey: ").append(nameKey).append("\n");
 		}
 		sb.append("\n");

@@ -3,6 +3,8 @@ package models;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
+import org.apache.commons.lang.StringUtils;
+
 import play.db.jpa.Model;
 
 import com.google.gson.annotations.Expose;
@@ -68,46 +70,46 @@ public class HoursOfOperation extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("HoursOfOperation(hoursOfOperation").append(id).append("):\n");
-		if (mondayOpen != null) {
+		if (StringUtils.isNotEmpty(mondayOpen)) {
 			sb.append("    mondayOpen: ").append(mondayOpen).append("\n");
 		}
-		if (mondayClosed != null) {
+		if (StringUtils.isNotEmpty(mondayClosed)) {
 			sb.append("    mondayClosed: ").append(mondayClosed).append("\n");
 		}
-		if (tuesdayOpen != null) {
+		if (StringUtils.isNotEmpty(tuesdayOpen)) {
 			sb.append("    tuesdayOpen: ").append(tuesdayOpen).append("\n");
 		}
-		if (tuesdayClosed != null) {
+		if (StringUtils.isNotEmpty(tuesdayClosed)) {
 			sb.append("    tuesdayClosed: ").append(tuesdayClosed).append("\n");
 		}
-		if (wednesdayOpen != null) {
+		if (StringUtils.isNotEmpty(wednesdayOpen)) {
 			sb.append("    wednesdayOpen: ").append(wednesdayOpen).append("\n");
 		}
-		if (wednesdayClosed != null) { 
+		if (StringUtils.isNotEmpty(wednesdayClosed)) { 
 			sb.append("    wednesdayClosed: ").append(wednesdayClosed).append("\n");
 		}
-		if ( thursdayOpen != null) {
+		if (StringUtils.isNotEmpty( thursdayOpen)) {
 			sb.append("    thursdayOpen: ").append(thursdayOpen).append("\n");
 		}
-		if (thursdayClosed != null) {
+		if (StringUtils.isNotEmpty(thursdayClosed)) {
 			sb.append("    thursdayClosed: ").append(thursdayClosed).append("\n");
 		}
-		if (fridayOpen != null) {
+		if (StringUtils.isNotEmpty(fridayOpen)) {
 			sb.append("    fridayOpen: ").append(fridayOpen).append("\n");
 		}
-		if (fridayClosed != null) { 
+		if (StringUtils.isNotEmpty(fridayClosed)) { 
 			sb.append("    fridayClosed: ").append(fridayClosed).append("\n");
 		}
-		if (saturdayOpen != null) {
+		if (StringUtils.isNotEmpty(saturdayOpen)) {
 			sb.append("    saturdayOpen: ").append(saturdayOpen).append("\n");
 		}
-		if (saturdayClosed != null) {
+		if (StringUtils.isNotEmpty(saturdayClosed)) {
 			sb.append("    saturdayClosed: ").append(saturdayClosed).append("\n");
 		}
-		if (sundayOpen != null) {
+		if (StringUtils.isNotEmpty(sundayOpen)) {
 			sb.append("    sundayOpen: ").append(sundayOpen).append("\n");
 		}
-		if (sundayClosed != null) {
+		if (StringUtils.isNotEmpty(sundayClosed)) {
 			sb.append("    sundayClosed: ").append(sundayClosed).append("\n");
 		}
 		if (location != null) {

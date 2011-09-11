@@ -67,10 +67,10 @@ public class Address extends Model {
 	public String toYML() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Address(address").append(id).append("):\n");
-		if (street1 != null) {
+		if (StringUtils.isNotEmpty(street1)) {
 			sb.append("    street1: ").append(street1).append("\n");
 		}
-		if (street2 != null) {
+		if (StringUtils.isNotEmpty(street2)) {
 			sb.append("    street2: ").append(street2).append("\n");
 		}
 		sb.append("    latitude: ").append(latitude).append("\n");
