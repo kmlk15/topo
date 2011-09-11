@@ -1,64 +1,77 @@
-Category(cat1):
+Category(category1):
     name: father
-    
-Category(cat2):
-    parent: cat1
-    name: son
 
-Category(cat3):
-    parent: cat2
+Category(category2):
+    name: son
+    parent: category1
+
+Category(category3):
     name: grandson
+    parent: category2
 
 Location(location1):
-    category: cat3
     name: Test Name
-    nameKey: Test Key
-    
-HoursOfOperation(hour1):
-    location: location1
+    category: category3
+
+HoursOfOperation(hoursOfOperation1):
     mondayOpen: 0900
     mondayClosed: 1800
-    
-Admission(admission1):
     location: location1
-    type: adult
-    amount: 50
-    currency: HKD
+
+City(city1):
+    name: Hong Kong
+    nameKey: china.sars.hongkong
+
+StateProvince(stateProvince1):
+    name: SARs
+    nameKey: china.sars
 
 Country(country1):
     name: China
-    nameKey: china     
-    
-StateProvince(state1):
-    name: SARs
-    nameKey: china.sars      
-    
-City(city1):
-    name: Hong Kong
-    nameKey: china.sars.hongkong        
-    
+    nameKey: china
+
 Address(address1):
-    location: location1
     street1: 123 st
-    city: city1
-    stateProvince: state1
-    country: country1
-    longitude: 100
     latitude: 100
-    
-Phone(phone1):
+    longitude: 100
     location: location1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Admission(admission1):
+    type: adult
+    amount: 50.0
+    currency: HKD
+    location: location1
+
+Phone(phone1):
     type: work
     countryCode: 852
     number: 21213434
-    
+    location: location1
+
 User(user1):
     email: test@test.com
     displayName: Test user
-    
-Itinerary(itin1):
+
+Itinerary(itinerary1):
     name: Itinerary Test
     user: user1
     location: location1
-    
-    
+
+Score(score1):
+    score: 3.0
+    user: user1
+    category: category3
+
+Score(score2):
+    score: 2.0
+    user: user1
+    category: category2
+
+Score(score3):
+    score: 1.0
+    user: user1
+    category: category1
+
