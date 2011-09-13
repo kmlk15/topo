@@ -1,0 +1,109 @@
+Category(category1):
+    name: father
+
+Category(category2):
+    name: son
+    parent: category1
+
+Category(category3):
+    name: grandson
+    parent: category2
+
+Category(category4):
+    name: Park
+
+Category(category6):
+    name: Garden Park
+    parent: category4
+
+Category(category7):
+    name: Artificial Park
+    parent: category6
+
+Location(location1):
+    name: Test Name
+    category: category3
+
+Location(location2):
+    name: Hong Kong Park
+    category: category7
+
+HoursOfOperation(hoursOfOperation2):
+    mondayOpen: 6:30am
+    mondayClosed: 11pm
+    tuesdayOpen: 6:30am
+    tuesdayClosed: 11pm
+    wednesdayOpen: 6:30am
+    wednesdayClosed: 11pm
+    thursdayOpen: 6:30am
+    thursdayClosed: 11pm
+    fridayOpen: 6:30am
+    saturdayOpen: 6:30am
+    saturdayClosed: 11pm
+    sundayOpen: 6:30am
+    sundayClosed: 11pm
+    location: location2
+
+City(city1):
+    name: Hong Kong
+    nameKey: china.sars.hongkong
+
+StateProvince(stateProvince1):
+    name: SARs
+    nameKey: china.sars
+
+Country(country1):
+    name: China
+    nameKey: china
+
+Address(address2):
+    street1: 19 Cotton Tree Drive
+    street2: Central
+    latitude: null
+    longitude: null
+    location: location2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Admission(admission2):
+    type: General
+    amount: 0.0
+    location: location2
+
+Phone(phone1):
+    type: work
+    countryCode: 852
+    number: 21213434
+    location: location1
+
+Phone(phone2):
+    type: Museum
+    countryCode: 852
+    number: 28690690
+    location: location2
+
+User(user1):
+    email: test@test.com
+    displayName: Test user
+
+Itinerary(itinerary1):
+    name: Itinerary Test
+    user: user1
+    location: location1
+
+Score(score1):
+    score: 3.0
+    user: user1
+    category: category3
+
+Score(score2):
+    score: 2.0
+    user: user1
+    category: category2
+
+Score(score3):
+    score: 1.0
+    user: user1
+    category: category1
+
