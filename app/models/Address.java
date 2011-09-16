@@ -73,8 +73,12 @@ public class Address extends Model {
 		if (StringUtils.isNotEmpty(street2)) {
 			sb.append("    street2: ").append(street2).append("\n");
 		}
-		sb.append("    latitude: ").append(latitude).append("\n");
-		sb.append("    longitude: ").append(longitude).append("\n");
+		if (latitude != null) {
+			sb.append("    latitude: ").append(latitude).append("\n");
+		}
+		if (longitude != null) {
+			sb.append("    longitude: ").append(longitude).append("\n");
+		}
 		if (location != null) {
 			sb.append("    location: location").append(location.id).append("\n");
 		}

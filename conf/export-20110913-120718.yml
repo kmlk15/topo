@@ -1,34 +1,19 @@
 Category(category1):
-    name: father
+    name: Park
 
 Category(category2):
-    name: son
+    name: Garden Park
     parent: category1
 
 Category(category3):
-    name: grandson
+    name: Artificial Park
     parent: category2
 
-Category(category4):
-    name: Park
-
-Category(category6):
-    name: Garden Park
-    parent: category4
-
-Category(category7):
-    name: Artificial Park
-    parent: category6
-
 Location(location1):
-    name: Test Name
+    name: Hong Kong Park
     category: category3
 
-Location(location2):
-    name: Hong Kong Park
-    category: category7
-
-HoursOfOperation(hoursOfOperation2):
+HoursOfOperation(hoursOfOperation1):
     mondayOpen: 6:30am
     mondayClosed: 11pm
     tuesdayOpen: 6:30am
@@ -42,7 +27,7 @@ HoursOfOperation(hoursOfOperation2):
     saturdayClosed: 11pm
     sundayOpen: 6:30am
     sundayClosed: 11pm
-    location: location2
+    location: location1
 
 City(city1):
     name: Hong Kong
@@ -61,27 +46,21 @@ Address(address2):
     street2: Central
     latitude: null
     longitude: null
-    location: location2
+    location: location1
     city: city1
     stateProvince: stateProvince1
     country: country1
 
-Admission(admission2):
+Admission(admission1):
     type: General
     amount: 0.0
-    location: location2
-
-Phone(phone1):
-    type: work
-    countryCode: 852
-    number: 21213434
     location: location1
 
-Phone(phone2):
+Phone(phone1):
     type: Museum
     countryCode: 852
     number: 28690690
-    location: location2
+    location: location1
 
 User(user1):
     email: test@test.com
