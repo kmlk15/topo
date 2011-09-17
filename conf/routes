@@ -13,6 +13,7 @@ GET     /public/                                staticDir:public
 
 # Internal
 
+GET     /internal/                              internal.QueryTracker.index
 GET		/internal/{controller}					internal.{controller}.index
 
 # Catch all
