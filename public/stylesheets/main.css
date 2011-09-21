@@ -85,6 +85,17 @@ p {
 	background:url('../images/hm/img_hm_01.jpg');
 }
 
+.schLeft {
+	float: left;
+	width:700px;
+	height:800px;
+}
+.schRt {
+	float: left;
+	width:500px;
+	height:800px;
+}
+
 /* search REWORK Logo - SignIn*/
 .schLogoBox {
 	width:355px;
@@ -114,8 +125,10 @@ p {
 
 .schCell {
 	width:465px;
- 	height:100px;
-	margin:0 0 0 35px;
+ 	/*height:100px;*/
+	height: auto !important; 
+        height: 1%;
+	margin:0 0 20px 35px;
  	background-color: #f1581c; /*oragne color*/
 	-moz-box-shadow: 3px 3px 3px #535353;
 	-webkit-box-shadow: 3px 3px 3px #535353;
@@ -161,7 +174,7 @@ p {
 .schUserCell {
 	width:255px;
 	height:86px;
-	margin-top:50px;
+	margin-top:500px;
 	float: right;
 	background-color: #4d4c4c;
 	-moz-box-shadow: -3px 3px 3px #535353;
@@ -287,16 +300,31 @@ p {
 .itnCell {
 	float: left;
 	width:70px;
- 	height:17px;
 	margin: 5px 15px 5px 150px;
 }
 .itnBtn {
 	display: block;
+	height:17px;
  	text-indent:-999em;
 	background:url('/public/images/general/btn_itinerary.gif') no-repeat;
 }
 .itnBtn:hover {
 	background:url('/public/images/general/btn_itinerary_hover.gif') no-repeat;
+}
+
+.moreCell {
+	float: right;
+	width:53px;
+	margin-bottom: 25px;
+}
+.moreBtn {
+	display: block;
+	height:17px;
+ 	text-indent:-999em;
+	background:url('/public/images/general/btn_more.gif') no-repeat;
+}
+.moreBtn:hover {
+	background:url('/public/images/general/btn_more_hover.gif') no-repeat;
 }
 
 
