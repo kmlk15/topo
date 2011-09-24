@@ -1,0 +1,30 @@
+ul {
+	list-style: none;
+}
+
+a { 
+	text-decoration: none;
+}
+
+#container {
+	width: 90%;
+	align: center;
+	margin: auto;
+}
+
+#nav {
+	width: 30%;
+	align: left;
+	float: left;
+	background: #eee;
+}
+
+#nav a {
+    font: 16px;
+    color: #666; 	
+}
+
+#content {
+	width: 65%;
+	float: right;
+}
