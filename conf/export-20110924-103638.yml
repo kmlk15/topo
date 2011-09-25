@@ -1,0 +1,934 @@
+Category(category1):
+    name: father
+
+Category(category2):
+    name: son
+    parent: category1
+
+Category(category3):
+    name: grandson
+    parent: category2
+
+Category(category4):
+    name: Park
+
+Category(category6):
+    name: Garden Park
+    parent: category4
+
+Category(category8):
+    name: Zoological and Botanical Gardens
+    parent: category4
+
+Category(category9):
+    name: Architecture
+
+Category(category10):
+    name: Skyscraper
+    parent: category9
+
+Category(category11):
+    name: Religious Site 
+
+Category(category13):
+
+Category(category14):
+    name: Temple
+    parent: category11
+
+Category(category15):
+    name: Taoism
+
+Category(category16):
+    name: Shopping
+
+Category(category17):
+    name: Market
+
+Category(category18):
+    name: Street Market
+
+Category(category19):
+    name: Souvenirs
+
+Category(category20):
+    name: Museum
+
+Category(category21):
+    name: Art
+    parent: category20
+
+Category(category22):
+    name: Chinese Artifacts
+    parent: category21
+
+Category(category23):
+    name: Sights
+
+Category(category24):
+    name: City View
+    parent: category23
+
+Category(category25):
+    name: Historical Park
+    parent: category4
+
+Category(category26):
+    name: Chinese Calligraphy and Painting
+    parent: category20
+
+Category(category27):
+    name: History
+    parent: category20
+
+Category(category28):
+    name: Culture
+    parent: category20
+
+Category(category29):
+    name: Science
+    parent: category20
+
+Category(category30):
+    name: Rides
+
+Category(category31):
+    name: Ferries
+    parent: category30
+
+Category(category32):
+    name: Public Ferries
+    parent: category31
+
+Category(category33):
+    name: Night Market
+    parent: category17
+
+Category(category34):
+    name: Food and Bargain
+    parent: category33
+
+Category(category35):
+    name: Water Front
+    parent: category23
+
+Category(category36):
+    name: Wetlands
+    parent: category4
+
+Category(category37):
+    name: Buddhas
+    parent: category14
+
+Category(category38):
+    name: Amusement Park
+    parent: category4
+
+Category(category39):
+    name: Theme Park
+    parent: category38
+
+Category(category40):
+    name: Buddhist Art
+    parent: category41
+
+Category(category41):
+    name: Statues
+    parent: category11
+
+Category(category42):
+    name: Revolutionary and Political
+    parent: category27
+
+Category(category43):
+    name: Gallery
+
+Category(category44):
+    name: Contemporary Art
+    parent: category43
+
+Category(category45):
+    name: Photography
+    parent: category43
+
+Category(category46):
+    name: Educational Park
+    parent: category4
+
+Category(category47):
+    name: Tram
+    parent: category30
+
+Category(category48):
+    name: City Tram
+    parent: category47
+
+Category(category49):
+    name: Railway
+    parent: category30
+
+Category(category50):
+    name: Funicular
+    parent: category49
+
+Category(category51):
+    name: Theme Shopping
+    parent: category18
+
+Category(category52):
+    name: Mall
+    parent: category16
+
+Category(category53):
+    name: Upscale
+    parent: category52
+
+Category(category54):
+    name: Nightlife
+
+Category(category55):
+    name: Bars
+    parent: category54
+
+Category(category56):
+    name: Dance Clubs
+    parent: category54
+
+Location(location1):
+    name: Test Name
+    category: category3
+
+Location(location2):
+    name: Hong Kong Park
+    category: category6
+
+Location(location3):
+    name: Hong Kong Zoological and Botanical Gardens 
+    category: category8
+
+Location(location4):
+    name: Central Plaza
+    category: category10
+
+Location(location5):
+    name: Exchange Square
+    category: category10
+
+Location(location7):
+    name: Man Mo Temple
+    category: category15
+
+Location(location8):
+    name: Stanley Market
+    category: category19
+
+Location(location9):
+    name: University Museum and Art Gallery
+    category: category22
+
+Location(location10):
+    name: Victoria Peak
+    category: category24
+
+Location(location11):
+    name: Kowloon Walled City Park
+    category: category25
+
+Location(location12):
+    name: Museum of Art
+    category: category26
+
+Location(location13):
+    name: Museum of History
+    category: category28
+
+Location(location14):
+    name: Science Museum
+    category: category29
+
+Location(location15):
+    name: Star Ferry
+    category: category32
+
+Location(location16):
+    name: Temple Street
+    category: category34
+
+Location(location17):
+    name: Waterfront Promenade
+    category: category35
+
+Location(location18):
+    name: Hong Kong Wetland Park
+    category: category36
+
+Location(location19):
+    name: Ten Thousand Buddhas Temple
+    category: category37
+
+Location(location20):
+    name: Ocean Park
+    category: category39
+
+Location(location21):
+    name: Hong Kong Disneyland
+    category: category39
+
+Location(location22):
+    name: Po Lin Buddha
+    category: category41
+
+Location(location23):
+    name: Dr Sun Yat-sen Museum
+    category: category42
+
+Location(location24):
+    name: 10 Chancery Lane Gallery
+    category: category44
+
+Location(location25):
+    name: Edge Gallery
+    category: category45
+
+Location(location26):
+    name: Kadoorie Farm & Botanic Garden
+    category: category46
+
+Location(location27):
+    name: Hong Kong Island Tram
+    category: category48
+
+Location(location28):
+    name: The Peak Tram
+    category: category50
+
+Location(location29):
+    name: Goldfish Market
+    category: category51
+
+Location(location30):
+    name: IFC Mall
+    category: category53
+
+Location(location31):
+    name: Aqua Spirit
+    category: category55
+
+Location(location32):
+    name: Yumla
+    category: category56
+
+Location(location33):
+    name: Flower Market
+    category: category51
+
+HoursOfOperation(hoursOfOperation2):
+    mondayOpen: 6:30am
+    mondayClosed: 11pm
+    tuesdayOpen: 6:30am
+    tuesdayClosed: 11pm
+    wednesdayOpen: 6:30am
+    wednesdayClosed: 11pm
+    thursdayOpen: 6:30am
+    thursdayClosed: 11pm
+    fridayOpen: 6:30am
+    saturdayOpen: 6:30am
+    saturdayClosed: 11pm
+    sundayOpen: 6:30am
+    sundayClosed: 11pm
+    location: location2
+
+HoursOfOperation(hoursOfOperation3):
+    mondayOpen: 6:00am
+    mondayClosed: 10:00pm
+    tuesdayOpen: 6:00am
+    tuesdayClosed: 10:00pm
+    wednesdayOpen: 6:00am
+    wednesdayClosed: 10:00pm
+    thursdayOpen: 6:00am
+    thursdayClosed: 10:00pm
+    fridayOpen: 6:00am
+    fridayClosed: 10:00pm
+    saturdayOpen: 6:00am
+    saturdayClosed: 10:00pm
+    sundayOpen: 6:00am
+    sundayClosed: 10:00pm
+    location: location3
+
+City(city1):
+    name: Hong Kong
+    nameKey: china.sars.hongkong
+
+StateProvince(stateProvince1):
+    name: SARs
+    nameKey: china.sars
+
+Country(country1):
+    name: China
+    nameKey: china
+
+Address(address2):
+    street1: 19 Cotton Tree Drive
+    street2: Central
+    location: location2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address3):
+    street1: Albany Road
+    street2: Central
+    location: location3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address4):
+    street1: 18 Harbour Road
+    street2: Wan Chai
+    location: location4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address5):
+    street1: 8 Connaught Place
+    street2: Central
+    location: location5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address7):
+    street1: 126 Hollywood Road
+    location: location7
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address8):
+    street1: Stanley
+    location: location8
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address9):
+    street1: 94 Bonham Road
+    street2: Pok Fu Lam
+    location: location9
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address10):
+    street1: 126 Peak Road
+    street2: Central
+    location: location10
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address11):
+    street1: Tung Tsing Road
+    street2: Kowloon City
+    location: location11
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address12):
+    street1: 10 Sailsbury Road
+    street2: Tsim Sha Tsui, Kowloon
+    location: location12
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address13):
+    street1: 100 Chatham Road South
+    street2: Tsim Sha Tsui, Kowloon
+    location: location13
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address14):
+    street1: 2 Science Museum Road
+    street2: Tsim Sha Tsui, Kowloon
+    location: location14
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address15):
+    street1: Tsim Sha Tsui  to Wanchai
+    location: location15
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address16):
+    street1: Kansu Street and Jordan Road
+    street2: Mongkok, Kowloon
+    location: location16
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address17):
+    street1: Salisbury Road
+    street2:  Tsim Sha Tsui, Kowloon
+    location: location17
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address18):
+    street1: Wetland Park Road
+    street2: Tin Shui Wai, New Territories
+    location: location18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address19):
+    street1: 220 Pai Tau Village
+    street2: Sha Tin, New Territories
+    location: location19
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address20):
+    street1: Ocean Park Road
+    street2: Aberdeen
+    location: location20
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address21):
+    street1: Lantau Island
+    location: location21
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address22):
+    street1: Lantau Island
+    location: location22
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address23):
+    street1: 7 Castle Road, Mid-Levels
+    street2: Central
+    location: location23
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address24):
+    street1: 10 Chancery Lane
+    street2: Central
+    location: location24
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address25):
+    street1: 60C Leighton Rd,
+    street2: Causeway Bay
+    location: location25
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address26):
+    street1: Lam Kam Road, Tai Po
+    street2: New Territories
+    location: location26
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address27):
+    street1: 1 Lugard Rd
+    street2: Central
+    location: location28
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address28):
+    street1: Tung Choi Street, 
+    street2: Mong Kok, Kowloon
+    location: location29
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address29):
+    street1: 8 Finance Street
+    street2: Central
+    location: location30
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address30):
+    street1: 29th and 30th fl., One Peking, 1 Peking Rd
+    street2: Tsim Sha Tsui, Kowloon
+    location: location31
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address31):
+    street1: Lower basement, 79 Wyndham Street
+    street2: Central
+    location: location32
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address33):
+    street1: Flower Market Road
+    street2: Mong Kok, Kowloon
+    location: location33
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Admission(admission2):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location2
+
+Admission(admission3):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location3
+
+Admission(admission4):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location4
+
+Admission(admission5):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location5
+
+Admission(admission7):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location7
+
+Admission(admission8):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location8
+
+Admission(admission9):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location9
+
+Admission(admission10):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location10
+
+Admission(admission11):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location11
+
+Admission(admission12):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location12
+
+Admission(admission13):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location13
+
+Admission(admission14):
+    type: General
+    amount: 25.0
+    currency: HKD
+    location: location14
+
+Admission(admission15):
+    type: Adult
+    amount: 2.5
+    currency: HKD
+    location: location15
+
+Admission(admission16):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location16
+
+Admission(admission17):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location17
+
+Admission(admission18):
+    type: Adult
+    amount: 30.0
+    currency: HKD
+    location: location18
+
+Admission(admission19):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location19
+
+Admission(admission20):
+    type: Adult
+    amount: 280.0
+    currency: HKD
+    location: location20
+
+Admission(admission21):
+    type: Adult
+    amount: 399.0
+    currency: HKD
+    location: location21
+
+Admission(admission22):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location22
+
+Admission(admission23):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location23
+
+Admission(admission24):
+    type: Student
+    amount: 5.0
+    currency: HKD
+    location: location23
+
+Admission(admission25):
+    type: Group
+    amount: 7.0
+    currency: HKD
+    location: location23
+
+Admission(admission26):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location24
+
+Admission(admission27):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location25
+
+Admission(admission28):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location26
+
+Admission(admission29):
+    type: Adult Round Trip
+    amount: 40.0
+    currency: HKD
+    location: location28
+
+Admission(admission30):
+    type: Child
+    amount: 18.0
+    currency: HKD
+    location: location28
+
+Admission(admission31):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location29
+
+Admission(admission32):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location30
+
+Admission(admission33):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location33
+
+Phone(phone1):
+    type: work
+    countryCode: 852
+    number: 21213434
+    location: location1
+
+Phone(phone2):
+    type: Museum
+    countryCode: 852
+    number: 28690690
+    location: location2
+
+Phone(phone3):
+    type: General
+    countryCode: 852
+    number: 25300154
+    location: location3
+
+Phone(phone4):
+    type: General
+    countryCode: 852
+    number: 25868111
+    location: location4
+
+Phone(phone5):
+    type: General
+    countryCode: 852
+    number: 25400350
+    location: location7
+
+Phone(phone6):
+    type: General
+    countryCode: 852
+    number: 22415500
+    location: location9
+
+Phone(phone7):
+    type: General
+    countryCode: 852
+    number: 27169962
+    location: location11
+
+Phone(phone8):
+    type: General
+    countryCode: 852
+    number: 27210116
+    location: location12
+
+Phone(phone9):
+    type: General
+    countryCode: 852
+    number: 27249042
+    location: location13
+
+Phone(phone10):
+    type: General
+    countryCode: 852
+    number: 27323232
+    location: location14
+
+Phone(phone11):
+    type: General
+    countryCode: 852
+    number: 21186028
+    location: location15
+
+Phone(phone12):
+    type: General
+    countryCode: 852
+    number: 31522666
+    location: location18
+
+Phone(phone13):
+    type: General
+    countryCode: 852
+    number: 39232323
+    location: location20
+
+Phone(phone14):
+    type: Reservation
+    countryCode: 852
+    number: 1830830
+    location: location21
+
+Phone(phone15):
+    type: General
+    countryCode: 852
+    number: 28100065
+    location: location24
+
+Phone(phone16):
+    type: General
+    countryCode: 852
+    number: 28870313
+    location: location25
+
+Phone(phone17):
+    type: General
+    countryCode: 852
+    number: 24837200
+    location: location26
+
+Phone(phone18):
+    type: General
+    countryCode: 852
+    number: 25220922
+    location: location28
+
+Phone(phone19):
+    type: General
+    countryCode: 852
+    number: 34272288
+    location: location31
+
+Phone(phone20):
+    type: General
+    countryCode: 852
+    number: 21472382
+    location: location32
+
+User(user1):
+    email: test@test.com
+    displayName: Test user
+
+Itinerary(itinerary1):
+    name: Itinerary Test
+    user: user1
+    location: location1
+
+Score(score1):
+    score: 3.0
+    user: user1
+    category: category3
+
+Score(score2):
+    score: 2.0
+    user: user1
+    category: category2
+
+Score(score3):
+    score: 1.0
+    user: user1
+    category: category1
+
