@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/jquery.ui.all.css'}">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/demos.css'}">
+		<!-- search -->
+		<link rel="stylesheet" type="text/css" href="@{'/public/stylesheets/token-input-mac.css'}" />
+		
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery-1.6.2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.core.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.widget.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.ui.tabs.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		
+		<!-- search -->
+		<script src="@{'/public/javascripts/jquery.tokeninput.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		<script src="@{'/public/javascripts/jquery.flow.1.2.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+		
+        #{get 'moreScripts' /}
+
+		<script> 
+			$(function() {
+				$( "#tabs" ).tabs({
+					ajaxOptions: {
+						error: function( xhr, status, index, anchor ) {
+							$( anchor.hash ).html(
+								"Couldn't load this tab. We'll try to fix this as soon as possible. " +
+								"If this wouldn't be a demo." );
+						}
+					}
+				});
+			});
+		</script>
+		
+		<!-- search -->
+		<script type="text/javascript">
+			$(document).ready(
+					function() {
+						$("#searchField").tokenInput("/search/suggest", {theme: "mac"});
+						$("#go").click(function(e){
+							e.preventDefault();
+							$('#searchForm').submit();
+						});
+					});
+		</script>
+		
+		<!-- search background slide -->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("#myController").jFlow({
+				slides: "#slides",
+				controller: ".jFlowControl", // must be class, use . sign
+				slideWrapper : "#jFlowSlide", // must be id, use # sign
+				selectedWrapper: "jFlowSelected",  // just pure text, no sign
+				auto: true,		//auto change slide, default true
+				width: "1200px",
+				height: "800px",
+				duration: 400,
+				prev: ".jFlowPrev", // must be class, use . sign
+				next: ".jFlowNext" // must be class, use . sign
+			});
+		});
+		</script>
+    </head>
+    <body>
+        #{doLayout /}
+    </body>
+</html>

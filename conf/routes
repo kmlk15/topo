@@ -3,7 +3,12 @@
 # ~~~~
 
 # Home page
-GET     /                                       Search.index
+GET     /                                       app.Search.index
+
+# App
+GET     /{controller}                           app.{controller}.index
+GET     /{controller}/{action}                  app.{controller}.{action}
+POST    /{controller}/{action}                  app.{controller}.{action}
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

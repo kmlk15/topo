@@ -1,4 +1,4 @@
-package controllers;
+package controllers.app;
 
 import java.util.ArrayList;
 import java.util.List;
