@@ -1,4 +1,28 @@
 #{extends 'internal/tags/nav.html' /}
 #{set title:'Query Tracker' /}
 
-Query Tracker
+<script src="@{'/public/javascripts/internal/querytracker.js'}" type="text/javascript" charset="UTF-8"></script>
+
+
+<h2>Query Tracker</h2>
+
+<hr/>
+<div id="message">
+    
+</div>
+<hr/>
+<div id="listing">
+    #{if listing}
+        <table>
+            #{list items:listing, as:'item'}
+                <tr>
+                    <td>${item}</td>
+                    <td><a href="#" id="${item}">Run</a></td>
+                </tr>
+            #{/list}
+        </table>
+    #{/if}
+</div>
+#{else}
+    There is no query in the directory
+#{/else}

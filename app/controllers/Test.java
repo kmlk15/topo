@@ -1,6 +1,8 @@
 package controllers;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import models.Category;
 import models.Location;
@@ -36,5 +38,12 @@ public class Test extends Controller {
 			System.out.println(c.toYML());
 		}
 		renderText("haha");
+	}
+	
+	public static void map() {
+		Map<String, String> m = new HashMap<String, String>();
+		m.put("status", "200");
+		Gson g = new GsonBuilder().create();
+		renderText(g.toJson(m));
 	}
 }
