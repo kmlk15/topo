@@ -497,3 +497,59 @@ font-weight: normal;
 
 /*pagination*/
 /* -----------------------Result Page------------------------ */
+
+
+/* -----------------------Detail Page------------------------ */
+
+.ovCell {
+	font-size: 12px;
+	border:1px solid #737373;
+	border-top:0;
+	border-bottom-style:dotted;
+	padding:5px 10px;
+	background-color:#e5e5e5;
+}
+.ovCellFst {
+	padding: 10px 50px;
+	border-top:1px solid #737373;
+}
+.ovCellCenter {
+	text-align: center;
+}
+.ovCellLst {
+	font-size: 12px;
+	border:1px solid #737373;
+	border-top:0;
+	border-bottom-style:solid;
+	padding:5px 10px;
+	background-color:#e5e5e5;
+	border-bottom-style:solid;
+}
+.blueBtn {
+	display: block;
+	font-size: 11px;
+	padding:3px 7px;
+	border:1px solid #013b60;
+	color: #fff;
+	text-align: center;
+	background-color:#0072bc;
+	text-decoration: none;
+}
+.blueBtn:hover {
+	color: #3b3b3b;
+	text-decoration: none;
+}
+.ovCell ul {
+	font-size: 11px;
+	padding-bottom: 5px;
+	}
+.ovCellLst ul {
+	font-size: 11px;
+	padding-left:13px;
+	}
+.ovCellLst li {
+	list-style-type:disc;
+	list-style-position:inside;
+	text-indent:-11px;
+	padding-bottom: 5px;
+	}

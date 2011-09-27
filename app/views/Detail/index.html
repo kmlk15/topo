@@ -1,0 +1,60 @@
+#{extends 'main.html' /}
+#{set title:'Detail' /}
+
+<!-- start frame -->
+<div id="resultPage">
+	<!-- Top Row -->
+		<div id="logo_box">
+			<div id="logo"><a href="index.html"><img src="@{'public/images/general/logo.png'}" alt="topofin" width="176" height="40" /></a></div>
+			<div id="signIn"><a href="#">sign in / join us</a></div>
+		</div>
+		
+		<div id="leftCol">
+			<div class="trvTab">OVERVIEW</div>
+			<div class="ovCell ovCellFst">
+				<a class="blueBtn" href="#">add to knapsack ></a>
+			</div>
+			<div class="ovCell"><strong>The Basics</strong></div>
+			<div class="ovCell">
+				<ul>
+					<li><strong>Address:</strong></li>
+					<li>19 Cotton Tree Dr, Central, Hong Kong</li>
+				</ul>
+				<ul>
+					<li><strong>Phone:</strong></li>
+					<li>852-25215041</li>
+				</ul>
+				<ul>
+					<li><strong>Hours:</strong></li>
+					<li>Monday-Friday 9am-10pm</li>
+				</ul>
+				<ul>
+					<li><strong>Admission:</strong></li>
+					<li>Adult:</li>
+					<li>Child:</li>
+				</ul>
+				<ul>
+				<li><strong>Website:</strong></li>
+				<li>www.lcsd.gov.hk/parks/ hkp/en/index.php</li>
+				</ul>
+			</div>
+			<div class="ovCell"><strong>Features</strong></div>
+			<div class="ovCellLst">
+				<ul class="sample">
+				<li>Edward Youde Aviary - Birds Collection</li>
+				<li>Forsgate Conservatory</li>
+				<li>Old and Valuable Trees</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="rightCol">
+				<div id="tabs"> 
+					<ul> 
+					<li><a href="@{result.recommended()}">RECOMMENDED</a></li> 
+					<li><a href="@{result.popular()}">POPULAR</a></li> 
+					<li><a href="@{result.obcure()}">OBCURE</a></li> 
+					</ul> 
+				</div> 
+		</div>
+</div>
