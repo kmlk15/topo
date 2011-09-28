@@ -9,24 +9,21 @@ GET     /                                       app.Search.index
 *      /admin                                   module:crud
 
 # App
-GET     /{controller}                           app.{controller}.index
-GET     /{controller}/{action}                  app.{controller}.{action}
-POST    /{controller}/{action}                  app.{controller}.{action}
-
+GET     /search                                 app.Search.index
+GET     /result                                 app.Result.index
+GET     /result/{action}                        app.Result.{action}
 GET     /detail/{id}                            app.Detail.index
+
+# Internal
+GET     /internal                               internal.QueryTracker.index
+GET     /internal/{controller}                  internal.{controller}.index
+*       /internal/{controller}/{action}         internal.{controller}.{action}
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
-
-# Internal
-
-GET     /internal                               internal.QueryTracker.index
-GET		/internal/{controller}					internal.{controller}.index
-GET     /internal/{controller}/{action}         internal.{controller}.{action}
-POST    /internal/{controller}/{action}         internal.{controller}.{action}
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

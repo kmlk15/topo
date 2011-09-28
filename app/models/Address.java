@@ -26,6 +26,10 @@ public class Address extends Model {
 	
 	@Expose
 	public Long longitude;
+
+	@ManyToOne
+	@Expose
+	public District district;
 	
 	@ManyToOne
 	@Expose
@@ -38,6 +42,17 @@ public class Address extends Model {
 	@ManyToOne
 	@Expose
 	public Country country;
+	
+	public String getDistrictAddress() {
+		StringBuffer sb = new StringBuffer();
+		if (district != null) {
+			sb.append(district.toString()).append(", ");
+		}
+		if (city != null) {
+			sb.append(city.toString());
+		}
+		return sb.toString();
+	}
 	
 	public String getAddress() {
 		StringBuffer sb = new StringBuffer();
@@ -87,6 +102,9 @@ public class Address extends Model {
 		}
 		if (location != null) {
 			sb.append("    location: location").append(location.id).append("\n");
+		}
+		if (district != null) {
+			sb.append("    district: district").append(district.id).append("\n");
 		}
 		if (city != null) {
 			sb.append("    city: city").append(city.id).append("\n");

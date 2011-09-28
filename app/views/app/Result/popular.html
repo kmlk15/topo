@@ -2,38 +2,38 @@
     #{if locations}
         #{list items:locations, as:'location'}
             #{if location_index % 3 == 0}
-        	<div class="bdyImgLst">
+            <div class="bdyImgLst">
             #{/if}
             #{else}
             <div class="bdyImg">
             #{/else}
-        		${location?.shortAddress}<br /><span class="imgHeader">${location?.name}</span>
-        		<div class="infobox">
-        			<a href="#">
+                ${location?.currentAddress?.districtAddress}<br /><span class="imgHeader">${location?.displayName}</span>
+                <div class="infobox">
+                    <a href="@{app.Detail.index(location.id)}">
                         #{if location?.resultImageUrl}
-                            <img src="/public/images/${location.resultImageUrl}" alt="" />
+                            <img src="${location.resultImageUrl}" alt="" />
                         #{/if}
                         #{else}
                             <img src="@{'public/images/hong_kong/hk_02.jpg'}" alt="" />
                         #{/else}
                     </a>
-        		   	<div class="content">
-        		   		<a class="addBtn" href="#">Add</a><a class="dismissBtn" href="#">Dismiss</a>
-        		
-        		   		<div class="clear"></div>
-        		
-        		   		<div class="boxDes">
-        		   			<p>${location.shortDescription}</p>
-        		   		</div>
-        		   </div>
-        		</div>
-        	</div>
+                    <div class="content">
+                        <a class="addBtn" href="#">Add</a><a class="dismissBtn" href="#">Dismiss</a>
+                
+                        <div class="clear"></div>
+                
+                        <div class="boxDes">
+                            <p>${location.shortDescription}</p>
+                        </div>
+                   </div>
+                </div>
+            </div>
             #{if location_index % 3 == 0 || location_isLast}
             <div class="clear"></div>
             #{/if}
         #{/list}
-	#{/if}
+    #{/if}
 
-	<div class="moreCell"><a class="moreBtn" href="#">More</a></div>
+    <div class="moreCell"><a class="moreBtn" href="#">More</a></div>
 
 </div>

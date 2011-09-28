@@ -7,6 +7,7 @@ import models.Admission;
 import models.Category;
 import models.City;
 import models.Country;
+import models.District;
 import models.HoursOfOperation;
 import models.Itinerary;
 import models.Location;
@@ -44,6 +45,10 @@ public class DataExport extends Controller {
 			List<HoursOfOperation> hours = HoursOfOperation.findAll();
 			for (HoursOfOperation h : hours) {
 				response.out.write(h.toYML().getBytes());
+			}
+			List<District> district = District.findAll();
+			for (District d : district) {
+				response.out.write(d.toYML().getBytes());
 			}
 			List<City> city = City.findAll();
 			for (City c : city) {

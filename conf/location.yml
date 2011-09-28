@@ -73,79 +73,79 @@ Category(category22):
     name: Statues
     parent: category3
 
-Category(category24):
+Category(category23):
     name: Mall
     parent: category5
 
-Category(category25):
+Category(category24):
     name: Night Market
     parent: category6
 
-Category(category26):
+Category(category25):
     name: Theme Shopping
     parent: category7
 
-Category(category27):
+Category(category26):
     name: Art
     parent: category9
 
-Category(category28):
+Category(category27):
     name: Chinese Calligraphy and Painting
     parent: category9
 
-Category(category29):
+Category(category28):
     name: History
     parent: category9
 
-Category(category30):
+Category(category29):
     name: Culture
     parent: category9
 
-Category(category31):
+Category(category30):
     name: Science
     parent: category9
 
-Category(category33):
+Category(category31):
     name: City View
     parent: category10
 
-Category(category34):
+Category(category32):
     name: Water Front
     parent: category10
 
-Category(category36):
+Category(category33):
     name: Ferries
     parent: category11
 
-Category(category37):
+Category(category34):
     name: Tram
     parent: category11
 
-Category(category38):
+Category(category35):
     name: Railway
     parent: category11
 
-Category(category43):
+Category(category36):
     name: Contemporary Art
     parent: category12
 
-Category(category44):
+Category(category37):
     name: Photography
     parent: category12
 
-Category(category48):
+Category(category38):
     name: Bars
     parent: category13
 
-Category(category49):
+Category(category39):
     name: Dance Clubs
     parent: category13
 
-Category(category41):
+Category(category40):
     name: Theme Park
     parent: category18
 
-Category(category23):
+Category(category41):
     name: Buddhas
     parent: category21
 
@@ -153,33 +153,33 @@ Category(category42):
     name: Buddhist Art
     parent: category22
 
-Category(category47):
+Category(category43):
     name: Upscale
+    parent: category23
+
+Category(category44):
+    name: Food and Bargain
     parent: category24
 
-Category(category40):
-    name: Food and Bargain
-    parent: category25
-
-Category(category32):
-    name: Chinese Artifacts
-    parent: category27
-
-Category(category35):
-    name: Revolutionary and Political
-    parent: category29
-
-Category(category39):
-    name: Public Ferries
-    parent: category36
-
 Category(category45):
-    name: City Tram
-    parent: category37
+    name: Chinese Artifacts
+    parent: category26
 
 Category(category46):
+    name: Revolutionary and Political
+    parent: category28
+
+Category(category47):
+    name: Public Ferries
+    parent: category33
+
+Category(category48):
+    name: City Tram
+    parent: category34
+
+Category(category49):
     name: Funicular
-    parent: category38
+    parent: category35
 
 Location(location1):
     name: Hong Kong Park
@@ -207,11 +207,11 @@ Location(location6):
 
 Location(location7):
     name: University Museum and Art Gallery
-    category: category32
+    category: category45
 
 Location(location8):
     name: Victoria Peak
-    category: category33
+    category: category31
 
 Location(location9):
     name: Kowloon Walled City Park
@@ -219,27 +219,27 @@ Location(location9):
 
 Location(location10):
     name: Museum of Art
-    category: category28
+    category: category27
 
 Location(location11):
     name: Museum of History
-    category: category30
+    category: category29
 
 Location(location12):
     name: Science Museum
-    category: category31
+    category: category30
 
 Location(location13):
     name: Star Ferry
-    category: category39
+    category: category47
 
 Location(location14):
     name: Temple Street
-    category: category40
+    category: category44
 
 Location(location15):
     name: Waterfront Promenade
-    category: category34
+    category: category32
 
 Location(location16):
     name: Hong Kong Wetland Park
@@ -247,15 +247,18 @@ Location(location16):
 
 Location(location17):
     name: Ten Thousand Buddhas Temple
-    category: category23
+    category: category41
 
 Location(location18):
     name: Ocean Park
-    category: category41
+    nameKey: china.sars.hong_kong.southern.ocean_park
+    shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
+    longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
+    category: category40
 
 Location(location19):
     name: Hong Kong Disneyland
-    category: category41
+    category: category40
 
 Location(location20):
     name: Po Lin Buddha
@@ -263,15 +266,15 @@ Location(location20):
 
 Location(location21):
     name: Dr Sun Yat-sen Museum
-    category: category35
+    category: category46
 
 Location(location22):
     name: 10 Chancery Lane Gallery
-    category: category43
+    category: category36
 
 Location(location23):
     name: Edge Gallery
-    category: category44
+    category: category37
 
 Location(location24):
     name: Kadoorie Farm & Botanic Garden
@@ -279,31 +282,31 @@ Location(location24):
 
 Location(location25):
     name: Hong Kong Island Tram
-    category: category45
+    category: category48
 
 Location(location26):
     name: The Peak Tram
-    category: category46
+    category: category49
 
 Location(location27):
     name: Goldfish Market
-    category: category26
+    category: category25
 
 Location(location28):
     name: IFC Mall
-    category: category47
+    category: category43
 
 Location(location29):
     name: Aqua Spirit
-    category: category48
+    category: category38
 
 Location(location30):
     name: Yumla
-    category: category49
+    category: category39
 
 Location(location31):
     name: Flower Market
-    category: category26
+    category: category25
 
 HoursOfOperation(hoursOfOperation1):
     mondayOpen: 6:30am
@@ -337,6 +340,10 @@ HoursOfOperation(hoursOfOperation2):
     sundayOpen: 6:00am
     sundayClosed: 10:00pm
     location: location2
+
+District(district1):
+    name: Southern
+    nameKey: china.sars.hong_kong.southern
 
 City(city1):
     name: Hong Kong
@@ -487,6 +494,7 @@ Address(address18):
     street1: Ocean Park Road
     street2: Aberdeen
     location: location18
+    district: district1
     city: city1
     stateProvince: stateProvince1
     country: country1

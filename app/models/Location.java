@@ -56,10 +56,10 @@ public class Location extends Model {
 	@Expose
     public List<Category> category;
 		
-	public String getShortAddress() {
+	public Address getCurrentAddress() {
 		if (CollectionUtils.isNotEmpty(address)) {
 			Address addr = address.get(0);
-			return addr.getAddress();
+			return addr;
 		}
 		return null;
 	}
@@ -75,7 +75,7 @@ public class Location extends Model {
 		return null;
 	}
 	
-	public String getName() {
+	public String getDisplayName() {
 		if (StringUtils.isNotEmpty(nameKey)) {
 			return Messages.get(nameKey);
 		}

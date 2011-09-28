@@ -7,11 +7,11 @@
             #{else}
             <div class="bdyImg">
             #{/else}
-                ${location?.shortAddress}<br /><span class="imgHeader">${location?.name}</span>
+                ${location?.currentAddress?.districtAddress}<br /><span class="imgHeader">${location?.displayName}</span>
                 <div class="infobox">
-                    <a href="#">
+                    <a href="@{app.Detail.index(location.id)}">
                         #{if location?.resultImageUrl}
-                            <img src="/public/images/${location.resultImageUrl}" alt="" />
+                            <img src="${location.resultImageUrl}" alt="" />
                         #{/if}
                         #{else}
                             <img src="@{'public/images/hong_kong/hk_02.jpg'}" alt="" />
