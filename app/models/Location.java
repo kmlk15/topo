@@ -11,9 +11,11 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 
 import play.db.jpa.Model;
+import play.i18n.Messages;
 
 import com.google.gson.annotations.Expose;
 
@@ -54,6 +56,40 @@ public class Location extends Model {
 	@Expose
     public List<Category> category;
 		
+	public String getShortAddress() {
+		if (CollectionUtils.isNotEmpty(address)) {
+			Address addr = address.get(0);
+			return addr.getAddress();
+		}
+		return null;
+	}
+	
+	public String getResultImageUrl() {
+		if (CollectionUtils.isNotEmpty(picture)) {
+			for (Picture pic : picture) {
+				if ("result".equals(pic.type)) {
+					return pic.url;
+				}
+			}
+		}
+		return null;
+	}
+	
+	public String getName() {
+		if (StringUtils.isNotEmpty(nameKey)) {
+			return Messages.get(nameKey);
+		}
+		return name;
+	}
+	
+	public String getShortDescription() {
+		if (StringUtils.isNotEmpty(shortDescKey)) {
+			return Messages.get(shortDescKey);
+		}
+		return null;
+		
+	}
+	
 	public String toString() {
 		return name;
 	}

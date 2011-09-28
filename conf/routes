@@ -5,10 +5,15 @@
 # Home page
 GET     /                                       app.Search.index
 
+# Import CRUD routes
+*      /admin                                   module:crud
+
 # App
 GET     /{controller}                           app.{controller}.index
 GET     /{controller}/{action}                  app.{controller}.{action}
 POST    /{controller}/{action}                  app.{controller}.{action}
+
+GET     /detail/{id}                            app.Detail.index
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
@@ -26,5 +31,3 @@ POST    /internal/{controller}/{action}         internal.{controller}.{action}
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
 
-# Import CRUD routes
-*      /admin                                   module:crud

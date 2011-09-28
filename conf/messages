@@ -1,3 +1,7 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+
+china.sars.hong_kong.ocean_park=Ocean Park
+china.sars.hong_kong.ocean_park.shortDesc=This is the short description
+china.sars.hong_kong.ocean_park.longDesc=This is the long description

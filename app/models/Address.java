@@ -39,13 +39,8 @@ public class Address extends Model {
 	@Expose
 	public Country country;
 	
-	public String toString() {
+	public String getAddress() {
 		StringBuffer sb = new StringBuffer();
-		if (location != null) {
-			sb.append(location.name).append(": ");
-		} else {
-			sb.append(id).append(": ");
-		}	
 		if (StringUtils.isNotEmpty(street1)) {
 			sb.append(street1);
 		}
@@ -61,6 +56,17 @@ public class Address extends Model {
 		if (country != null) {
 			sb.append(", ").append(country.toString());
 		}
+		return sb.toString();
+	}
+	
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		if (location != null) {
+			sb.append(location.name).append(": ");
+		} else {
+			sb.append(id).append(": ");
+		}	
+		sb.append(getAddress());
 		return sb.toString();
 	}
 
