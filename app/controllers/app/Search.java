@@ -7,6 +7,9 @@ import java.util.Map;
 import models.Category;
 import models.City;
 import models.Location;
+import models.User;
+import play.Logger;
+import play.cache.Cache;
 import play.mvc.Controller;
 
 import com.google.gson.Gson;
@@ -19,7 +22,12 @@ public class Search extends Controller {
     }
 	
     public static void search(String query) {
-    	System.out.println(query);
+    	Logger.debug(query);
+    	User user = Cache.get(session.getId()+"-user", User.class);
+    	if (user == null) {
+    		user = User.find("byEmail", "alan@test.com").first();
+    		Cache.set(session.getId()+"-user", user, "30mn");
+    	}
     	Result.index();
     }
     

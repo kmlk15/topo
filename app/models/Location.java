@@ -31,6 +31,8 @@ public class Location extends Model {
 	public String shortDescKey;
 	
 	public String longDescKey;
+	
+	public Double popularity;
     
     @OneToMany(mappedBy = "location", cascade = CascadeType.ALL)
     @Expose
@@ -115,6 +117,9 @@ public class Location extends Model {
 		}
 		if (StringUtils.isNotEmpty(longDescKey)) {
 			sb.append("    longDescKey: ").append(longDescKey).append("\n");
+		}
+		if (popularity != null) {
+			sb.append("    popularity: ").append(popularity).append("\n");
 		}
 		if (category != null) {
 			for (Category c : category) {
