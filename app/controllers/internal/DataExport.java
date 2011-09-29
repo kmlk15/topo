@@ -12,6 +12,7 @@ import models.HoursOfOperation;
 import models.Itinerary;
 import models.Location;
 import models.Phone;
+import models.Picture;
 import models.Score;
 import models.StateProvince;
 import models.User;
@@ -72,6 +73,10 @@ public class DataExport extends Controller {
 			}
 			List<Phone> phone = Phone.findAll();
 			for (Phone p : phone) {
+				response.out.write(p.toYML().getBytes());
+			}
+			List<Picture> picture = Picture.findAll();
+			for (Picture p : picture) {
 				response.out.write(p.toYML().getBytes());
 			}
 			List<User> user = User.findAll();

@@ -893,3 +893,12 @@ Phone(phone19):
     number: 21472382
     location: location30
 
+Picture(picture1):
+    location: location18
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/ocean_park/result.jpg
+
+User(user1):
+    email: alan@test.com
+    displayName: Alan Smith
+
