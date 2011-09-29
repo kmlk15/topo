@@ -183,70 +183,87 @@ Category(category49):
 
 Location(location1):
     name: Hong Kong Park
+    popularity: 0.0
     category: category14
 
 Location(location2):
     name: Hong Kong Zoological and Botanical Gardens
+    popularity: 0.0
     category: category15
 
 Location(location3):
     name: Central Plaza
+    popularity: 0.0
     category: category20
 
 Location(location4):
     name: Exchange Square
+    popularity: 0.0
     category: category20
 
 Location(location5):
     name: Man Mo Temple
+    popularity: 0.0
     category: category4
 
 Location(location6):
     name: Stanley Market
+    popularity: 0.0
     category: category8
 
 Location(location7):
     name: University Museum and Art Gallery
+    popularity: 0.0
     category: category45
 
 Location(location8):
     name: Victoria Peak
+    popularity: 0.0
     category: category31
 
 Location(location9):
     name: Kowloon Walled City Park
+    popularity: 0.0
     category: category16
 
 Location(location10):
     name: Museum of Art
+    popularity: 0.0
     category: category27
 
 Location(location11):
     name: Museum of History
+    popularity: 0.0
     category: category29
 
 Location(location12):
     name: Science Museum
+    popularity: 0.0
     category: category30
 
 Location(location13):
     name: Star Ferry
+    popularity: 0.0
     category: category47
 
 Location(location14):
     name: Temple Street
+    popularity: 0.0
     category: category44
 
 Location(location15):
     name: Waterfront Promenade
+    popularity: 0.0
     category: category32
 
 Location(location16):
     name: Hong Kong Wetland Park
+    popularity: 0.0
     category: category17
 
 Location(location17):
     name: Ten Thousand Buddhas Temple
+    popularity: 0.0
     category: category41
 
 Location(location18):
@@ -254,58 +271,72 @@ Location(location18):
     nameKey: china.sars.hong_kong.southern.ocean_park
     shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
     longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
+    popularity: 1.0
     category: category40
 
 Location(location19):
     name: Hong Kong Disneyland
+    popularity: 0.0
     category: category40
 
 Location(location20):
     name: Po Lin Buddha
+    popularity: 0.0
     category: category22
 
 Location(location21):
     name: Dr Sun Yat-sen Museum
+    popularity: 0.0
     category: category46
 
 Location(location22):
     name: 10 Chancery Lane Gallery
+    popularity: 0.0
     category: category36
 
 Location(location23):
     name: Edge Gallery
+    popularity: 0.0
     category: category37
 
 Location(location24):
     name: Kadoorie Farm & Botanic Garden
+    popularity: 0.0
     category: category19
 
 Location(location25):
     name: Hong Kong Island Tram
+    popularity: 0.0
     category: category48
 
 Location(location26):
     name: The Peak Tram
+    popularity: 0.0
     category: category49
 
 Location(location27):
     name: Goldfish Market
+    popularity: 0.0
     category: category25
 
 Location(location28):
     name: IFC Mall
+    popularity: 0.0
     category: category43
 
 Location(location29):
     name: Aqua Spirit
+    popularity: 0.0
     category: category38
 
 Location(location30):
     name: Yumla
+    popularity: 0.0
     category: category39
 
 Location(location31):
     name: Flower Market
+    popularity: 0.0
     category: category25
 
 HoursOfOperation(hoursOfOperation1):

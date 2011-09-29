@@ -14,7 +14,7 @@ public class LocationSearchServiceImpl implements LocationSearchService {
 	}
 	
 	public List<Location> getPopularLocations(User u) {
-		List<Location> locations = Location.findAll();
+		List<Location> locations = Location.find("order by popularity desc").fetch();
 		return locations;
 	}
 

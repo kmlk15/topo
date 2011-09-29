@@ -32,7 +32,7 @@ public class Location extends Model {
 	
 	public String longDescKey;
 	
-	public Double popularity;
+	public Double popularity = 0.0;
     
     @OneToMany(mappedBy = "location", cascade = CascadeType.ALL)
     @Expose
