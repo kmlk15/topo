@@ -23,10 +23,10 @@ public class Search extends Controller {
 	
     public static void search(String query) {
     	Logger.debug(query);
-    	User user = Cache.get(session.getId()+"-user", User.class);
-    	if (user == null) {
-    		user = User.find("byEmail", "alan@test.com").first();
-    		Cache.set(session.getId()+"-user", user, "30mn");
+    	Long userid = Cache.get(session.getId()+"-user", Long.class);
+    	if (userid == null) {
+    		User user = User.find("byEmail", "alan@test.com").first();
+    		Cache.set(session.getId()+"-user", user.id, "30mn");
     	}
     	Result.index();
     }

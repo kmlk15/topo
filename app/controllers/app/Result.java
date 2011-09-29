@@ -18,15 +18,13 @@ public class Result extends Controller {
 	private static LocationSearchService lss = Guice.createInjector(new AppModule()).getInstance(LocationSearchService.class);
 	
 	public static void index() {
-		User user = Cache.get(session.getId()+"-user", User.class);
-		if (user != null) {
-			Logger.info(user.displayName);
-		}
 		render();
 	}
 	
 	public static void recommended() {
-		List<Location> locations = lss.getRecommendedLocations(null);
+		Long userid = Cache.get(session.getId()+"-user", Long.class);
+		User user = User.findById(userid);
+		List<Location> locations = lss.getRecommendedLocations(user);
 		Logger.debug(""+locations.size());
 		render(locations);
 	}

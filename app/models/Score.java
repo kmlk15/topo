@@ -36,7 +36,7 @@ public class Score extends Model {
 		} else {
 			s = new Score(u, c, score);
 		}
-		s.save();
+		//s.save();
 		return s;
 	}
 	

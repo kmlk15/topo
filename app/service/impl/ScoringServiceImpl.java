@@ -1,9 +1,14 @@
 package service.impl;
 
+import java.util.ArrayList;
+
 import models.Category;
 import models.Location;
 import models.Score;
 import models.User;
+
+import org.apache.commons.collections.CollectionUtils;
+
 import play.data.validation.Validation;
 import service.api.ScoringService;
 import service.constants.LocationScoring;
@@ -13,6 +18,9 @@ public class ScoringServiceImpl implements ScoringService {
 
 	public void calculate(User user, Location location, UserScoring scoring) {
 		if (user != null && location != null) {
+			if (CollectionUtils.isEmpty(user.score)) {
+				user.score = new ArrayList<Score>();
+			}
 			user.score.clear();
 			for (Category c : location.category) {
 				Category current = c;

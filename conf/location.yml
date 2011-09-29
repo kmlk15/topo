@@ -183,7 +183,7 @@ Category(category49):
 
 Location(location1):
     name: Hong Kong Park
-    popularity: 0.0
+    popularity: 1.0
     category: category14
 
 Location(location2):
@@ -203,7 +203,7 @@ Location(location4):
 
 Location(location5):
     name: Man Mo Temple
-    popularity: 0.0
+    popularity: 1.0
     category: category4
 
 Location(location6):
@@ -271,7 +271,7 @@ Location(location18):
     nameKey: china.sars.hong_kong.southern.ocean_park
     shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
     longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
-    popularity: 1.0
+    popularity: 2.0
     category: category40
 
 Location(location19):
@@ -932,4 +932,29 @@ Picture(picture1):
 User(user1):
     email: alan@test.com
     displayName: Alan Smith
+
+Score(score1):
+    score: 3.0
+    user: user1
+    category: category40
+
+Score(score2):
+    score: 2.0
+    user: user1
+    category: category18
+
+Score(score3):
+    score: 2.0
+    user: user1
+    category: category1
+
+Score(score4):
+    score: 2.0
+    user: user1
+    category: category14
+
+Score(score5):
+    score: 1.0
+    user: user1
+    category: category4
 
