@@ -8,7 +8,7 @@
 			<div id="logo"><a href="/"><img src="@{'public/images/general/logo.png'}" alt="topofin" width="176" height="40" /></a></div>
 			<div id="signIn"><a href="#">sign in / join us</a></div>
 		</div>
-		
+<!-- Overview Column -->		
 		<div id="leftCol">
 			<div class="trvTab">OVERVIEW</div>
 			<div class="ovCell ovCellFst">
@@ -48,13 +48,96 @@
 			</div>
 		</div>
 		
+<!-- Main Column -->
 		<div id="rightCol">
-				<div id="tabs"> 
-					<ul> 
-					<li><a href="@{app.result.recommended()}">RECOMMENDED</a></li> 
-					<li><a href="@{app.result.popular()}">POPULAR</a></li> 
-					<li><a href="@{app.result.obcure()}">OBCURE</a></li> 
-					</ul> 
-				</div> 
+			<!-- NAV -->
+			<div class="detailNav">
+				<div class="detailNavSelect">ATTRACTION</div>
+				<a class="detailNavBox" href="#">BACK TO RESULT</a>
+				<a class="detailNavBox" href="#">ITINERARY</a>
+				<a class="detailNavBox" href="#">PROFILE</a>
+			</div>
+			
+			<div class="detailHero">
+				<span class="imgHeader">Hong Kong Park</span> Central, Hong Kong<br />
+				<img src="@{'public/images/general/search_hero_FPO.jpg'}" alt="FPO" />
+			</div>
+			
+			<div class="deMainCol">
+				<div class="detailTab">STORY</div>
+				<div class="detailTabBtn"><a class="blueBtn" href="#">share your story ></a></div>
+				
+				<div class="clear"></div>
+				
+		<!-- Long Description -->
+				<div class="deDesCell">
+					<a href="/"><img src="@{'public/images/detail/user_B.gif'}" alt="" /></a>
+					<span class="orange">Beagle</span> says:
+					<p>LONG DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world, emphasising artificial creations such as its fountain plaza, conservatory, waterfall, indoor games hall, playground, t’ai chi garden, viewing tower, museum and arts centre. For all its artifice, the eight-hectare park is beautiful in its own weird way and, with a wall of skyscrapers on one side and mountains on the other, makes for some dramatic photographs.</p>
+				</div>
+				
+		<!-- bottom left column -->
+				<div class="deUserLt">
+					<div class="deDesCell">
+						<a href="/"><img src="@{'public/images/detail/user_01.jpg'}" alt="" /></a>
+						<span class="orange">Shannon M.</span> says:
+						<div class="deDes">
+						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
+						</div>
+						<a href="#">Read More ></a>
+					</div>
+					
+					<div class="deDesCell">
+						<a href="/"><img src="@{'public/images/detail/user_02.jpg'}" alt="" /></a>
+						<span class="orange">Whitter</span> says:
+						<div class="deDes">
+						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
+						</div>
+						<a href="#">Read More ></a>
+					</div>
+				</div>
+				
+		<!-- bottom right column -->	
+				<div class="deUserRt">
+					<div class="deDesCell">
+						<a href="/"><img src="@{'public/images/detail/user_03.jpg'}" alt="" /></a>
+						<span class="orange">Jack</span> says:
+						<div class="deDes">
+						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world.</p>
+						</div>
+						<a href="#">Read More ></a>
+					</div>
+				
+					<div class="deDesCell">
+						<a href="/"><img src="@{'public/images/detail/user_04.jpg'}" alt="" /></a>
+						<span class="orange">Ross</span> says:
+						<div class="deDes">
+							<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
+						</div>
+						<a href="#">Read More ></a>
+					</div>
+				
+				</div>
+			</div>
+			
+		<!-- Right Rail -->
+			<div class="deRightRail">
+				<div class="deRailTab">IN THE AREA</div>
+				<div class="deRailContCell">
+					<div class="deRailContent">
+						<p>Wing Fat Noodle House<p/>
+						<a href="/"><img src="@{'public/images/detail/img_01.jpg'}" alt="" /></a>
+					</div>
+					<div class="deRailContent">
+						<p>Sogo<p/>
+						<a href="/"><img src="@{'public/images/detail/img_02.jpg'}" alt="" /></a>
+					</div>
+					<div class="deRailContent">
+						<p>Pacific Dim Sum<p/>
+						<a href="/"><img src="@{'public/images/detail/img_03.jpg'}" alt="" /></a>
+					</div>
+					<a class="moreBtn" href="#">More</a>
+				</div>
+			</div>
 		</div>
 </div>

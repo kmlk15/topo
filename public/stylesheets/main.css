@@ -336,17 +336,17 @@ p {
 .contentImg {
 	width:870px;
 	font-size: 12px;
-	line-height: 10px;
+	line-height: 20px;
 	font-style: italic;
 	color: #3e3e3e;
 }
 .imgHeader {
 	font-family: Georgia, Times, serif; 
 	font-size: 18px;
-	line-height: 33px;
+	line-height: 18px;
 	font-style: normal;
 	color: #3e3e3e;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 .heroImg {
 	padding-bottom: 30px;
@@ -365,6 +365,25 @@ p {
 .clear {
 	clear:both;
 }
+/* REVISED LAYOUT FOR TITLE WRAP */
+.resultTitleCell {
+	width:870px;
+	margin-bottom: 5px;
+}
+.resultImgCell {
+	width:870px;
+	margin-bottom: 30px;
+}
+.resultList {
+	float: left;
+	width:270px;
+	margin-right: 30px;
+}
+.resultListLst {
+	float: left;
+	width:270px;
+}
+/* END REVISED LAYOUT FOR TITLE WRAP */
 
 /* Image Rollover Box */
 .infoboxHr {
@@ -542,14 +561,140 @@ font-weight: normal;
 .ovCell ul {
 	font-size: 11px;
 	padding-bottom: 5px;
-	}
+}
 .ovCellLst ul {
 	font-size: 11px;
 	padding-left:13px;
-	}
+}
 .ovCellLst li {
 	list-style-type:disc;
 	list-style-position:inside;
 	text-indent:-11px;
 	padding-bottom: 5px;
+}
+.detailNav {
+	width: 870px;
+	height: 30px;
+	background:url('/public/images/general/nav_bar_bg.gif') repeat-x;
 	}
+.detailNavBox {
+	display: block;
+	width: 160px;
+	height: 30px;
+	float:left;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	padding-top:3px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	}
+.detailNavBox:hover {
+	color: #fff;
+	text-decoration: none;
+	background:url('/public/images/general/nav_selected_bg_hover.gif') no-repeat;
+	}
+.detailNavSelect {
+	float:left;
+	display: block;
+	width: 160px;
+	height: 30px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	padding-top:3px;
+	color: #fff;
+	text-align: center;
+	background:url('/public/images/general/nav_selected_bg.gif') no-repeat;
+	}
+.detailHero {
+	font-size: 12px;
+	line-height: 10px;
+	font-style: italic;
+	margin-top: 10px;
+	width: 870px;
+	}
+.deMainCol {
+	float: left;
+	width: 570px;
+	margin: 30px 0;
+	background-color: #fff;
+	}
+
+.detailTab {
+	width: 425px;
+	height: 17px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	float:left;
+	color: #fff;
+	padding: 2px 0 2px 10px;
+	background-color: #737373;
+}
+.detailTabBtn {
+	width: 135px;
+	float:left;
+	color: #fff;
+	background-color: #737373;
+}
+.deRightRail {
+	float: left;
+	width: 270px;
+	margin: 30px 0 30px 30px;
+	}
+.deRailTab {
+	color: #fff;
+	height: 17px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	padding: 2px 0 2px 10px;
+	background-color: #737373;
+	}
+.deRailContCell {
+	padding: 10px;
+	border:1px solid #737373;
+	background-color: #f5f5f5;
+	}
+.deRailContent 	{
+	padding: 0 0 10px 0;
+	}
+.deRailContent p {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color: #515151;
+	padding: 0 0 10px 0;
+	}
+.deDesCell {
+	margin-top: 16px;
+	padding: 10px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	color: #515151;
+	border:1px solid #737373;
+	background-color: #f5f5f5;
+	}
+.deDesCell p {
+	padding: 5px 0;
+	color: #515151;
+	line-height: 15px;
+	}
+.deUserLt {
+	float: left;
+	width: 277px;
+	}
+.deUserRt {
+	float: left;
+	width: 277px;
+	margin-left: 16px;
+	}
+.deDes {
+	height: 45px;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	color: #515151;
+	line-height: 15px;
+	overflow: hidden;
+	}
+.orange {
+	color: #f86335;
+	}
+		
