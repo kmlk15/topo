@@ -613,6 +613,9 @@ font-weight: normal;
 	margin-top: 10px;
 	width: 870px;
 	}
+.detailHeroTitle {
+	padding-bottom: 5px;
+	}
 .deMainCol {
 	float: left;
 	width: 570px;
