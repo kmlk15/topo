@@ -34,9 +34,17 @@ public class LocationSearchServiceImpl implements LocationSearchService {
 		return locations;
 	}
 
-	public List<Location> getObcureLocations(User u) {
-		List<Location> locations = Location.all().fetch(9);
-		return locations;
+	public List<Location> getObscureLocations(User u) {
+		List<Score> scores = Score.find("select s from Score s where s.user = :uid order by score desc ").bind("uid", u).fetch(9);
+		if (CollectionUtils.isNotEmpty(scores)) {
+			List<Long> cids = new ArrayList<Long>();
+			for (Score s : scores) {
+				cids.add(s.category.id);
+			}
+			List<Location> locations = Location.find("select distinct l from Location l join l.category c where c.id not in :cids order by popularity desc").bind("cids", cids).fetch(9);
+			return locations;
+		}
+		return getPopularLocations(u);
 	}
 
 }

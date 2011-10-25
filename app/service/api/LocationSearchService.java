@@ -11,6 +11,6 @@ public interface LocationSearchService {
 	
 	public List<Location> getPopularLocations(User u);
 
-	public List<Location> getObcureLocations(User u);
+	public List<Location> getObscureLocations(User u);
 
 }

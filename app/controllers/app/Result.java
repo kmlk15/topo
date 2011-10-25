@@ -36,7 +36,9 @@ public class Result extends Controller {
 	}
 	
 	public static void obcure() {
-		List<Location> locations = lss.getObcureLocations(null);
+		Long userid = Cache.get(session.getId()+"-user", Long.class);
+		User user = User.findById(userid);
+		List<Location> locations = lss.getObscureLocations(user);
 		Logger.debug(""+locations.size());
 		render(locations);
 	}
