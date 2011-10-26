@@ -11,12 +11,20 @@ import models.User;
 import play.Logger;
 import play.cache.Cache;
 import play.mvc.Controller;
+import service.api.ScoringService;
+import service.constants.LocationScoring;
+import service.constants.UserScoring;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.inject.Guice;
+
+import dependencies.AppModule;
 
 public class Search extends Controller {
 
+	private static ScoringService ss = Guice.createInjector(new AppModule()).getInstance(ScoringService.class);
+	
     public static void index() {
         render();
     }
@@ -47,5 +55,14 @@ public class Search extends Controller {
     		result.add(l.toTokenMap());
     	}
 		renderText(g.toJson(result));
+    }
+    
+    public static void go(long id) {
+    	Long userid = Cache.get(session.getId()+"-user", Long.class);
+		User user = User.findById(userid);
+		Location location = Location.findById(id);
+		ss.calculate(location, LocationScoring.DETAIL_VIEW);
+		ss.calculate(user, location, UserScoring.DETAIL_VIEW);
+		Detail.index(id);    	
     }
 }
