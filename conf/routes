@@ -10,6 +10,7 @@ GET     /                                       app.Search.index
 
 # App
 GET     /search                                 app.Search.index
+GET     /search/{action}                        app.Search.{action}
 GET     /result                                 app.Result.index
 GET     /result/{action}                        app.Result.{action}
 GET     /detail/{id}                            app.Detail.index

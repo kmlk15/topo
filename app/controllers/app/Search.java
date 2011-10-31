@@ -50,10 +50,12 @@ public class Search extends Controller {
     	for (Category c : category) {
     		result.add(c.toTokenMap());
     	}
+    	/*
     	List<Location> location = Location.find("name like ?", "%"+q+"%").fetch(5);
     	for (Location l : location) {
     		result.add(l.toTokenMap());
     	}
+    	*/
 		renderText(g.toJson(result));
     }
     
