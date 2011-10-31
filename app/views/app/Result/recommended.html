@@ -1,13 +1,17 @@
-<div class="contentImg">
-    #{if locations}
-        #{list items:locations, as:'location'}
+<script src="@{'/public/javascripts/app/Result/hack.js'}" type="text/javascript" charset="UTF-8"></script>
+
+#{if locations}
+    #{list items:locations, as:'location'}
+        #{if location_index % 3 == 1}
+        <div class="contentImg">
+        #{/if}
             #{if location_index % 3 == 0}
             <div class="bdyImgLst">
             #{/if}
             #{else}
             <div class="bdyImg">
             #{/else}
-                ${location?.currentAddress?.districtAddress}<br /><span class="imgHeader">${location?.displayName}</span>
+                ${location?.currentAddress?.districtAddress}<br /><div class="imgHeader" id="rn${location?.id}">${location?.displayName}</div>
                 <div class="infobox">
                     <a href="@{app.Detail.index(location.id)}">
                         #{if location?.resultImageUrl}
@@ -18,22 +22,17 @@
                         #{/else}
                     </a>
                     <div class="content">
-                        <a class="addBtn" href="#">Add</a><a class="dismissBtn" href="#">Dismiss</a>
-                
+                        <a class="addBtn" id="ra${location?.id}" href="#">Add</a><a class="dismissBtn" id="rr${location.id}" href="#">Dismiss</a>                
                         <div class="clear"></div>
-                
                         <div class="boxDes">
                             <p>${location.shortDescription}</p>
                         </div>
                    </div>
                 </div>
             </div>
-            #{if location_index % 3 == 0 || location_isLast}
+        #{if location_index % 3 == 0 || location_isLast}
             <div class="clear"></div>
-            #{/if}
-        #{/list}
-    #{/if}
-
-    <div class="moreCell"><a class="moreBtn" href="#">More</a></div>
-
-</div>
+        </div>        
+        #{/if}
+    #{/list}
+#{/if}

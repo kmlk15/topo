@@ -1,6 +1,7 @@
 package service.impl;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import models.Category;
 import models.Location;
@@ -24,11 +25,18 @@ public class ScoringServiceImpl implements ScoringService {
 			user.score.clear();
 			for (Category c : location.category) {
 				Category current = c;
+				List<Category> tmp = new ArrayList<Category>();
+				
 				while (current != null) {
+					tmp.add(current);
+					current = current.parent;					
+				}
+				
+				for (int i = tmp.size() - 1; i >= 0; i--) {
+					current = tmp.get(i);
 					double score = current.level() * scoring.getValue();
 					Score s = Score.findOrCreate(user, current, score);
 					user.score.add(s);
-					current = current.parent;
 				}
 			}
 			Validation.current().valid(user);

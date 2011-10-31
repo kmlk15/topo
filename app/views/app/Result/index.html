@@ -1,6 +1,8 @@
 #{extends 'app/main.html' /}
 #{set title:'Result' /}
 
+<script src="@{'/public/javascripts/app/Result/result.js'}" type="text/javascript" charset="UTF-8"></script>
+
 <!-- start frame -->
 <div id="resultPage">
 	<!-- Top Row -->
@@ -23,33 +25,8 @@
 										&nbsp;&nbsp;&nbsp;with 6 companies<br />
 										<img src="@{'public/images/users/FPO_companies.png'}" alt="FPO" /> -->
 				</div>
-				<div class="locTab"><strong>Your knapsack</strong></div>
-				
-				<div class="locList">
-					<div class="locName">Temple Street</div>
-					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
-				</div>
-				
-				<div class="locList">
-					<div class="locName">Hong Kong Park</div>
-					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
-				</div>
-				
-				<div class="locList">
-					<div class="locName">IFC Tower</div>
-					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
-				</div>
-				
-				<div class="locList">
-					<div class="locName">Hollywood Road</div>
-					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
-				</div>
-				
-				<div class="locList">
-					<div class="locName">Ocean Park</div>
-					<div class="removeCell"><a class="removeBtn" href="#">Remove</a></div>
-				</div>
-				
+				<div class="locTab" id="knapsack"><strong>Your knapsack</strong></div>
+								
 				<div class="itnCell"><a class="itnBtn" href="#">itinerary</a></div>
 				
 				<div class="clear"></div>
@@ -61,7 +38,7 @@
 					<ul> 
 					<li><a href="@{app.result.recommended()}">RECOMMENDED</a></li> 
 					<li><a href="@{app.result.popular()}">POPULAR</a></li> 
-					<li><a href="@{app.result.obcure()}">OBCURE</a></li> 
+					<li><a href="@{app.result.obscure()}">OBSCURE</a></li> 
 					</ul> 
 				</div> 
 		</div>
