@@ -4,6 +4,7 @@ import java.util.List;
 
 import models.Location;
 import models.User;
+import models.app.SearchQuery;
 import play.Logger;
 import play.cache.Cache;
 import play.mvc.Controller;
@@ -29,7 +30,9 @@ public class Result extends Controller {
 		Long userid = Cache.get(session.getId()+"-user", Long.class);
 		Logger.debug(""+userid);
 		User user = User.findById(userid);
-		List<Location> locations = lss.getRecommendedLocations(user);
+		SearchQuery searchQuery = Cache.get(session.getId()+"-search", SearchQuery.class);
+		Logger.debug(searchQuery.toString());
+		List<Location> locations = lss.getRecommendedLocations(user, searchQuery);
 		Logger.debug(""+locations.size());
 		render(locations);
 	}
@@ -38,7 +41,9 @@ public class Result extends Controller {
 		Long userid = Cache.get(session.getId()+"-user", Long.class);
 		Logger.debug(""+userid);
 		User user = User.findById(userid);
-		List<Location> locations = lss.getPopularLocations(user);
+		SearchQuery searchQuery = Cache.get(session.getId()+"-search", SearchQuery.class);
+		Logger.debug(searchQuery.toString());
+		List<Location> locations = lss.getPopularLocations(user, searchQuery);
 		Logger.debug(""+locations.size());
 		render(locations);
 	}
@@ -47,12 +52,23 @@ public class Result extends Controller {
 		Long userid = Cache.get(session.getId()+"-user", Long.class);
 		Logger.debug(""+userid);
 		User user = User.findById(userid);
-		List<Location> locations = lss.getObscureLocations(user);
+		SearchQuery searchQuery = Cache.get(session.getId()+"-search", SearchQuery.class);
+		Logger.debug(searchQuery.toString());
+		List<Location> locations = lss.getObscureLocations(user, searchQuery);
 		Logger.debug(""+locations.size());
 		render(locations);
 	}
 	
-	public static void add(long id) {
+    public static void go(long id) {
+    	Long userid = Cache.get(session.getId()+"-user", Long.class);
+		User user = User.findById(userid);
+		Location location = Location.findById(id);
+		ss.calculate(location, LocationScoring.DETAIL_VIEW);
+		ss.calculate(user, location, UserScoring.DETAIL_VIEW);
+		Detail.index(id);    	
+    }	
+
+    public static void add(long id) {
     	Long userid = Cache.get(session.getId()+"-user", Long.class);
     	Logger.debug(""+userid);
 		User user = User.findById(userid);

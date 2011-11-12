@@ -13,7 +13,7 @@
             #{/else}
                 ${location?.currentAddress?.districtAddress}<br /><div class="imgHeader" id="on${location?.id}">${location?.displayName}</div>
                 <div class="infobox">
-                    <a href="@{app.Detail.index(location.id)}">
+                    <a href="@{app.Result.go(location.id)}">
                         #{if location?.resultImageUrl}
                             <img src="${location.resultImageUrl}" alt="" />
                         #{/if}
