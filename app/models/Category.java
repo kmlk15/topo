@@ -1,13 +1,9 @@
 package models;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 
 import org.apache.commons.lang.StringUtils;
 
@@ -20,25 +16,11 @@ public class Category extends Model {
 
 	@Expose
 	public String name;
-		
-	@OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
-	@Expose
-	public List<Category> child;
-	
-	@ManyToOne
-	public Category parent;
-	
+				
 	public int compareTo(Category other) {
 		return name.compareTo(other.name);
 	}
-	
-	public int level() {
-		if (parent == null) {
-			return 1;
-		}
-		return 1 + parent.level();
-	}
-	
+		
 	public String toString() {
 		return name;
 	}
@@ -55,9 +37,6 @@ public class Category extends Model {
 		sb.append("Category(category").append(id).append("):\n");
 		if (StringUtils.isNotEmpty(name)) {
 			sb.append("    name: ").append(name).append("\n");
-		}
-		if (parent != null) {
-			sb.append("    parent: category").append(parent.id).append("\n");
 		}
 		sb.append("\n");
 		return sb.toString();

@@ -1,4 +1,0 @@
-www:
-    type: java
-db:
-    type: mysql

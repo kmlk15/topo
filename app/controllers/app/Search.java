@@ -1,17 +1,14 @@
 package controllers.app;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import models.Category;
-import models.City;
 import models.User;
 import models.app.SearchQuery;
 import play.Logger;
 import play.cache.Cache;
 import play.mvc.Controller;
-import service.api.ScoringService;
+import service.api.SearchAutoCompleteService;
 import service.api.SearchQueryParser;
 
 import com.google.gson.Gson;
@@ -22,8 +19,8 @@ import dependencies.AppModule;
 
 public class Search extends Controller {
 
-	private static ScoringService ss = Guice.createInjector(new AppModule()).getInstance(ScoringService.class);
 	private static SearchQueryParser sqp = Guice.createInjector(new AppModule()).getInstance(SearchQueryParser.class);
+	private static SearchAutoCompleteService sacs = Guice.createInjector(new AppModule()).getInstance(SearchAutoCompleteService.class);
 	
     public static void index() {
         render();
@@ -43,21 +40,8 @@ public class Search extends Controller {
     
     public static void suggest(String q) {
     	Gson g = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
-		List<City> city = City.find("name like ?", "%"+q+"%").fetch(5);
-    	List<Map<String, String>> result = new ArrayList<Map<String, String>>();
-    	for (City c : city) {
-    		result.add(c.toTokenMap());
-    	}
-    	List<Category> category = Category.find("name like ?", "%"+q+"%").fetch(5);
-    	for (Category c : category) {
-    		result.add(c.toTokenMap());
-    	}
-    	/*
-    	List<Location> location = Location.find("name like ?", "%"+q+"%").fetch(5);
-    	for (Location l : location) {
-    		result.add(l.toTokenMap());
-    	}
-    	*/
+    	List<Map<String, String>> result = sacs.getCityList(q);
+    	result.addAll(sacs.getCategoryList(q));
 		renderText(g.toJson(result));
     }
     

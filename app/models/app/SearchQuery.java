@@ -10,10 +10,15 @@ import org.apache.commons.lang.StringUtils;
 public class SearchQuery implements Serializable {
 
 	public static final String CITY = "city:";
-	public static final String CATEGORY = "cateogry:";
+	public static final String CATEGORY = "category:";
 	
 	private List<Long> cities;
 	private List<Long> categories;
+	
+	public SearchQuery() {
+		cities = new ArrayList<Long>();
+		categories = new ArrayList<Long>();
+	}
 	
 	public List<Long> getCities() {
 		return cities;
@@ -28,9 +33,6 @@ public class SearchQuery implements Serializable {
 	}
 	
 	public void addCity(Long id) {
-		if (cities == null) {
-			cities = new ArrayList<Long>();
-		}
 		CollectionUtils.addIgnoreNull(cities, id);
 	}
 	
@@ -41,30 +43,27 @@ public class SearchQuery implements Serializable {
 	public List<Long> getCategories() {
 		return categories;
 	}
-
+	
 	public void setCategories(List<Long> categories) {
 		this.categories = categories;
 	}
-
+	
 	public void addCategory(String id) {
 		addCategory(Long.valueOf(id));
 	}
 	
 	public void addCategory(Long id) {
-		if (categories == null) {
-			categories = new ArrayList<Long>();
-		}
-		CollectionUtils.addIgnoreNull(categories, id);
+		categories.add(id);
 	}
 	
 	public boolean hasCategory() {
 		return CollectionUtils.isNotEmpty(categories);
 	}
-	
+
 	public String toString() {
-		String result[] = new String[2];
-		result[0] = StringUtils.join(cities, "city:");
-		result[1] = StringUtils.join(categories, "category:");
-		return StringUtils.join(result, ",");
+		String result[] = new String[4];
+		result[0] = StringUtils.join(cities, ",");
+		result[1] = StringUtils.join(categories, ",");
+		return StringUtils.join(result, ":");
 	}
 }

@@ -1,149 +1,234 @@
 Category(category1):
     name: Park
+    level: 1
 
 Category(category2):
     name: Architecture
+    level: 1
 
 Category(category3):
     name: Religious Site
+    level: 1
 
 Category(category4):
     name: Taoism
+    level: 1
 
 Category(category5):
     name: Shopping
+    level: 1
 
 Category(category6):
     name: Market
+    level: 1
 
 Category(category7):
     name: Street Market
+    level: 1
 
 Category(category8):
     name: Souvenirs
+    level: 1
 
 Category(category9):
     name: Museum
+    level: 1
 
 Category(category10):
     name: Sights
+    level: 1
 
 Category(category11):
     name: Rides
+    level: 1
 
 Category(category12):
     name: Gallery
+    level: 1
 
 Category(category13):
     name: Nightlife
+    level: 1
 
 Category(category14):
     name: Garden Park
+    level: 2
+    parent: category1
 
 Category(category15):
     name: Zoological and Botanical Gardens
+    level: 2
+    parent: category1
 
 Category(category16):
     name: Historical Park
+    level: 2
+    parent: category1
 
 Category(category17):
     name: Wetlands
+    level: 2
+    parent: category1
 
 Category(category18):
     name: Amusement Park
+    level: 2
+    parent: category1
 
 Category(category19):
     name: Educational Park
+    level: 2
+    parent: category1
 
 Category(category20):
     name: Skyscraper
+    level: 2
+    parent: category2
 
 Category(category21):
     name: Temple
+    level: 2
+    parent: category3
 
 Category(category22):
     name: Statues
+    level: 2
+    parent: category3
 
 Category(category23):
     name: Mall
+    level: 2
+    parent: category5
 
 Category(category24):
     name: Night Market
+    level: 2
+    parent: category6
 
 Category(category25):
     name: Theme Shopping
+    level: 2
+    parent: category7
 
 Category(category26):
     name: Art
+    level: 2
+    parent: category9
 
 Category(category27):
     name: Chinese Calligraphy and Painting
+    level: 2
+    parent: category9
 
 Category(category28):
     name: History
+    level: 2
+    parent: category9
 
 Category(category29):
     name: Culture
+    level: 2
+    parent: category9
 
 Category(category30):
     name: Science
+    level: 2
+    parent: category9
 
 Category(category31):
     name: City View
+    level: 2
+    parent: category10
 
 Category(category32):
     name: Water Front
+    level: 2
+    parent: category10
 
 Category(category33):
     name: Ferries
+    level: 2
+    parent: category11
 
 Category(category34):
     name: Tram
+    level: 2
+    parent: category11
 
 Category(category35):
     name: Railway
+    level: 2
+    parent: category11
 
 Category(category36):
     name: Contemporary Art
+    level: 2
+    parent: category12
 
 Category(category37):
     name: Photography
+    level: 2
+    parent: category12
 
 Category(category38):
     name: Bars
+    level: 2
+    parent: category13
 
 Category(category39):
     name: Dance Clubs
+    level: 2
+    parent: category13
 
 Category(category40):
     name: Theme Park
+    level: 3
+    parent: category18
 
 Category(category41):
     name: Buddhas
+    level: 3
+    parent: category21
 
 Category(category42):
     name: Buddhist Art
+    level: 3
+    parent: category22
 
 Category(category43):
     name: Upscale
+    level: 3
+    parent: category23
 
 Category(category44):
     name: Food and Bargain
+    level: 3
+    parent: category24
 
 Category(category45):
     name: Chinese Artifacts
+    level: 3
+    parent: category26
 
 Category(category46):
     name: Revolutionary and Political
+    level: 3
+    parent: category28
 
 Category(category47):
     name: Public Ferries
+    level: 3
+    parent: category33
 
 Category(category48):
     name: City Tram
+    level: 3
+    parent: category34
 
 Category(category49):
     name: Funicular
+    level: 3
+    parent: category35
 
 Location(location1):
     name: Hong Kong Park
