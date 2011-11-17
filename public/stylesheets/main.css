@@ -35,7 +35,7 @@ p {
 }
 
 /* logo - signIn */
-#logo {
+/*#logo {
 	position:absolute;
 	top:0px;
  	left:60px;
@@ -43,14 +43,14 @@ p {
  	height:55px;
  	z-index:5;
 	background:url('../images/hm/logo_bx.png') no-repeat;
-}
+}*/
 
 #logo_box {
-	width:355px;
- 	height:60px;
+	width:230px;
+ 	height:58px;
 	z-index:5;
  	margin-left:35px;
- 	margin-bottom:28px;
+ 	margin-bottom:30px;
 	background-color: #fff;
 	-moz-box-shadow: 3px 3px 3px #535353;
 	-webkit-box-shadow: 3px 3px 3px #535353;
@@ -60,7 +60,7 @@ p {
 	float:left;
 	width:180px;
 	z-index:5;
-	padding: 15px 0 0 0px;
+	padding: 15px 0 0 15px;
 }
 #signIn {
 	float:left;
@@ -98,11 +98,11 @@ p {
 
 /* search REWORK Logo - SignIn*/
 .schLogoBox {
-	width:355px;
- 	height:60px;
+	width:230px;
+ 	height:58px;
 	z-index:5;
  	margin-left:35px;
- 	margin-bottom:280px;
+ 	margin-bottom:282px;
 	background-color: #fff;
 	-moz-box-shadow: 3px 3px 3px #535353;
 	-webkit-box-shadow: 3px 3px 3px #535353;
@@ -111,7 +111,7 @@ p {
 #schLogo {
 	float:left;
 	width:180px;
-	padding: 15px 0 0 25px;
+	padding: 15px 0 0 15px;
 }
 #schSignIn {
 	float:left;
@@ -196,10 +196,44 @@ p {
 }
 .schUserDes p {
 	font-size: 9px;
-   	line-height:30px;
    	font-style: italic;
    	color: #fff;
 }
+.schUserCredit {
+	float: left;
+	width:130px;
+	padding-top: 8px;
+	font-size: 11px;
+   	color: #fff;
+}
+.schUserAwBack {
+	float: left;
+	width:15px;
+	padding-top: 10px;
+}
+.schUserAwNxt {
+	float: left;
+	width:10px;
+	padding-top: 10px;
+}
+.schBtnNxt {
+	display: block;
+ 	text-indent:-999em;
+	background:url('/public/images/hm/btn_arw_nxt.png') no-repeat;
+}
+.schBtnNxt:hover {
+	background:url('/public/images/hm/btn_arw_nxt_hover.png') no-repeat;
+}
+
+.schBtnBack {
+	display: block;
+ 	text-indent:-999em;
+	background:url('/public/images/hm/btn_arw_back.png') no-repeat;
+}
+.schBtnBack:hover {
+	background:url('/public/images/hm/btn_arw_back_hover.png') no-repeat;
+}
+
 /* --------------  end home search REWORK -----------------*/
 
 
@@ -269,18 +303,16 @@ p {
 	border-bottom:1px solid #737373;
 }
 .locList {
-	width:218px;
-	height:15px;
+	width: 218px;
 	font-size: 11px;
 	line-height: 13px;
 	color: #515151;
-	padding:5px 0 0 10px;
+	padding:5px 0 5px 10px;
 	border-bottom:1px solid #ababab;
 }
 .locName {
 	float: left;
 	width:190px;
- 	height:15px;
 	font-size: 11px;
 	line-height: 13px;
 }
