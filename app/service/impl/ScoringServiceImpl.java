@@ -23,7 +23,7 @@ public class ScoringServiceImpl implements ScoringService {
 			}
 			user.score.clear();
 			for (Category c : location.category) {
-				double score = scoring.getValue();
+				double score = c.level * scoring.getValue();
 				Score s = Score.findOrCreate(user, c, score);
 				user.score.add(s);
 			}

@@ -1,234 +1,261 @@
 Category(category1):
     name: Park
+    level: 1
 
 Category(category2):
     name: Architecture
+    level: 1
 
 Category(category3):
     name: Religious Site
+    level: 1
 
 Category(category4):
-    name: Taoism
+    name: Shopping
+    level: 1
 
 Category(category5):
-    name: Shopping
+    name: Museum
+    level: 1
 
 Category(category6):
-    name: Market
+    name: Sights
+    level: 1
 
 Category(category7):
-    name: Street Market
+    name: Ride
+    level: 1
 
 Category(category8):
-    name: Souvenirs
+    name: Gallery
+    level: 1
 
 Category(category9):
-    name: Museum
+    name: Nightlife
+    level: 1
 
 Category(category10):
-    name: Sights
+    name: Garden Park
+    level: 2
 
 Category(category11):
-    name: Rides
+    name: Wetland Park
+    level: 2
 
 Category(category12):
-    name: Gallery
+    name: Zoological and Botanical Garden Park
+    level: 2
 
 Category(category13):
-    name: Nightlife
+    name: Theme Park
+    level: 2
 
 Category(category14):
-    name: Garden Park
+    name: Educational Park
+    level: 2
 
 Category(category15):
-    name: Zoological and Botanical Gardens
+    name: Historical Park
+    level: 2
 
 Category(category16):
-    name: Historical Park
+    name: Skyscraper
+    level: 2
 
 Category(category17):
-    name: Wetlands
+    name: Taoism Temple
+    level: 2
 
 Category(category18):
-    name: Amusement Park
+    name: Buddhas Temple
+    level: 2
 
 Category(category19):
-    name: Educational Park
+    name: Buddhist Statues
+    level: 2
 
 Category(category20):
-    name: Skyscraper
+    name: Street Market
+    level: 2
 
 Category(category21):
-    name: Temple
+    name: Night Market
+    level: 2
 
 Category(category22):
-    name: Statues
+    name: Mall
+    level: 2
 
 Category(category23):
-    name: Mall
+    name: Chinese Artifacts Museum
+    level: 2
 
 Category(category24):
-    name: Night Market
+    name: Chinese Calligraphy and Painting Museum
+    level: 2
 
 Category(category25):
-    name: Theme Shopping
+    name: History Museum
+    level: 2
 
 Category(category26):
-    name: Art
+    name: Revolutionary and Political Museum
+    level: 2
 
 Category(category27):
-    name: Chinese Calligraphy and Painting
+    name: Science Museum
+    level: 2
 
 Category(category28):
-    name: History
+    name: City View
+    level: 2
 
 Category(category29):
-    name: Culture
+    name: Water Front
+    level: 2
 
 Category(category30):
-    name: Science
+    name: Ferry Ride
+    level: 2
 
 Category(category31):
-    name: City View
+    name: Tram Ride
+    level: 2
 
 Category(category32):
-    name: Water Front
+    name: Contemporary Art Gallery
+    level: 2
 
 Category(category33):
-    name: Ferries
+    name: Photography Gallery
+    level: 2
 
 Category(category34):
-    name: Tram
+    name: Bars
+    level: 2
 
 Category(category35):
-    name: Railway
-
-Category(category36):
-    name: Contemporary Art
-
-Category(category37):
-    name: Photography
-
-Category(category38):
-    name: Bars
-
-Category(category39):
-    name: Dance Clubs
-
-Category(category40):
-    name: Theme Park
-
-Category(category41):
-    name: Buddhas
-
-Category(category42):
-    name: Buddhist Art
-
-Category(category43):
-    name: Upscale
-
-Category(category44):
-    name: Food and Bargain
-
-Category(category45):
-    name: Chinese Artifacts
-
-Category(category46):
-    name: Revolutionary and Political
-
-Category(category47):
-    name: Public Ferries
-
-Category(category48):
-    name: City Tram
-
-Category(category49):
-    name: Funicular
+    name: Dance Club
+    level: 2
 
 Location(location1):
     name: Hong Kong Park
-    popularity: 1.0
-    category: category14
+    popularity: 2.0
+    category:
+    - category1
+    - category10
 
 Location(location2):
     name: Hong Kong Zoological and Botanical Gardens
-    popularity: 0.0
-    category: category15
+    popularity: 2.0
+    category:
+    - category1
+    - category12
 
 Location(location3):
     name: Central Plaza
-    popularity: 0.0
-    category: category20
+    popularity: 1.0
+    category:
+    - category2
+    - category16
 
 Location(location4):
     name: Exchange Square
     popularity: 0.0
-    category: category20
+    category:
+    - category2
+    - category16
 
 Location(location5):
     name: Man Mo Temple
     popularity: 1.0
-    category: category4
+    category:
+    - category3
+    - category17
 
 Location(location6):
     name: Stanley Market
     popularity: 0.0
-    category: category8
+    category:
+    - category4
+    - category20
 
 Location(location7):
     name: University Museum and Art Gallery
     popularity: 0.0
-    category: category45
+    category:
+    - category5
+    - category23
 
 Location(location8):
     name: Victoria Peak
     popularity: 0.0
-    category: category31
+    category:
+    - category6
+    - category28
 
 Location(location9):
     name: Kowloon Walled City Park
     popularity: 0.0
-    category: category16
+    category:
+    - category1
+    - category15
 
 Location(location10):
     name: Museum of Art
     popularity: 0.0
-    category: category27
+    category:
+    - category5
+    - category24
 
 Location(location11):
     name: Museum of History
     popularity: 0.0
-    category: category29
+    category:
+    - category5
+    - category25
 
 Location(location12):
     name: Science Museum
     popularity: 0.0
-    category: category30
+    category:
+    - category5
+    - category27
 
 Location(location13):
     name: Star Ferry
     popularity: 0.0
-    category: category47
+    category:
+    - category7
+    - category30
 
 Location(location14):
     name: Temple Street
     popularity: 0.0
-    category: category44
+    category:
+    - category4
+    - category21
 
 Location(location15):
     name: Waterfront Promenade
     popularity: 0.0
-    category: category32
+    category:
+    - category6
+    - category29
 
 Location(location16):
     name: Hong Kong Wetland Park
     popularity: 0.0
-    category: category17
+    category:
+    - category1
+    - category11
 
 Location(location17):
     name: Ten Thousand Buddhas Temple
     popularity: 0.0
-    category: category41
+    category:
+    - category3
+    - category18
 
 Location(location18):
     name: Ocean Park
@@ -236,72 +263,100 @@ Location(location18):
     shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
     longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
     popularity: 2.0
-    category: category40
+    category:
+    - category1
+    - category13
 
 Location(location19):
     name: Hong Kong Disneyland
     popularity: 0.0
-    category: category40
+    category:
+    - category1
+    - category13
 
 Location(location20):
     name: Po Lin Buddha
     popularity: 0.0
-    category: category22
+    category:
+    - category3
+    - category19
 
 Location(location21):
     name: Dr Sun Yat-sen Museum
     popularity: 0.0
-    category: category46
+    category:
+    - category5
+    - category26
 
 Location(location22):
     name: 10 Chancery Lane Gallery
     popularity: 0.0
-    category: category36
+    category:
+    - category8
+    - category32
 
 Location(location23):
     name: Edge Gallery
     popularity: 0.0
-    category: category37
+    category:
+    - category8
+    - category33
 
 Location(location24):
     name: Kadoorie Farm & Botanic Garden
     popularity: 0.0
-    category: category19
+    category:
+    - category1
+    - category14
 
 Location(location25):
     name: Hong Kong Island Tram
     popularity: 0.0
-    category: category48
+    category:
+    - category7
+    - category31
 
 Location(location26):
     name: The Peak Tram
     popularity: 0.0
-    category: category49
+    category:
+    - category7
+    - category31
 
 Location(location27):
     name: Goldfish Market
     popularity: 0.0
-    category: category25
+    category:
+    - category4
+    - category20
 
 Location(location28):
     name: IFC Mall
     popularity: 0.0
-    category: category43
+    category:
+    - category4
+    - category22
 
 Location(location29):
     name: Aqua Spirit
     popularity: 0.0
-    category: category38
+    category:
+    - category9
+    - category34
 
 Location(location30):
     name: Yumla
     popularity: 0.0
-    category: category39
+    category:
+    - category9
+    - category35
 
 Location(location31):
     name: Flower Market
     popularity: 0.0
-    category: category25
+    category:
+    - category4
+    - category20
 
 HoursOfOperation(hoursOfOperation1):
     mondayOpen: 6:30am
@@ -900,7 +955,7 @@ User(user1):
 Score(score1):
     score: 3.0
     user: user1
-    category: category40
+    category: category13
 
 Score(score2):
     score: 2.0
@@ -908,17 +963,37 @@ Score(score2):
     category: category18
 
 Score(score3):
-    score: 2.0
+    score: 8.0
     user: user1
     category: category1
 
 Score(score4):
     score: 2.0
     user: user1
-    category: category14
+    category: category20
 
 Score(score5):
     score: 1.0
     user: user1
     category: category4
+
+Score(score6):
+    score: 8.0
+    user: user1
+    category: category12
+
+Score(score7):
+    score: 2.0
+    user: user1
+    category: category2
+
+Score(score8):
+    score: 4.0
+    user: user1
+    category: category16
+
+Score(score9):
+    score: 4.0
+    user: user1
+    category: category10
 

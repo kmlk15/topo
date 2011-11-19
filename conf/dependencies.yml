@@ -3,6 +3,6 @@
 require:
     - play
     - play -> betterlogs 1.0
-    #- play -> dotcloud 0.2
     - crud
     - play -> guice 1.2
+    - play -> logisimayml 1.5

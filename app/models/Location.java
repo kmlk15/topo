@@ -121,9 +121,10 @@ public class Location extends Model {
 		if (popularity != null) {
 			sb.append("    popularity: ").append(popularity).append("\n");
 		}
-		if (category != null) {
+		if (CollectionUtils.isNotEmpty(category)) {
+			sb.append("    category:").append("\n");
 			for (Category c : category) {
-				sb.append("    category: category").append(c.id).append("\n");
+				sb.append("    - category").append(c.id).append("\n");
 			}
 		}
 		sb.append("\n");

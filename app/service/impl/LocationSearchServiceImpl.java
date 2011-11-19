@@ -18,9 +18,9 @@ public class LocationSearchServiceImpl implements LocationSearchService {
 	public List<Location> getRecommendedLocations(User u, SearchQuery q) {
 		List<Score> scores = null;
 		if (q.hasCategory()) {
-			scores = Score.find("select s from Score s join s.category c where s.user = :uid and c.id in :cids order by score desc").bind("uid", u).bind("cids", q.getCategories()).fetch(9);			
+			scores = Score.find("select s from Score s join s.category c where s.user = :uid and c.id in :cids and c.level = 2 order by score desc").bind("uid", u).bind("cids", q.getCategories()).fetch(9);			
 		} else {
-			scores = Score.find("select s from Score s join s.category c where s.user = :uid order by score desc").bind("uid", u).fetch(9);
+			scores = Score.find("select s from Score s join s.category c where s.user = :uid and c.level = 2 order by score desc").bind("uid", u).fetch(9);
 		}
 		if (CollectionUtils.isNotEmpty(scores)) {
 			List<Location> locations = new ArrayList<Location>();

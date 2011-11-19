@@ -6,5 +6,5 @@ eclipse/*
 .DS_Store
 .classpath
 tmp/*
-modules/dotcloud-0.2/commands.pyc
+
 modules/crud/commands.pyc

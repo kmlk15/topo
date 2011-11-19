@@ -16,11 +16,14 @@ public class Category extends Model {
 
 	@Expose
 	public String name;
+	
+	@Expose
+	public Integer level;
 				
 	public int compareTo(Category other) {
 		return name.compareTo(other.name);
 	}
-		
+	
 	public String toString() {
 		return name;
 	}
@@ -37,6 +40,9 @@ public class Category extends Model {
 		sb.append("Category(category").append(id).append("):\n");
 		if (StringUtils.isNotEmpty(name)) {
 			sb.append("    name: ").append(name).append("\n");
+		}
+		if (level != null) {
+			sb.append("    level: ").append(level).append("\n");
 		}
 		sb.append("\n");
 		return sb.toString();
