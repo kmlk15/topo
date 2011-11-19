@@ -35,7 +35,7 @@ public class DataExport extends Controller {
 				"attachment; filename=export-"
 						+ new DateTime().toString("yyyyMMdd-hhmmss") + ".yml");
 		try {
-			List<Category> category = Category.find("order by parent_id asc, id asc").fetch();
+			List<Category> category = Category.find("order by id asc").fetch();
 			for (Category c : category) {
 				response.out.write(c.toYML().getBytes());
 			}
