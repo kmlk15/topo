@@ -140,21 +140,21 @@ Category(category35):
 
 Location(location1):
     name: Hong Kong Park
-    popularity: 2.0
+    popularity: 3.0
     category:
     - category1
     - category10
 
 Location(location2):
     name: Hong Kong Zoological and Botanical Gardens
-    popularity: 2.0
+    popularity: 3.0
     category:
     - category1
     - category12
 
 Location(location3):
     name: Central Plaza
-    popularity: 1.0
+    popularity: 0.0
     category:
     - category2
     - category16
@@ -168,14 +168,14 @@ Location(location4):
 
 Location(location5):
     name: Man Mo Temple
-    popularity: 1.0
+    popularity: 6.0
     category:
     - category3
     - category17
 
 Location(location6):
     name: Stanley Market
-    popularity: 0.0
+    popularity: 9.0
     category:
     - category4
     - category20
@@ -189,7 +189,7 @@ Location(location7):
 
 Location(location8):
     name: Victoria Peak
-    popularity: 0.0
+    popularity: 11.0
     category:
     - category6
     - category28
@@ -210,7 +210,7 @@ Location(location10):
 
 Location(location11):
     name: Museum of History
-    popularity: 0.0
+    popularity: 8.0
     category:
     - category5
     - category25
@@ -224,7 +224,7 @@ Location(location12):
 
 Location(location13):
     name: Star Ferry
-    popularity: 0.0
+    popularity: 5.0
     category:
     - category7
     - category30
@@ -238,7 +238,7 @@ Location(location14):
 
 Location(location15):
     name: Waterfront Promenade
-    popularity: 0.0
+    popularity: 2.0
     category:
     - category6
     - category29
@@ -262,7 +262,7 @@ Location(location18):
     nameKey: china.sars.hong_kong.southern.ocean_park
     shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
     longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
-    popularity: 2.0
+    popularity: 7.0
     category:
     - category1
     - category13
@@ -276,7 +276,7 @@ Location(location19):
 
 Location(location20):
     name: Po Lin Buddha
-    popularity: 0.0
+    popularity: 10.0
     category:
     - category3
     - category19
@@ -311,7 +311,7 @@ Location(location24):
 
 Location(location25):
     name: Hong Kong Island Tram
-    popularity: 0.0
+    popularity: 4.0
     category:
     - category7
     - category31
@@ -395,6 +395,74 @@ District(district1):
     name: Southern
     nameKey: china.sars.hong_kong.southern
 
+District(district2):
+    name: Central and Western
+    nameKey: china.sars.hong_kong.central_and_western
+
+District(district3):
+    name: Wan Chai
+    nameKey: china.sars.hong_kong.wan_chai
+
+District(district4):
+    name: Eastern
+    nameKey: china.sars.hong_kong.eastern
+
+District(district5):
+    name: Yau Tsim Mong
+    nameKey: china.sars.hong_kong.yau_tsim_mong
+
+District(district6):
+    name: Sham Shui Po
+    nameKey: china.sars.hong_kong.sham_shui_po
+
+District(district7):
+    name: Kowloon City
+    nameKey: china.sars.hong_kong.kowloon_city
+
+District(district8):
+    name: Wong Tai Sin
+    nameKey: china.sars.hong_kong.wong_tai_sin
+
+District(district9):
+    name: Kwun Tong
+    nameKey: china.sars.hong_kong.Kwun_tong
+
+District(district10):
+    name: Kwai Tsing
+    nameKey: china.sars.hong_kong.kwai_tsing
+
+District(district11):
+    name: Tsuen Wan
+    nameKey: china.sars.hong_kong.tsuen_wan
+
+District(district12):
+    name: Tuen Mun
+    nameKey: china.sars.hong_kong.tuen_mun
+
+District(district13):
+    name: Yuen Long
+    nameKey: china.sars.hong_kong.yuen_long
+
+District(district14):
+    name: North
+    nameKey: china.sars.hong_kong.north
+
+District(district15):
+    name: Tai Po
+    nameKey: china.sars.hong_kong.tai_po
+
+District(district16):
+    name: Sha Tin
+    nameKey: china.sars.hong_kong.sha_tin
+
+District(district17):
+    name: Sai Kung
+    nameKey: china.sars.hong_kong.sai_kung
+
+District(district18):
+    name: Islands
+    nameKey: china.sars.hong_kong.islands
+
 City(city1):
     name: Hong Kong
     nameKey: china.sars.hongkong
@@ -411,6 +479,7 @@ Address(address1):
     street1: 19 Cotton Tree Drive
     street2: Central
     location: location1
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -419,6 +488,7 @@ Address(address2):
     street1: Albany Road
     street2: Central
     location: location2
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -427,6 +497,7 @@ Address(address3):
     street1: 18 Harbour Road
     street2: Wan Chai
     location: location3
+    district: district3
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -435,13 +506,16 @@ Address(address4):
     street1: 8 Connaught Place
     street2: Central
     location: location4
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
 
 Address(address5):
     street1: 126 Hollywood Road
+    street2: Central
     location: location5
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -449,6 +523,7 @@ Address(address5):
 Address(address6):
     street1: Stanley
     location: location6
+    district: district1
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -457,6 +532,7 @@ Address(address7):
     street1: 94 Bonham Road
     street2: Pok Fu Lam
     location: location7
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -465,6 +541,7 @@ Address(address8):
     street1: 126 Peak Road
     street2: Central
     location: location8
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -473,6 +550,7 @@ Address(address9):
     street1: Tung Tsing Road
     street2: Kowloon City
     location: location9
+    district: district7
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -481,6 +559,7 @@ Address(address10):
     street1: 10 Sailsbury Road
     street2: Tsim Sha Tsui, Kowloon
     location: location10
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -489,6 +568,7 @@ Address(address11):
     street1: 100 Chatham Road South
     street2: Tsim Sha Tsui, Kowloon
     location: location11
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -497,12 +577,13 @@ Address(address12):
     street1: 2 Science Museum Road
     street2: Tsim Sha Tsui, Kowloon
     location: location12
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
 
 Address(address13):
-    street1: Tsim Sha Tsui  to Wanchai
+    street1: Tsim Sha Tsui to Wanchai
     location: location13
     city: city1
     stateProvince: stateProvince1
@@ -512,6 +593,7 @@ Address(address14):
     street1: Kansu Street and Jordan Road
     street2: Mongkok, Kowloon
     location: location14
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -520,6 +602,7 @@ Address(address15):
     street1: Salisbury Road
     street2: Tsim Sha Tsui, Kowloon
     location: location15
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -528,6 +611,7 @@ Address(address16):
     street1: Wetland Park Road
     street2: Tin Shui Wai, New Territories
     location: location16
+    district: district13
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -536,6 +620,7 @@ Address(address17):
     street1: 220 Pai Tau Village
     street2: Sha Tin, New Territories
     location: location17
+    district: district16
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -552,6 +637,7 @@ Address(address18):
 Address(address19):
     street1: Lantau Island
     location: location19
+    district: district18
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -559,6 +645,7 @@ Address(address19):
 Address(address20):
     street1: Lantau Island
     location: location20
+    district: district18
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -567,6 +654,7 @@ Address(address21):
     street1: 7 Castle Road, Mid-Levels
     street2: Central
     location: location21
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -575,6 +663,7 @@ Address(address22):
     street1: 10 Chancery Lane
     street2: Central
     location: location22
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -583,6 +672,7 @@ Address(address23):
     street1: 60C Leighton Rd,
     street2: Causeway Bay
     location: location23
+    district: district3
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -591,6 +681,7 @@ Address(address24):
     street1: Lam Kam Road, Tai Po
     street2: New Territories
     location: location24
+    district: district15
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -599,6 +690,7 @@ Address(address25):
     street1: 1 Lugard Rd
     street2: Central
     location: location26
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -607,6 +699,7 @@ Address(address26):
     street1: Tung Choi Street,
     street2: Mong Kok, Kowloon
     location: location27
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -615,6 +708,7 @@ Address(address27):
     street1: 8 Finance Street
     street2: Central
     location: location28
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -623,6 +717,7 @@ Address(address28):
     street1: 29th and 30th fl., One Peking, 1 Peking Rd
     street2: Tsim Sha Tsui, Kowloon
     location: location29
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -631,6 +726,7 @@ Address(address29):
     street1: Lower basement, 79 Wyndham Street
     street2: Central
     location: location30
+    district: district2
     city: city1
     stateProvince: stateProvince1
     country: country1
@@ -639,9 +735,17 @@ Address(address30):
     street1: Flower Market Road
     street2: Mong Kok, Kowloon
     location: location31
+    district: district5
     city: city1
     stateProvince: stateProvince1
     country: country1
+    
+Address(address31):
+    street1: Kennedy Town to Shau Kei Wan
+    location: location25
+    city: city1
+    stateProvince: stateProvince1
+    country: country1    
 
 Admission(admission1):
     type: General
@@ -948,12 +1052,162 @@ Picture(picture1):
     type: result
     url: /public/images/china/sars/hong_kong/southern/ocean_park/result.jpg
 
+Picture(picture2):
+    location: location1
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hk_park/result.jpg
+
+Picture(picture3):
+    location: location31
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/flower_market/result.jpg
+
+Picture(picture4):
+    location: location2
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hk_zoological_and_botanical_gardens/result.jpg
+
+Picture(picture5):
+    location: location3
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/central_plaza/result.jpg
+
+Picture(picture6):
+    location: location4
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/exchange_square/result.jpg
+
+Picture(picture7):
+    location: location5
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/man_mo_temple/result.jpg
+
+Picture(picture8):
+    location: location6
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/stanley_market/result.jpg
+
+Picture(picture9):
+    location: location7
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/university_museum_and_art_gallery/result.jpg
+
+Picture(picture10):
+    location: location8
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/victoria_peak/result.jpg
+
+Picture(picture11):
+    location: location9
+    type: result
+    url: /public/images/china/sars/hong_kong/kowloon_city/kowloon_walled_city_park/result.jpg
+
+Picture(picture12):
+    location: location10
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_art/result.jpg
+
+Picture(picture13):
+    location: location11
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_history/result.jpg
+
+Picture(picture14):
+    location: location12
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/science_museum/result.jpg
+
+Picture(picture15):
+    location: location14
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/temple_street/result.jpg
+
+Picture(picture16):
+    location: location15
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/waterfront_promenade/result.jpg
+
+Picture(picture17):
+    location: location16
+    type: result
+    url: /public/images/china/sars/hong_kong/yuen_long/hk_wetland_park/result.jpg
+
+Picture(picture18):
+    location: location17
+    type: result
+    url: /public/images/china/sars/hong_kong/sha_tin/ten_thousand_buddhas_temple/result.jpg
+
+Picture(picture19):
+    location: location19
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/hk_disneyland/result.jpg
+
+Picture(picture20):
+    location: location20
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/po_lin_buddha/result.jpg
+
+Picture(picture21):
+    location: location21
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/dr_sun_yat_sen_museum/result.jpg
+
+Picture(picture22):
+    location: location22
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/10_chancery_lane_gallery/result.jpg
+
+Picture(picture23):
+    location: location23
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/edge_gallery/result.jpg
+
+Picture(picture24):
+    location: location24
+    type: result
+    url: /public/images/china/sars/hong_kong/tai_po/kadoorie_farm_botanic_ garden/result.jpg
+
+Picture(picture25):
+    location: location26
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/peak_tram/result.jpg
+
+Picture(picture26):
+    location: location27
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/goldfish_market/result.jpg
+
+Picture(picture27):
+    location: location28
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/ifc_mall/result.jpg
+
+Picture(picture28):
+    location: location29
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/aqua_spirit/result.jpg
+
+Picture(picture29):
+    location: location30
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/yumla/result.jpg
+
+Picture(picture30):
+    location: location13
+    type: result
+    url: /public/images/china/sars/hong_kong/star_ferry/result.jpg
+
+Picture(picture31):
+    location: location25
+    type: result
+    url: /public/images/china/sars/hong_kong/hk_island_tram/result.jpg
+
 User(user1):
     email: alan@test.com
     displayName: Alan Smith
 
 Score(score1):
-    score: 3.0
+    score: 7.0
     user: user1
     category: category13
 
@@ -963,7 +1217,7 @@ Score(score2):
     category: category18
 
 Score(score3):
-    score: 8.0
+    score: 18.0
     user: user1
     category: category1
 
@@ -978,22 +1232,22 @@ Score(score5):
     category: category4
 
 Score(score6):
-    score: 8.0
+    score: 20.0
     user: user1
     category: category12
 
 Score(score7):
-    score: 2.0
+    score: 8.0
     user: user1
     category: category2
 
 Score(score8):
-    score: 4.0
+    score: 16.0
     user: user1
     category: category16
 
 Score(score9):
-    score: 4.0
+    score: 8.0
     user: user1
     category: category10
 
