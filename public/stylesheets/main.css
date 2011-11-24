@@ -732,4 +732,140 @@ font-weight: normal;
 .orange {
 	color: #f86335;
 	}
-		
+	
+/* -----------------------Itinerary Page------------------------ */
+
+#centerCol {
+	float:left;
+	width:655px;
+	height: 600px;
+	margin-top: 30px;
+	}
+
+#rightRail {
+	float:left;
+	width:185px;
+	background-color: #ccc;
+	margin: 30px 0 0 30px;
+	}
+
+/* ----------------------- expand ------------------------ */
+.outer-container{
+	margin-bottom: 1px;
+}
+
+.outer-container div{
+/*	width: 653px;*/
+	/*padding: 20px;*/
+	position: relative;
+	}
+
+.open, .closed, .ajax, .duration{
+	background: #f5f5f5;
+	}
+
+/* default class for the button containers */
+.outer-container div.button-container{
+	position: relative;
+	margin: 0;
+	height: 25px;
+	/*width: 653px;*/
+/*	padding: 10px;*/
+	background: #737373;
+	border: 1px solid #7b7b7b;
+	}
+
+a {
+	color: transparent; text-decoration: none;
+	}
+
+a.Xpandable {
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #fff;
+    border-top: 6px solid transparent;
+    display: block;
+    float: left;
+    height: 0;
+    left: 15px;
+    position: relative;
+    top: 7px;
+    width: 0;
+}
+
+/*active states*/
+.outer-container div.bc-active {
+	margin: 0;
+	/*padding: 10px;*/
+	position: relative;
+	border: 1px solid #545454;
+}
+
+.content-active {
+	width: 653px;
+	border-style: solid; 
+	border-color: #737373;
+	border-width: 0 1px 1px;
+	
+}
+
+a.Xpandable.link-active {
+	top: 12px;
+	left: 13px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+}
+
+.closed span {
+	display: block;
+	margin: 15px 0 4px;
+}
+
+.button-container span {
+	color: #fff;
+	position: absolute; 
+	left: 30px;
+	top: 5px;
+	font-size: 13px;
+}
+
+.innerCell {
+	padding: 0 12px 0 12px;
+	}
+.innerCellLeft {
+	float: left;
+	margin: 12px 8px 0 0;
+	width: 18px;
+	}
+.orangeNum {
+	width: 15px;
+	height: 15px;
+	font-size: 11px;
+	padding-top: 1px;
+	text-align: center;
+	background-color: #f86335;
+	color: #fff;
+	}
+.innerCellCenter {
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 12px 15px 0 0px;
+	width: 560px;
+	}
+.innerCellRight {
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 12px 0 0 0;
+	width: 20px;
+	}
+	
+.innerDotLine {
+	margin: 12px 0 0 0;
+	padding-top: 0px;
+	height: 1px;
+	border-top: 1px dashed #666666;
+		}
+
+/* ----------------------- end expand ------------------------ */		
