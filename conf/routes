@@ -16,6 +16,8 @@ GET     /result                                 app.Result.index
 GET     /result/{action}                        app.Result.{action}
 POST    /result/{action}                        app.Result.{action}
 GET     /detail/{id}                            app.Detail.index
+GET     /itinerary                              app.Itinerary.index
+GET     /profile                              	app.Profile.index
 
 # Internal
 GET     /internal                               internal.QueryTracker.index
