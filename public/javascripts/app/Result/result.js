@@ -1,24 +1,10 @@
 $(document).ready(function() {
 
-    var add = function(id) {
+    var run = function(id, action) {
         $.ajax({
             type    :   'POST',
             datatype:   'json',
-            url     :   '/result/add',
-            data    :   {
-                id	:   id
-            },
-            timeout :   30000,
-            success :   function(d) {
-            }
-        });
-    }
-
-    var remove = function(id) {
-        $.ajax({
-            type    :   'POST',
-            datatype:   'json',
-            url     :   '/result/remove',
+            url     :   '/result/'+action,
             data    :   {
                 id	:   id
             },
@@ -45,18 +31,14 @@ $(document).ready(function() {
         var item = $('#list'+id);
         if (item.length == 0) {
 	        addToKnapsack(id, name);
-	        add(id);
+	        run(id, "add");
         }
     });
 
     $('a.dismissBtn').live("click", function(e) {
         e.preventDefault();
         var id = this.id.substring(2);
-        var prefix = this.id.substring(0, 1);
-        var item = $('#list'+id);
-        if (item.length > 0) {
-        	remove(id);
-        }
+        run(id, "dismiss");
     });
 
     $('a.removeBtn').live("click", function(e) {
@@ -66,6 +48,7 @@ $(document).ready(function() {
         var item = $('#list'+id);
         if (item.length > 0) {
         	item.remove();
+        	run(id, "remove");
         }
     });
 });

@@ -60,7 +60,6 @@ public class LocationSearchServiceImpl implements LocationSearchService {
 		List<Long> cids = new ArrayList<Long>();
 		if (q.hasCategory()) {
 			cids.addAll(q.getCategories());
-			cids.addAll(getLevelOneCategories(q.getCategories()));
 		}
 		List<Location> locations = null;
 		if (q.hasCity() && q.hasCategory()) {
@@ -107,16 +106,6 @@ public class LocationSearchServiceImpl implements LocationSearchService {
 			return locations;
 		}
 		return getPopularLocations(u, q);
-	}
-	
-	private List<Long> getLevelOneCategories(List<Long> categories) {
-		List<Long> levelOne = new ArrayList<Long>();
-		for (Long i : categories) {
-			Long lid = Location.find("select l.id from Location l join l.category c where c.id = :cid").bind("cid", i).first();				
-			Long id = Location.find("select c.id from Location l join l.category c where l.id = :lid and c.level = 1").bind("lid", lid).first();
-			levelOne.add(id);
-		}
-		return levelOne;
 	}
 
 	private List<Long> getLevelTwoCategories(List<Long> categories) {

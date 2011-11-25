@@ -4,6 +4,7 @@ import java.util.List;
 
 import models.Location;
 import models.User;
+import models.app.Knapsack;
 import models.app.SearchQuery;
 import play.Logger;
 import play.cache.Cache;
@@ -70,21 +71,31 @@ public class Result extends Controller {
 
     public static void add(long id) {
     	Long userid = Cache.get(session.getId()+"-user", Long.class);
-    	Logger.debug(""+userid);
 		User user = User.findById(userid);
 		Location location = Location.findById(id);
 		ss.calculate(location, LocationScoring.RESULT_LIKE);
 		ss.calculate(user, location, UserScoring.RESULT_LIKE);
+		Knapsack knapsack = Cache.get(session.getId()+"-knapsack", Knapsack.class);
+		knapsack.add(id);
+		Logger.debug(knapsack.toString());
+		Cache.set(session.getId()+"-knapsack", knapsack);
 		response.status = 200;
 	}
 	
-	public static void remove(long id) {
+	public static void dismiss(long id) {
     	Long userid = Cache.get(session.getId()+"-user", Long.class);
-    	Logger.debug(""+userid);
 		User user = User.findById(userid);
 		Location location = Location.findById(id);
 		ss.calculate(location, LocationScoring.RESULT_DISLIKE);
 		ss.calculate(user, location, UserScoring.RESULT_DISLIKE);
+		Logger.debug(Long.toString(id));
+		response.status = 200;
+	}
+	
+	public static void remove(long id) {
+		Knapsack knapsack = Cache.get(session.getId()+"-knapsack", Knapsack.class);
+		knapsack.remove(id);
+		Logger.debug(knapsack.toString());
 		response.status = 200;
 	}
 }

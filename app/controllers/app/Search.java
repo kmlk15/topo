@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import models.User;
+import models.app.Knapsack;
 import models.app.SearchQuery;
 import play.Logger;
 import play.cache.Cache;
@@ -35,6 +36,8 @@ public class Search extends Controller {
     	Logger.debug(query);
     	SearchQuery searchQuery = sqp.parseQuery(query);
     	Cache.set(session.getId()+"-search", searchQuery, "30mn");
+    	Knapsack knapsack = new Knapsack();
+    	Cache.set(session.getId()+"-knapsack", knapsack, "30mn");
     	Result.index();
     }
     

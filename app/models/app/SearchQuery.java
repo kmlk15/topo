@@ -61,7 +61,7 @@ public class SearchQuery implements Serializable {
 	}
 
 	public String toString() {
-		String result[] = new String[4];
+		String result[] = new String[2];
 		result[0] = StringUtils.join(cities, ",");
 		result[1] = StringUtils.join(categories, ",");
 		return StringUtils.join(result, ":");
