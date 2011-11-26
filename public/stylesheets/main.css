@@ -738,15 +738,8 @@ font-weight: normal;
 #centerCol {
 	float:left;
 	width:655px;
-	height: 600px;
+	min-height:600px;
 	margin-top: 30px;
-	}
-
-#rightRail {
-	float:left;
-	width:185px;
-	background-color: #ccc;
-	margin: 30px 0 0 30px;
 	}
 
 /* ----------------------- expand ------------------------ */
@@ -828,7 +821,6 @@ a.Xpandable.link-active {
 	top: 5px;
 	font-size: 13px;
 }
-
 .innerCell {
 	padding: 0 12px 0 12px;
 	}
@@ -837,20 +829,11 @@ a.Xpandable.link-active {
 	margin: 12px 8px 0 0;
 	width: 18px;
 	}
-.orangeNum {
-	width: 15px;
-	height: 15px;
-	font-size: 11px;
-	padding-top: 1px;
-	text-align: center;
-	background-color: #f86335;
-	color: #fff;
-	}
 .innerCellCenter {
 	float: left;
 	font-size: 12px;
 	line-height: 20px;
-	margin: 12px 15px 0 0px;
+	margin: 12px 15px 12px 0px;
 	width: 560px;
 	}
 .innerCellRight {
@@ -859,13 +842,97 @@ a.Xpandable.link-active {
 	line-height: 20px;
 	margin: 12px 0 0 0;
 	width: 20px;
-	}
-	
+	}	
 .innerDotLine {
-	margin: 12px 0 0 0;
 	padding-top: 0px;
 	height: 1px;
 	border-top: 1px dashed #666666;
-		}
+	}
+.squareNum {
+	width: 15px;
+	height: 15px;
+	font-size: 11px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	}
+.orangeNum {
+	background-color: #f86335;
+	}
+.blueNum {
+	background-color: #3399ff;
+	}
+.greenNum {
+	background-color: #2ca610;
+	}
+.redNum {
+	background-color: #ce0000;
+	}
+.grayNum {
+	background-color: #737373;
+	}
 
-/* ----------------------- end expand ------------------------ */		
+/* ----------------------- end expand ------------------------ */
+
+/* ----------------------- intinerary rightrail ------------------------ */
+#rightRail {
+	float:left;
+	width:185px;
+	margin: 30px 0 0 30px;
+	}
+#rightRail h3 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 5px 0;
+	color: #ff3c00;
+	}
+.rtDotLine {
+	border-bottom: 1px dotted #7b7b7b;
+	}
+.rtLine {
+	border-bottom: 1px solid #7b7b7b;
+	}
+.exclus {
+	border: 1px solid #7b7b7b;
+	background-color: #d7ebff;
+	margin-bottom: 15px;
+	}
+.exclusHder {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 5px;
+	color: #ccc;
+	background-color: #666;
+	}
+.exclusCont {
+	padding: 3px 5px;
+	}
+.exclusCont p {
+	font-size: 11px;
+	line-height: 13px;
+	padding: 3px 0;
+	color: #333;
+	}
+.promo {
+	border: 1px solid #7b7b7b;
+	background-color: #e5e5e5;
+	margin-bottom: 15px;
+	}
+.promoHder {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 5px;
+	color: #515151;
+	border-bottom: 2px solid #7b7b7b;
+	}
+.promoCont {
+	padding: 3px 5px;
+	}
+.promoCont p {
+	font-size: 11px;
+	line-height: 13px;
+	padding: 3px 0;
+	color: #515151;
+	}
+/* ----------------------- end intinerary rightrail ------------------------ */		
