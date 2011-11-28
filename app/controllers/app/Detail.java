@@ -9,4 +9,12 @@ public class Detail extends Controller {
 	public static void index(long id) {
 		render();
 	}
+	
+	public static void detail() {
+		render();
+	}
+	
+	public static void area() {
+		render();
+	}
 }

@@ -8,4 +8,12 @@ public class Profile extends Controller {
         render();
     }
 
+	public static void profile() {
+		render();
+	}
+	
+	public static void trip() {
+		render();
+	}
+
 }

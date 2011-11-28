@@ -39,10 +39,11 @@
 	width: 160px; 
 	height: 30px;
 	/*padding: .5em 1em; */
-	padding-top:5px;
+	padding-top:3px;
 	/*padding-left: 15px;*/
 	text-decoration: none;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-size: 14px;
 	color: #fff;
 	text-align: center;
 	}
@@ -50,7 +51,7 @@
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { 
 	margin-bottom: 0; 
 	padding-bottom: 0px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	background:url('/public/images/general/nav_selected_bg.gif') no-repeat;
 	}
 	

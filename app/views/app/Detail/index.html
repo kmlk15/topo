@@ -8,136 +8,34 @@
 			<div id="logo"><a href="/"><img src="@{'public/images/general/logo.png'}" alt="topofin" /></a></div>
 			<!-- <div id="signIn"><a href="#">sign in / join us</a></div> -->
 		</div>
-<!-- Overview Column -->		
+		
 		<div id="leftCol">
-			<div class="trvTab">OVERVIEW</div>
-			<div class="ovCell ovCellFst">
-				<a class="blueBtn" href="#">add to knapsack ></a>
-			</div>
-			<div class="ovCell"><strong>The Basics</strong></div>
-			<div class="ovCell">
-				<ul>
-					<li><strong>Address:</strong></li>
-					<li>19 Cotton Tree Dr, Central, Hong Kong</li>
-				</ul>
-				<ul>
-					<li><strong>Phone:</strong></li>
-					<li>852-25215041</li>
-				</ul>
-				<ul>
-					<li><strong>Hours:</strong></li>
-					<li>Monday-Friday 9am-10pm</li>
-				</ul>
-				<ul>
-					<li><strong>Admission:</strong></li>
-					<li>Adult:</li>
-					<li>Child:</li>
-				</ul>
-				<ul>
-				<li><strong>Website:</strong></li>
-				<li>www.lcsd.gov.hk/parks/ hkp/en/index.php</li>
-				</ul>
-			</div>
-			<div class="ovCell"><strong>Features</strong></div>
-			<div class="ovCellLst">
-				<ul class="sample">
-				<li>Edward Youde Aviary - Birds Collection</li>
-				<li>Forsgate Conservatory</li>
-				<li>Old and Valuable Trees</li>
-				</ul>
+			<div class="trvTab">TRAVELER</div>
+			<div class="trvHolder">
+				<div class="trvBdy"><h1>Mauri Smith</h1>
+					<div class="trvImg"><a href="@{app.profile.index()}"><img src="@{'public/images/users/user_mauri.jpg'}" alt="Mauri Smith" /></a></div>
+					<div class="trvCont">heading towards:<br />
+					<h3>Hong Kong, China</h3>
+					from: <br />
+					8/25 - 9/8</div>
+					<div class="clear"></div>
+					<!-- <br />
+										&nbsp;&nbsp;&nbsp;with 6 companies<br />
+										<img src="@{'public/images/users/FPO_companies.png'}" alt="FPO" /> -->
+				</div>
+				<div class="locTab" id="knapsack"><strong>Your knapsack</strong></div>
+				<div class="itnCell"><a class="itnBtn" href="@{app.itinerary.index()}">itinerary</a></div>
+				
+				<div class="clear"></div>
 			</div>
 		</div>
 		
-<!-- Main Column -->
 		<div id="rightCol">
-			<!-- NAV -->
-			<div class="detailNav">
-				<div class="detailNavSelect">ATTRACTION</div>
-				<a class="detailNavBox" href="#">BACK TO RESULT</a>
-				<a class="detailNavBox" href="#">ITINERARY</a>
-				<a class="detailNavBox" href="#">PROFILE</a>
-			</div>
-			
-			<div class="detailHero">
-				<div class="detailHeroTitle"><span class="imgHeader">Hong Kong Park</span> Central, Hong Kong<br /></div>
-				<img src="@{'public/images/general/search_hero_FPO.jpg'}" alt="FPO" />
-			</div>
-			
-			<div class="deMainCol">
-				<div class="detailTab">STORY</div>
-				<div class="detailTabBtn"><a class="blueBtn" href="#">share your story ></a></div>
-				
-				<div class="clear"></div>
-				
-		<!-- Long Description -->
-				<div class="deDesCell">
-					<a href="/"><img src="@{'public/images/detail/user_B.gif'}" alt="" /></a>
-					<span class="orange">Beagle</span> says:
-					<p>LONG DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world, emphasising artificial creations such as its fountain plaza, conservatory, waterfall, indoor games hall, playground, t’ai chi garden, viewing tower, museum and arts centre. For all its artifice, the eight-hectare park is beautiful in its own weird way and, with a wall of skyscrapers on one side and mountains on the other, makes for some dramatic photographs.</p>
-				</div>
-				
-		<!-- bottom left column -->
-				<div class="deUserLt">
-					<div class="deDesCell">
-						<a href="/"><img src="@{'public/images/detail/user_01.jpg'}" alt="" /></a>
-						<span class="orange">Shannon M.</span> says:
-						<div class="deDes">
-						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
-						</div>
-						<a href="#">Read More ></a>
-					</div>
-					
-					<div class="deDesCell">
-						<a href="/"><img src="@{'public/images/detail/user_02.jpg'}" alt="" /></a>
-						<span class="orange">Whitter</span> says:
-						<div class="deDes">
-						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
-						</div>
-						<a href="#">Read More ></a>
-					</div>
-				</div>
-				
-		<!-- bottom right column -->	
-				<div class="deUserRt">
-					<div class="deDesCell">
-						<a href="/"><img src="@{'public/images/detail/user_03.jpg'}" alt="" /></a>
-						<span class="orange">Jack</span> says:
-						<div class="deDes">
-						<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world.</p>
-						</div>
-						<a href="#">Read More ></a>
-					</div>
-				
-					<div class="deDesCell">
-						<a href="/"><img src="@{'public/images/detail/user_04.jpg'}" alt="" /></a>
-						<span class="orange">Ross</span> says:
-						<div class="deDes">
-							<p>DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world. </p>
-						</div>
-						<a href="#">Read More ></a>
-					</div>
-				
-				</div>
-			</div>
-			
-		<!-- Right Rail -->
-			<div class="deRightRail">
-				<div class="deRailTab">IN THE AREA</div>
-				<div class="deRailContCell">
-					<div class="deRailContent">
-						<p>Wing Fat Noodle House<p/>
-						<a href="#"><img src="@{'public/images/detail/img_01.jpg'}" alt="" /></a>
-					</div>
-					<div class="deRailContent">
-						<p>Sogo<p/>
-						<a href="#"><img src="@{'public/images/detail/img_02.jpg'}" alt="" /></a>
-					</div>
-					<div class="deRailContent">
-						<p>Pacific Dim Sum<p/>
-						<a href="#"><img src="@{'public/images/detail/img_03.jpg'}" alt="" /></a>
-					</div>
-					<a class="moreBtn" href="#">More</a>
-				</div>
-			</div>
+				<div id="tabs"> 
+					<ul>
+					<li><a href="@{app.detail.detail()}">ATTRACTION DETAIL</a></li> 
+					<li><a href="@{app.detail.area()}">IN THE AREA</a></li> 
+					</ul> 
+				</div> 
 		</div>
 </div>
