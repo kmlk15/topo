@@ -76,6 +76,17 @@ public class Location extends Model {
 		}
 		return null;
 	}
+
+	public String getDetailImageUrl() {
+		if (CollectionUtils.isNotEmpty(picture)) {
+			for (Picture pic : picture) {
+				if ("detail".equals(pic.type)) {
+					return pic.url;
+				}
+			}
+		}
+		return null;
+	}
 	
 	public String getDisplayName() {
 		if (StringUtils.isNotEmpty(nameKey)) {
@@ -87,6 +98,14 @@ public class Location extends Model {
 	public String getShortDescription() {
 		if (StringUtils.isNotEmpty(shortDescKey)) {
 			return Messages.get(shortDescKey);
+		}
+		return null;
+		
+	}
+
+	public String getLongDescription() {
+		if (StringUtils.isNotEmpty(longDescKey)) {
+			return Messages.get(longDescKey);
 		}
 		return null;
 		

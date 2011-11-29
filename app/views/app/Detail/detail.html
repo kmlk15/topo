@@ -2,30 +2,40 @@
 <div id="detailCol">
 			
 	<div class="detailHero">
-		<div class="detailHeroTitle"><span class="imgHeader">Hong Kong Park</span> Central, Hong Kong<br /></div>
-		<img src="@{'public/images/china/sars/hong_kong/islands/hk_disneyland/detail.jpg'}" alt="Hong Kong Disneyland" />
+		<div class="detailHeroTitle"><span class="imgHeader" id="displayName">${location?.displayName}</span> ${location?.currentAddress?.districtAddress}<br /></div>
+		 #{if location?.detailImageUrl}
+        	<img src="${location.detailImageUrl}" alt="${location?.displayName}" />
+         #{/if}
 	</div>
 			
 	<div class="deMainCol">
 		<div class="detailTab">OVERVIEW</div>
 		<div class="deDesCell">
-			<a href="/"><img src="@{'public/images/detail/user_B.gif'}" alt="" /></a>
-			<span class="orange">Beagle</span> says:
-			<p>LONG DESCRIPTION - Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world, emphasising artificial creations such as its fountain plaza, conservatory, waterfall, indoor games hall, playground, t’ai chi garden, viewing tower, museum and arts centre. For all its artifice, the eight-hectare park is beautiful in its own weird way and, with a wall of skyscrapers on one side and mountains on the other, makes for some dramatic photographs.</p>
+			#{if location?.longDescription} 
+				<a href="/"><img src="@{'public/images/detail/user_B.gif'}" alt="" /></a>
+				<span class="orange">Beagle</span> says:
+				<p>${location.longDescription}</p>
+			#{/if}
 			<div class="deBasic">
 				<strong>The Basics</strong>
 				<div class="deDotLine"></div>
 				
 					<div class="deBasicLt">
 						<p><strong>Address:</strong>
-						<br>19 Cotton Tree Dr,
-						<br>Central, Hong Kong</p>
-						<p><strong>Phone:</strong>
-						<br>852-25215041</p>
+						<br>${location?.currentAddress?.streetAddress}
+						<br>${location?.currentAddress?.districtAddress}</p>
+						<p>
+							<strong>Phone:</strong>
+							#{if location?.phone}
+								#{list items:location?.phone, as:'phone'}
+									<br/>${phone.phone}
+								#{/list}
+							#{/if}
+						</p>
 					</div>
 				
 				<div class="deBasicRt">
-					<p><strong>Hours:</strong>
+					<p><strong>Hours:</strong>
 					<br>Mon-Fri 9am-10pm</p>
 					<p><strong>Admission:</strong>
 					<br>Adult:
@@ -42,7 +52,7 @@
 				</ul></p>
 			</div>
 			<div class="clear"></div>
-			<div class="buttonRow"><a href="/" class="blueBtn">add to knapsack ></a></div>
+			<div class="buttonRow"><a href="#" class="blueBtn" id="da${location?.id}">add to knapsack ></a></div>
 		</div>
 		
 		<div class="detailTab">STORY</div>	
@@ -99,7 +109,7 @@
 		</div>
 		<div class="exclusCont">
 			<p><strong>Hong Kong Disneyland
-			<h3>Toy Story Land<br>Now Open <br> Asia Exclusive</h3>
+			<h3>Toy Story Land <br/> Now Open <br> Asia Exclusive</h3>
 		</div>
 	</div>
 </div>

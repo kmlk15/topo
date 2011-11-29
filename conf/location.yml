@@ -140,6 +140,7 @@ Category(category35):
 
 Location(location1):
     name: Hong Kong Park
+    longDescKey: china.sars.hong_kong.central_western.hk_park.longDesc
     popularity: 3.0
     category:
     - category1
@@ -477,7 +478,6 @@ Country(country1):
 
 Address(address1):
     street1: 19 Cotton Tree Drive
-    street2: Central
     location: location1
     district: district2
     city: city1
@@ -486,7 +486,6 @@ Address(address1):
 
 Address(address2):
     street1: Albany Road
-    street2: Central
     location: location2
     district: district2
     city: city1
@@ -495,7 +494,6 @@ Address(address2):
 
 Address(address3):
     street1: 18 Harbour Road
-    street2: Wan Chai
     location: location3
     district: district3
     city: city1
@@ -504,7 +502,6 @@ Address(address3):
 
 Address(address4):
     street1: 8 Connaught Place
-    street2: Central
     location: location4
     district: district2
     city: city1
@@ -513,7 +510,6 @@ Address(address4):
 
 Address(address5):
     street1: 126 Hollywood Road
-    street2: Central
     location: location5
     district: district2
     city: city1
@@ -530,7 +526,6 @@ Address(address6):
 
 Address(address7):
     street1: 94 Bonham Road
-    street2: Pok Fu Lam
     location: location7
     district: district2
     city: city1
@@ -539,7 +534,6 @@ Address(address7):
 
 Address(address8):
     street1: 126 Peak Road
-    street2: Central
     location: location8
     district: district2
     city: city1
@@ -548,7 +542,6 @@ Address(address8):
 
 Address(address9):
     street1: Tung Tsing Road
-    street2: Kowloon City
     location: location9
     district: district7
     city: city1
@@ -557,7 +550,6 @@ Address(address9):
 
 Address(address10):
     street1: 10 Sailsbury Road
-    street2: Tsim Sha Tsui, Kowloon
     location: location10
     district: district5
     city: city1
@@ -566,7 +558,6 @@ Address(address10):
 
 Address(address11):
     street1: 100 Chatham Road South
-    street2: Tsim Sha Tsui, Kowloon
     location: location11
     district: district5
     city: city1
@@ -575,7 +566,6 @@ Address(address11):
 
 Address(address12):
     street1: 2 Science Museum Road
-    street2: Tsim Sha Tsui, Kowloon
     location: location12
     district: district5
     city: city1
@@ -591,7 +581,6 @@ Address(address13):
 
 Address(address14):
     street1: Kansu Street and Jordan Road
-    street2: Mongkok, Kowloon
     location: location14
     district: district5
     city: city1
@@ -600,7 +589,6 @@ Address(address14):
 
 Address(address15):
     street1: Salisbury Road
-    street2: Tsim Sha Tsui, Kowloon
     location: location15
     district: district5
     city: city1
@@ -609,7 +597,6 @@ Address(address15):
 
 Address(address16):
     street1: Wetland Park Road
-    street2: Tin Shui Wai, New Territories
     location: location16
     district: district13
     city: city1
@@ -618,7 +605,6 @@ Address(address16):
 
 Address(address17):
     street1: 220 Pai Tau Village
-    street2: Sha Tin, New Territories
     location: location17
     district: district16
     city: city1
@@ -627,7 +613,6 @@ Address(address17):
 
 Address(address18):
     street1: Ocean Park Road
-    street2: Aberdeen
     location: location18
     district: district1
     city: city1
@@ -652,7 +637,6 @@ Address(address20):
 
 Address(address21):
     street1: 7 Castle Road, Mid-Levels
-    street2: Central
     location: location21
     district: district2
     city: city1
@@ -661,7 +645,6 @@ Address(address21):
 
 Address(address22):
     street1: 10 Chancery Lane
-    street2: Central
     location: location22
     district: district2
     city: city1
@@ -670,7 +653,6 @@ Address(address22):
 
 Address(address23):
     street1: 60C Leighton Rd,
-    street2: Causeway Bay
     location: location23
     district: district3
     city: city1
@@ -679,7 +661,6 @@ Address(address23):
 
 Address(address24):
     street1: Lam Kam Road, Tai Po
-    street2: New Territories
     location: location24
     district: district15
     city: city1
@@ -688,7 +669,6 @@ Address(address24):
 
 Address(address25):
     street1: 1 Lugard Rd
-    street2: Central
     location: location26
     district: district2
     city: city1
@@ -697,7 +677,6 @@ Address(address25):
 
 Address(address26):
     street1: Tung Choi Street,
-    street2: Mong Kok, Kowloon
     location: location27
     district: district5
     city: city1
@@ -706,7 +685,6 @@ Address(address26):
 
 Address(address27):
     street1: 8 Finance Street
-    street2: Central
     location: location28
     district: district2
     city: city1
@@ -715,7 +693,6 @@ Address(address27):
 
 Address(address28):
     street1: 29th and 30th fl., One Peking, 1 Peking Rd
-    street2: Tsim Sha Tsui, Kowloon
     location: location29
     district: district5
     city: city1
@@ -724,7 +701,6 @@ Address(address28):
 
 Address(address29):
     street1: Lower basement, 79 Wyndham Street
-    street2: Central
     location: location30
     district: district2
     city: city1
@@ -733,7 +709,6 @@ Address(address29):
 
 Address(address30):
     street1: Flower Market Road
-    street2: Mong Kok, Kowloon
     location: location31
     district: district5
     city: city1
@@ -1201,6 +1176,11 @@ Picture(picture31):
     location: location25
     type: result
     url: /public/images/china/sars/hong_kong/hk_island_tram/result.jpg
+
+Picture(picture32):
+    location: location19
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/hk_disneyland/detail.jpg
 
 User(user1):
     email: alan@test.com

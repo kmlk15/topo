@@ -43,6 +43,17 @@ public class Address extends Model {
 	@Expose
 	public Country country;
 	
+	public String getStreetAddress() {
+		StringBuffer sb = new StringBuffer();
+		if (StringUtils.isNotEmpty(street1)) {
+			sb.append(street1);
+		}
+		if (StringUtils.isNotEmpty(street2)) {
+			sb.append(", ").append(street2);
+		}
+		return sb.toString();
+	}
+	
 	public String getDistrictAddress() {
 		StringBuffer sb = new StringBuffer();
 		if (district != null) {

@@ -15,6 +15,10 @@ public class Knapsack implements Serializable {
 		return locations;
 	}
 	
+	public boolean hasKnapsack() {
+		return CollectionUtils.isNotEmpty(locations);
+	}
+	
 	public void add(Long id) {
 		if (locations == null) {
 			locations = new ArrayList<Long>();

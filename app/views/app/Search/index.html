@@ -1,6 +1,36 @@
 #{extends 'app/main.html' /}
 #{set title:'Search' /}
 
+<!-- search -->
+<script src="@{'/public/javascripts/jquery.tokeninput.js'}" type="text/javascript" charset="UTF-8"></script>
+<script src="@{'/public/javascripts/jquery.flow.1.2.js'}" type="text/javascript" charset="UTF-8"></script>		
+<script type="text/javascript">
+	$(document).ready(
+		function() {
+			$("#searchField").tokenInput("/search/suggest", {theme: "mac"});
+			$("#go").click(function(e){
+			e.preventDefault();
+			$('#searchForm').submit();
+		});
+	});
+	
+	<!-- search background slide -->
+	$(document).ready(function(){
+		$("#myController").jFlow({
+			slides: "#slides",
+			controller: ".jFlowControl", // must be class, use . sign
+			slideWrapper : "#jFlowSlide", // must be id, use # sign
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			auto: true,		//auto change slide, default true
+			width: "1200px",
+			height: "800px",
+			duration: 400,
+			prev: ".jFlowPrev", // must be class, use . sign
+			next: ".jFlowNext" // must be class, use . sign
+		});
+	});
+</script>
+
   <!-- start frame -->
   <div id="searchPage">
 	<div class="schFrame">

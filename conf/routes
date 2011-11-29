@@ -15,7 +15,9 @@ POST    /search/{action}                        app.Search.{action}
 GET     /result                                 app.Result.index
 GET     /result/{action}                        app.Result.{action}
 POST    /result/{action}                        app.Result.{action}
-GET     /detail/{id}                            app.Detail.index
+GET     /detail                                 app.Detail.index
+GET     /detail/{action}		                app.Detail.{action}
+POST    /detail/{action}                        app.Detail.{action}
 GET     /itinerary                              app.Itinerary.index
 GET     /profile                              	app.Profile.index
 

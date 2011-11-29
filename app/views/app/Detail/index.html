@@ -1,6 +1,8 @@
 #{extends 'app/main.html' /}
 #{set title:'Detail' /}
 
+<script src="@{'/public/javascripts/app/Detail/detail.js'}" type="text/javascript" charset="UTF-8"></script>
+
 <!-- start frame -->
 <div id="resultPage">
 	<!-- Top Row -->
@@ -19,11 +21,17 @@
 					from: <br />
 					8/25 - 9/8</div>
 					<div class="clear"></div>
-					<!-- <br />
-										&nbsp;&nbsp;&nbsp;with 6 companies<br />
-										<img src="@{'public/images/users/FPO_companies.png'}" alt="FPO" /> -->
 				</div>
 				<div class="locTab" id="knapsack"><strong>Your knapsack</strong></div>
+				#{if knapsacks}
+	                #{list items:knapsacks, as:'knapsack'}
+	                    <div class="locList" id="list${knapsack?.id}">
+	                        <div class="locName">${knapsack?.displayName}</div>
+	                        <div class="removeCell"><a class="removeBtn" href="#" id="lr${knapsack?.id}">Remove</a></div>
+	                        <div class="clear"></div>
+	                    </div>
+	                #{/list}
+	            #{/if}
 				<div class="itnCell"><a class="itnBtn" href="@{app.itinerary.index()}">itinerary</a></div>
 				
 				<div class="clear"></div>
@@ -33,8 +41,8 @@
 		<div id="rightCol">
 				<div id="tabs"> 
 					<ul>
-					<li><a href="@{app.detail.detail()}">ATTRACTION DETAIL</a></li> 
-					<li><a href="@{app.detail.area()}">IN THE AREA</a></li> 
+					<li><a href="@{app.detail.detail(id)}">ATTRACTION DETAIL</a></li> 
+					<li><a href="@{app.detail.area(id)}">IN THE AREA</a></li> 
 					</ul> 
 				</div> 
 		</div>
