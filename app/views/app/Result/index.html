@@ -35,9 +35,9 @@
 		<div id="rightCol">
 				<div id="tabs"> 
 					<ul> 
-					<li><a href="@{app.result.recommended()}">RECOMMENDED</a></li> 
-					<li><a href="@{app.result.popular()}">POPULAR</a></li> 
-					<li><a href="@{app.result.obscure()}">OBSCURE</a></li> 
+					   #{if !firstTime}<li><a href="@{app.result.recommended()}">RECOMMENDED</a></li>#{/if} 
+					   <li><a href="@{app.result.popular()}">POPULAR</a></li> 
+					   #{if !firstTime}<li><a href="@{app.result.obscure()}">OBSCURE</a></li>#{/if} 
 					</ul> 
 				</div> 
 		</div>

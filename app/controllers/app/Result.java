@@ -3,6 +3,7 @@ package controllers.app;
 import java.util.List;
 
 import models.Location;
+import models.Score;
 import models.User;
 import models.app.Knapsack;
 import models.app.SearchQuery;
@@ -24,7 +25,11 @@ public class Result extends Controller {
 	private static ScoringService ss = Guice.createInjector(new AppModule()).getInstance(ScoringService.class);
 	
 	public static void index() {
-		render();
+		Long userid = Cache.get(session.getId()+"-user", Long.class);
+		User user = User.findById(userid);
+		List<Score> list = Score.find("select s from Score s where s.user = :uid").bind("uid", user).fetch();
+		boolean firstTime = list.size() == 0;
+		render(firstTime);
 	}
 	
 	public static void recommended() {
