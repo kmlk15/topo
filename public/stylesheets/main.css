@@ -194,6 +194,12 @@ body {
 	font-size: 11px;
    	color: #fff;
 }
+.schUserDesc {
+	width:160px;
+	height:50px;
+	font-size: 11px;
+   	color: #fff;
+}
 .schUserDes p {
 	font-size: 9px;
    	font-style: italic;
@@ -674,6 +680,11 @@ a.blueBtn:hover {
 	color: #fff;
 	padding-top: 15px
 	}
+.rdmore {
+	font-size:11px;
+	color: #0f71c2;
+	text-decoration:underline;
+}
 /* -----------------------profile Page------------------------ */	
 .proTopMargin {
 	margin-top: 0px;

@@ -2,8 +2,356 @@
 # For example, for French create a messages.fr file
 #
 
-china.sars.hong_kong.southern.ocean_park=Ocean Park
-china.sars.hong_kong.southern.ocean_park.shortDesc=This is the short description
-china.sars.hong_kong.southern.ocean_park.longDesc=This is the long description
+china.sars.hong_kong.central_western.10_chancery_lane_gallery=10 Chancery Lane Gallery
+china.sars.hong_kong.central_western.10_chancery_lane_gallery.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.10_chancery_lane_gallery.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
 
-china.sars.hong_kong.central_western.hk_park.longDesc=Designed to look anything but natural, Hong Kong Park is one of the most unusual parks in the world, emphasising artificial creations such as its fountain plaza, conservatory, waterfall, indoor games hall, playground, t’ai chi garden, viewing tower, museum and arts centre. For all its artifice, the eight-hectare park is beautiful in its own weird way and, with a wall of skyscrapers on one side and mountains on the other, makes for some dramatic photographs.
+china.sars.hong_kong.central_western.bank_of_china_tower=Bank of China Tower
+china.sars.hong_kong.central_western.bank_of_china_tower.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.bank_of_china_tower.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.central_western.bethanie=Bethanie
+china.sars.hong_kong.central_western.bethanie.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.bethanie.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.central_western.blake_garden=Blake Garden
+china.sars.hong_kong.central_western.blake_garden.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.central_western.blake_garden.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.dr_sun_yat_sen_museum=Dr Sun Yat Sen Museum
+china.sars.hong_kong.central_western.dr_sun_yat_sen_museum.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.dr_sun_yat_sen_museum.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.exchange_square=Exchange Square
+china.sars.hong_kong.central_western.exchange_square.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.central_western.exchange_square.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.hk_park=Hong Kong Park
+china.sars.hong_kong.central_western.hk_park.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.central_western.hk_park.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens=Hong Kong Zoological and Botanical Gardens
+china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.hollywood_road=Hollywood Road
+china.sars.hong_kong.central_western.hollywood_road.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.central_western.hollywood_road.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank=Hong Kong and Shanghai Bank
+china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences=Hong Kong Museum of Medical Sciences
+china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.central_western.ifc_mall=IFC Mall
+china.sars.hong_kong.central_western.ifc_mall.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.central_western.ifc_mall.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.central_western.king_george_v_memorial_park=King George V Memorial Park
+china.sars.hong_kong.central_western.king_george_v_memorial_park.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.king_george_v_memorial_park.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.kwun_yam_temple=Kwun Yam Temple
+china.sars.hong_kong.central_western.kwun_yam_temple.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.central_western.kwun_yam_temple.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.lan_kwai_fong=Lan Kwai Fong
+china.sars.hong_kong.central_western.lan_kwai_fong.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.central_western.lan_kwai_fong.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.li_yuen_street_west=Li Yuen Street West
+china.sars.hong_kong.central_western.li_yuen_street_west.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.central_western.li_yuen_street_west.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.man_mo_temple=Man Mo Temple
+china.sars.hong_kong.central_western.man_mo_temple.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.central_western.man_mo_temple.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.central_western.peak_tram=Peak Tram
+china.sars.hong_kong.central_western.peak_tram.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.central_western.peak_tram.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.solo=Soho
+china.sars.hong_kong.central_western.solo.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.central_western.solo.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.st_johns_cathedral=St. John's Cathedral
+china.sars.hong_kong.central_western.st_johns_cathedral.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.central_western.st_johns_cathedral.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.the_landmark=The Landmark
+china.sars.hong_kong.central_western.the_landmark.shortDesc=Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.central_western.the_landmark.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.university_museum_and_art_gallery=University Museum and Art Gallery
+china.sars.hong_kong.central_western.university_museum_and_art_gallery.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.central_western.university_museum_and_art_gallery.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.central_western.upper_lascar_row=Upper Lascar Row
+china.sars.hong_kong.central_western.upper_lascar_row.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.central_western.upper_lascar_row.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.central_western.victoria_peak=Victoria Peak
+china.sars.hong_kong.central_western.victoria_peak.shortDesc=Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.central_western.victoria_peak.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.central_western.yumla=Yumla
+china.sars.hong_kong.central_western.yumla.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.central_western.yumla.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.eastern.causeway_bay=Causeway Bay
+china.sars.hong_kong.eastern.causeway_bay.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.eastern.causeway_bay.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence=Hong Kong Museum of Coastal Defence
+china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.eastern.sogo=Sogo
+china.sars.hong_kong.eastern.sogo.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.eastern.sogo.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.eastern.star_of_the_sea_church=Star of the Sea Church
+china.sars.hong_kong.eastern.star_of_the_sea_church.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.eastern.star_of_the_sea_church.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.eastern.times_square=Times Square
+china.sars.hong_kong.eastern.times_square.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.eastern.times_square.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.eastern.tin_hau_temple=Tin Hau Temple
+china.sars.hong_kong.eastern.tin_hau_temple.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.eastern.tin_hau_temple.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.eastern.victoria_park=Victoria Park
+china.sars.hong_kong.eastern.victoria_park.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.eastern.victoria_park.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.islands.cheung_chau=Cheung Chau
+china.sars.hong_kong.islands.cheung_chau.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.islands.cheung_chau.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.islands.hk_disneyland=Hong Kong Disneyland
+china.sars.hong_kong.islands.hk_disneyland.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.islands.hk_disneyland.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.islands.lamma_island=Lamma Island
+china.sars.hong_kong.islands.lamma_island.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.islands.lamma_island.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.islands.ngong_ping_360=Ngong Ping 360
+china.sars.hong_kong.islands.ngong_ping_360.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.islands.ngong_ping_360.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.islands.peng_chau=Peng Chau
+china.sars.hong_kong.islands.peng_chau.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.islands.peng_chau.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.islands.po_lin_buddha=Po Lin Buddha
+china.sars.hong_kong.islands.po_lin_buddha.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.islands.po_lin_buddha.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.islands.po_toi_islands=Po Toi Islands
+china.sars.hong_kong.islands.po_toi_islands.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.islands.po_toi_islands.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.islands.tai_o=Tai O
+china.sars.hong_kong.islands.tai_o.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.islands.tai_o.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.kowloon_city.kowloon_walled_city_park=Kowloon Walled City Park
+china.sars.hong_kong.kowloon_city.kowloon_walled_city_park.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.kowloon_city.kowloon_walled_city_park.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.sai_kung.sai_kung =Sai Kung
+china.sars.hong_kong.sai_kung.sai_kung.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.sai_kung.sai_kung.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.sha_tin.che_kung_miu=Che Kung Miu
+china.sars.hong_kong.sha_tin.che_kung_miu.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.sha_tin.che_kung_miu.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.sha_tin.heritage_museum=Heritage Museum
+china.sars.hong_kong.sha_tin.heritage_museum.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.sha_tin.heritage_museum.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple=Ten Thousand Buddhas Temple
+china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum=Lei Cheng Uk Han Tomb Museum
+china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.sham_shui_po.st_lawrences_church=St. Lawrence's Church
+china.sars.hong_kong.sham_shui_po.st_lawrences_church.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.sham_shui_po.st_lawrences_church.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.southern.aberdeen_promenade=Aberdeen Promenade
+china.sars.hong_kong.southern.aberdeen_promenade.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.southern.aberdeen_promenade.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.southern.hong_kong_correctional_services_museum=Hong Kong Correctional Services Museum
+china.sars.hong_kong.southern.hong_kong_correctional_services_museum.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.southern.hong_kong_correctional_services_museum.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.southern.hong_kong_maritime_museum=Hong Kong Maritime Museum
+china.sars.hong_kong.southern.hong_kong_maritime_museum.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.southern.hong_kong_maritime_museum.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.southern.ocean_park=Ocean Park
+china.sars.hong_kong.southern.ocean_park.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.southern.ocean_park.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.southern.stanley_market=Stanley Market
+china.sars.hong_kong.southern.stanley_market.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.southern.stanley_market.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden=Kadoorie Farm and Botanic Garden
+china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.tai_po.tai_po_market=Tai Po Market
+china.sars.hong_kong.tai_po.tai_po_market.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong. tai_po.tai_po_market.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.tsuen_wan.tsuen_wan_park=Tsuen Wan Park
+china.sars.hong_kong.tsuen_wan.tsuen_wan_park.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.tsuen_wan.tsuen_wan_park.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.tsuen_wan.yuen_yuen_institute=Yuen Yuen Institute
+china.sars.hong_kong.tsuen_wan.yuen_yuen_institute.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.tsuen_wan.yuen_yuen_institute.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.tuen_mun.ching_chung_koon=Ching Chung Koon
+china.sars.hong_kong.tuen_mun.ching_chung_koon.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.tuen_mun.ching_chung_koon.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.wan_chai.central_plaza=Central Plaza
+china.sars.hong_kong.wan_chai.central_plaza.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.wan_chai.central_plaza.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.wan_chai.edge_gallery=Edge Gallery
+china.sars.hong_kong.wan_chai.edge_gallery.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.wan_chai.edge_gallery.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre=Hong Kong Convention and Exhibition Centre
+china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.wan_chai.hong_kong_racing_museum=Hong Kong Racing Museum
+china.sars.hong_kong.wan_chai.hong_kong_racing_museum.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.wan_chai.hong_kong_racing_museum.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.wan_chai.hung_shing_temple=Hung Shing Temple
+china.sars.hong_kong.wan_chai.hung_shing_temple.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.wan_chai.hung_shing_temple.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.wan_chai.police_museum=Police Museum
+china.sars.hong_kong.wan_chai.police_museum.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.wan_chai.police_museum.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre=Wan Chai Environmental Resource Centre
+china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum=Wan Chai Livelihood Museum
+china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.wong_tai_sin.morse_park=Morse Park
+china.sars.hong_kong.wong_tai_sin.morse_park.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.wong_tai_sin.morse_park.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.wong_tai_sin.nan_lian_garden=Nan Lian Garden
+china.sars.hong_kong.wong_tai_sin.nan_lian_garden.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.wong_tai_sin.nan_lian_garden.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple=Wong Tai Sin Temple
+china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.aqua_spirit=Aqua Spirit
+china.sars.hong_kong.yau_tsim_mong.aqua_spirit.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.yau_tsim_mong.aqua_spirit.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.avenue_of_stars=Avenue of Stars
+china.sars.hong_kong.yau_tsim_mong.avenue_of_stars.shortDesc=Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+china.sars.hong_kong.yau_tsim_mong.avenue_of_stars.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.yau_tsim_mong.clock_tower=Clock Tower
+china.sars.hong_kong.yau_tsim_mong.clock_tower.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.yau_tsim_mong.clock_tower.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.elements=Elements
+china.sars.hong_kong.yau_tsim_mong.elements.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.yau_tsim_mong.elements.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.yau_tsim_mong.flower_market=Flower Market
+china.sars.hong_kong.yau_tsim_mong.flower_market.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.yau_tsim_mong.flower_market.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
+
+china.sars.hong_kong.yau_tsim_mong.goldfish_market=Goldfish Market
+china.sars.hong_kong.yau_tsim_mong.goldfish_market.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.yau_tsim_mong.goldfish_market.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.yau_tsim_mong.harbour_city=Harbour City
+china.sars.hong_kong.yau_tsim_mong.harbour_city.shortDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum.
+china.sars.hong_kong.yau_tsim_mong.harbour_city.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum=Hong Kong Space Museum
+china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.jade_market=Jade Market
+china.sars.hong_kong.yau_tsim_mong.jade_market.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.yau_tsim_mong.jade_market.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.kowloon_mosque=Kowloon Mosque
+china.sars.hong_kong.yau_tsim_mong.kowloon_mosque.shortDesc=Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+china.sars.hong_kong.yau_tsim_mong.kowloon_mosque.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.kowloon_park=Kowloon Park
+china.sars.hong_kong.yau_tsim_mong.kowloon_park.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.kowloon_park.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.ladies_market=Ladies Market
+china.sars.hong_kong.yau_tsim_mong.ladies_market.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.ladies_market.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.yau_tsim_mong.langham_place=Langham Place
+china.sars.hong_kong.yau_tsim_mong.langham_place.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.langham_place.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.mongkok=Mongkok
+china.sars.hong_kong.yau_tsim_mong.mongkok.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.mongkok.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.museum_of_art=Museum of Art
+china.sars.hong_kong.yau_tsim_mong.museum_of_art.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.yau_tsim_mong.museum_of_art.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.museum_of_history=Museum of History
+china.sars.hong_kong.yau_tsim_mong.museum_of_history.shortDesc=Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.yau_tsim_mong.museum_of_history.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.science_museum=Science Museum
+china.sars.hong_kong.yau_tsim_mong.science_museum.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.science_museum.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.temple_street=Temple Street
+china.sars.hong_kong.yau_tsim_mong.temple_street.shortDesc=Necea nonsercide ducia cora dolum coria am si debis aligend aepratiorruma coris min pliquos dolorit.
+china.sars.hong_kong.yau_tsim_mong.temple_street.longDesc=Inisquissunt experis dolorende re, ut abo. Lit et autem sanda sedigentota nim quid est modiam et, net ent acessed quibusdam . Imporendel modipsanimus ratem laut quo consequi nimo dio. Sequi ut volores essequi conet magnitis volorepudi vel est.
+
+china.sars.hong_kong.yau_tsim_mong.waterfront_promenade=Waterfront Promenade
+china.sars.hong_kong.yau_tsim_mong.waterfront_promenade.shortDesc=Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+china.sars.hong_kong.yau_tsim_mong.waterfront_promenade.longDesc=Aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem. Endandae magnatur, et et ut ex excerupieni corem harciliquod et et mint aut peratur re aut omnis coruptur reperna tiatur arcientur aut aut. Haritatia cus se voluptaqui res rera nihic tem aut labori cone ant volor re, ommod ea que sitat autem ipsum, conem faccus.
+
+china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden=Yuen Po Street Bird Garden
+china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden.longDesc=Offic tem nobis vollandi quam repudae rchitionseri dignihit poreper iossedi cidunt moloreh entetur iorerio. Vention repe consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+
+china.sars.hong_kong.yuen_long.hk_wetland_park=Hong Kong Wetland Park
+china.sars.hong_kong.yuen_long.hk_wetland_park.shortDesc=Consequ aspeliquodis sinullore nis et maximus quatur sinullis ipsapictur, tem antem rectem nonectorums.
+china.sars.hong_kong.yuen_long.hk_wetland_park.longDesc=Rerum verum fugiaere vit, se nonsequi dolorum qui vent qui volende mporepr eriandit volut a sus intiorem idelene ctibusa ndeliqui sint lis molo totame eum. Voles aut alis eate prero et vollent iorepel entisciunt. Pidus cumquam cuptatur rectasp isinvel moditatior rem adi volupie ndantis ut quae sitenit.
