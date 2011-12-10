@@ -1,0 +1,3499 @@
+Category(category1):
+    name: Park
+    level: 1
+
+Category(category2):
+    name: Architecture
+    level: 1
+
+Category(category3):
+    name: Religious Site
+    level: 1
+
+Category(category4):
+    name: Shopping
+    level: 1
+
+Category(category5):
+    name: Museum
+    level: 1
+
+Category(category6):
+    name: Sights
+    level: 1
+
+Category(category7):
+    name: Ride
+    level: 1
+
+Category(category8):
+    name: Gallery
+    level: 1
+
+Category(category9):
+    name: Nightlife
+    level: 1
+
+Category(category10):
+    name: Garden Park
+    level: 2
+
+Category(category11):
+    name: Wetland Park
+    level: 2
+
+Category(category12):
+    name: Zoological and Botanical Garden Park
+    level: 2
+
+Category(category13):
+    name: Theme Park
+    level: 2
+
+Category(category14):
+    name: Educational Park
+    level: 2
+
+Category(category15):
+    name: Historical Park
+    level: 2
+
+Category(category16):
+    name: Skyscraper
+    level: 2
+
+Category(category17):
+    name: Taoism Temple
+    level: 2
+
+Category(category18):
+    name: Buddhas Temple
+    level: 2
+
+Category(category19):
+    name: Buddhist Statues
+    level: 2
+
+Category(category20):
+    name: Street Market
+    level: 2
+
+Category(category21):
+    name: Night Market
+    level: 2
+
+Category(category22):
+    name: Mall
+    level: 2
+
+Category(category23):
+    name: Chinese Artifacts Museum
+    level: 2
+
+Category(category24):
+    name: Chinese Calligraphy and Painting Museum
+    level: 2
+
+Category(category25):
+    name: History Museum
+    level: 2
+
+Category(category26):
+    name: Revolutionary and Political Museum
+    level: 2
+
+Category(category27):
+    name: Science Museum
+    level: 2
+
+Category(category28):
+    name: City View
+    level: 2
+
+Category(category29):
+    name: Water Front
+    level: 2
+
+Category(category30):
+    name: Ferry Ride
+    level: 2
+
+Category(category31):
+    name: Tram Ride
+    level: 2
+
+Category(category32):
+    name: Contemporary Art Gallery
+    level: 2
+
+Category(category33):
+    name: Photography Gallery
+    level: 2
+
+Category(category34):
+    name: Bars
+    level: 2
+
+Category(category35):
+    name: Dance Club
+    level: 2
+
+Category(category36):
+    name: Public Park
+    level: 2
+
+Category(category37):
+    name: Modern Architecture
+    level: 2
+
+Category(category38):
+    name: Confucianism Temple
+    level: 2
+
+Category(category39):
+    name: Catholic Cathedral
+    level: 2
+
+Category(category40):
+    name: Mosque
+    level: 2
+
+Category(category41):
+    name: Special Interested Museum
+    level: 2
+
+Category(category42):
+    name: Neighborhoods
+    level: 2
+
+Category(category43):
+    name: Islands
+    level: 2
+
+Category(category44):
+    name: Cable Car Ride
+    level: 2
+
+Category(category45):
+    name: Historical Architecture
+    level: 2
+
+Category(category46):
+    name: Monuments
+    level: 2
+
+Category(category47):
+    name: Department Store
+    level: 2
+
+Category(category48):
+    name: Modern Art Museum
+    level: 2
+
+Location(location1):
+    name: Hong Kong Park
+    nameKey: china.sars.hong_kong.central_western.hk_park
+    shortDescKey: china.sars.hong_kong.central_western.hk_park.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.hk_park.longDesc
+    popularity: 19.0
+    category:
+    - category1
+    - category10
+
+Location(location2):
+    name: Hong Kong Zoological and Botanical Gardens
+    nameKey: china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens
+    shortDescKey: china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.hk_zoological_and_botanical_gardens.longDesc
+    popularity: 33.0
+    category:
+    - category1
+    - category12
+
+Location(location3):
+    name: Central Plaza
+    nameKey: china.sars.hong_kong.wan_chai.central_plaza
+    shortDescKey: china.sars.hong_kong.wan_chai.central_plaza.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.central_plaza.longDesc
+    popularity: 14.0
+    category:
+    - category2
+    - category16
+
+Location(location4):
+    name: Exchange Square
+    nameKey: china.sars.hong_kong.central_western.exchange_square
+    shortDescKey: china.sars.hong_kong.central_western.exchange_square.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.exchange_square.longDesc
+    popularity: 4.0
+    category:
+    - category2
+    - category16
+
+Location(location5):
+    name: Man Mo Temple
+    nameKey: china.sars.hong_kong.central_western.man_mo_temple
+    shortDescKey: china.sars.hong_kong.central_western.man_mo_temple.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.man_mo_temple.longDesc
+    popularity: 6.0
+    category:
+    - category3
+    - category17
+
+Location(location6):
+    name: Stanley Market
+    nameKey: china.sars.hong_kong.southern.stanley_market
+    shortDescKey: china.sars.hong_kong.southern.stanley_market.shortDesc
+    longDescKey: china.sars.hong_kong.southern.stanley_market.longDesc
+    popularity: 9.0
+    category:
+    - category4
+    - category20
+
+Location(location7):
+    name: University Museum and Art Gallery
+    nameKey: china.sars.hong_kong.central_western.university_museum_and_art_gallery
+    shortDescKey: china.sars.hong_kong.central_western.university_museum_and_art_gallery.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.university_museum_and_art_gallery.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category23
+
+Location(location8):
+    name: Victoria Peak
+    nameKey: china.sars.hong_kong.central_western.victoria_peak
+    shortDescKey: china.sars.hong_kong.central_western.victoria_peak.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.victoria_peak.longDesc
+    popularity: 12.0
+    category:
+    - category6
+    - category28
+
+Location(location9):
+    name: Kowloon Walled City Park
+    nameKey: china.sars.hong_kong.kowloon_city.kowloon_walled_city_park
+    shortDescKey: china.sars.hong_kong.kowloon_city.kowloon_walled_city_park.shortDesc
+    longDescKey: china.sars.hong_kong.kowloon_city.kowloon_walled_city_park.longDesc
+    popularity: 2.0
+    category:
+    - category1
+    - category15
+
+Location(location10):
+    name: Museum of Art
+    nameKey: china.sars.hong_kong.yau_tsim_mong.museum_of_art
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.museum_of_art.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.museum_of_art.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category24
+
+Location(location11):
+    name: Museum of History
+    nameKey: china.sars.hong_kong.yau_tsim_mong.museum_of_history
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.museum_of_history.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.museum_of_history.longDesc
+    popularity: 8.0
+    category:
+    - category5
+    - category25
+
+Location(location12):
+    name: Science Museum
+    nameKey: china.sars.hong_kong.yau_tsim_mong.science_museum
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.science_museum.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.science_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category27
+
+Location(location13):
+    name: Star Ferry
+    shortDescKey: Odi tectis aditatu sandani hictur, il ma que nim qui blandem quation seriorum ad que volor alit, quis consecturiam audam facestinctem
+    popularity: 5.0
+    category:
+    - category7
+    - category30
+
+Location(location14):
+    name: Temple Street
+    nameKey: china.sars.hong_kong.yau_tsim_mong.temple_street
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.temple_street.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.temple_street.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category21
+
+Location(location15):
+    name: Waterfront Promenade
+    nameKey: china.sars.hong_kong.yau_tsim_mong.waterfront_promenade
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.waterfront_promenade.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.waterfront_promenade.longDesc
+    popularity: 2.0
+    category:
+    - category6
+    - category29
+
+Location(location16):
+    name: Hong Kong Wetland Park
+    nameKey: china.sars.hong_kong.yuen_long.hk_wetland_park
+    shortDescKey: china.sars.hong_kong.yuen_long.hk_wetland_park.shortDesc
+    longDescKey: china.sars.hong_kong.yuen_long.hk_wetland_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category11
+
+Location(location17):
+    name: Ten Thousand Buddhas Temple
+    nameKey: china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple
+    shortDescKey: china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple.shortDesc
+    longDescKey: china.sars.hong_kong.sha_tin.ten_thousand_buddhas_temple.longDesc
+    popularity: 2.0
+    category:
+    - category3
+    - category18
+
+Location(location18):
+    name: Ocean Park
+    nameKey: china.sars.hong_kong.southern.ocean_park
+    shortDescKey: china.sars.hong_kong.southern.ocean_park.shortDesc
+    longDescKey: china.sars.hong_kong.southern.ocean_park.longDesc
+    popularity: 14.0
+    category:
+    - category1
+    - category13
+
+Location(location19):
+    name: Hong Kong Disneyland
+    nameKey: china.sars.hong_kong.islands.hk_disneyland
+    shortDescKey: china.sars.hong_kong.islands.hk_disneyland.shortDesc
+    longDescKey: china.sars.hong_kong.islands.hk_disneyland.longDesc
+    popularity: 4.0
+    category:
+    - category1
+    - category13
+
+Location(location20):
+    name: Po Lin Buddha
+    nameKey: china.sars.hong_kong.islands.po_lin_buddha
+    shortDescKey: china.sars.hong_kong.islands.po_lin_buddha.shortDesc
+    longDescKey: china.sars.hong_kong.islands.po_lin_buddha.longDesc
+    popularity: 10.0
+    category:
+    - category3
+    - category19
+
+Location(location21):
+    name: Dr Sun Yat-sen Museum
+    nameKey: china.sars.hong_kong.central_western.dr_sun_yat_sen_museum
+    shortDescKey: china.sars.hong_kong.central_western.dr_sun_yat_sen_museum.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.dr_sun_yat_sen_museum.longDesc
+    popularity: 1.0
+    category:
+    - category5
+    - category26
+
+Location(location22):
+    name: 10 Chancery Lane Gallery
+    nameKey: china.sars.hong_kong.central_western.10_chancery_lane_gallery
+    shortDescKey: china.sars.hong_kong.central_western.10_chancery_lane_gallery.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.10_chancery_lane_gallery.longDesc
+    popularity: 2.0
+    category:
+    - category8
+    - category32
+
+Location(location23):
+    name: Edge Gallery
+    nameKey: china.sars.hong_kong.wan_chai.edge_gallery
+    shortDescKey: china.sars.hong_kong.wan_chai.edge_gallery.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.edge_gallery.longDesc
+    popularity: 1.0
+    category:
+    - category8
+    - category33
+
+Location(location24):
+    name: Kadoorie Farm & Botanic Garden
+    nameKey: china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden
+    shortDescKey: china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden.shortDesc
+    longDescKey: china.sars.hong_kong.tai_po.kadoorie_farm_botanic_garden.longDesc
+    popularity: 2.0
+    category:
+    - category1
+    - category14
+
+Location(location25):
+    name: Hong Kong Island Tram
+    popularity: 5.0
+    category:
+    - category7
+    - category31
+
+Location(location26):
+    name: The Peak Tram
+    nameKey: china.sars.hong_kong.central_western.peak_tram
+    shortDescKey: china.sars.hong_kong.central_western.peak_tram.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.peak_tram.longDesc
+    popularity: 2.0
+    category:
+    - category7
+    - category31
+
+Location(location27):
+    name: Goldfish Market
+    nameKey: china.sars.hong_kong.yau_tsim_mong.goldfish_market
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.goldfish_market.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.goldfish_market.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location28):
+    name: IFC Mall
+    nameKey: china.sars.hong_kong.central_western.ifc_mall
+    shortDescKey: china.sars.hong_kong.central_western.ifc_mall.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.ifc_mall.longDesc
+    popularity: 1.0
+    category:
+    - category4
+    - category22
+
+Location(location29):
+    name: Aqua Spirit
+    nameKey: china.sars.hong_kong.yau_tsim_mong.aqua_spirit
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.aqua_spirit.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.aqua_spirit.longDesc
+    popularity: 0.0
+    category:
+    - category9
+    - category34
+
+Location(location30):
+    name: Yumla
+    nameKey: china.sars.hong_kong.central_western.yumla
+    shortDescKey: china.sars.hong_kong.central_western.yumla.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.yumla.longDesc
+    popularity: 0.0
+    category:
+    - category9
+    - category35
+
+Location(location31):
+    name: Flower Market
+    nameKey: china.sars.hong_kong.yau_tsim_mong.flower_market
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.flower_market.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.flower_market.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location32):
+    name: Nan Lian Garden
+    nameKey: china.sars.hong_kong.wong_tai_sin.nan_lian_garden
+    shortDescKey: china.sars.hong_kong.wong_tai_sin.nan_lian_garden.shortDesc
+    longDescKey: china.sars.hong_kong.wong_tai_sin.nan_lian_garden.longDesc
+    popularity: 4.0
+    category:
+    - category1
+    - category10
+
+Location(location33):
+    name: Victoria Park
+    nameKey: china.sars.hong_kong.eastern.victoria_park
+    shortDescKey: china.sars.hong_kong.eastern.victoria_park.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.victoria_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location34):
+    name: Kowloon Park
+    nameKey: china.sars.hong_kong.yau_tsim_mong.kowloon_park
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.kowloon_park.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.kowloon_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location35):
+    name: Blake Garden
+    nameKey: china.sars.hong_kong.central_western.blake_garden
+    shortDescKey: china.sars.hong_kong.central_western.blake_garden.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.blake_garden.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location36):
+    name: Tsuen Wan Park
+    nameKey: china.sars.hong_kong.tsuen_wan.tsuen_wan_park
+    shortDescKey: china.sars.hong_kong.tsuen_wan.tsuen_wan_park.shortDesc
+    longDescKey: china.sars.hong_kong.tsuen_wan.tsuen_wan_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location37):
+    name: Morse Park
+    nameKey: china.sars.hong_kong.wong_tai_sin.morse_park
+    shortDescKey: china.sars.hong_kong.wong_tai_sin.morse_park.shortDesc
+    longDescKey: hina.sars.hong_kong.wong_tai_sin.morse_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location38):
+    name: Yuen Po Street Bird Garden
+    nameKey: china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.yuen_po_street_bird_garden.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category36
+
+Location(location39):
+    name: King George V Memorial Park
+    nameKey: china.sars.hong_kong.central_western.king_george_v_memorial_park
+    shortDescKey: china.sars.hong_kong.central_western.king_george_v_memorial_park.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.king_george_v_memorial_park.longDesc
+    popularity: 1.0
+    category:
+    - category1
+    - category15
+
+Location(location40):
+    name: Bank of China Tower
+    nameKey: china.sars.hong_kong.central_western.bank_of_china_tower
+    shortDescKey: china.sars.hong_kong.central_western.bank_of_china_tower.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.bank_of_china_tower.longDesc
+    popularity: 1.0
+    category:
+    - category2
+    - category16
+
+Location(location41):
+    name: Hong Kong and Shanghai Bank
+    nameKey: china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank
+    shortDescKey: china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.hong_kong_and_shanghai_bank.longDesc
+    popularity: 3.0
+    category:
+    - category2
+    - category16
+
+Location(location42):
+    name: Hong Kong Convention and Exhibition Centre
+    nameKey: china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre
+    shortDescKey: china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.hong_kong_convention_and_exhibition_centre.longDesc
+    popularity: 0.0
+    category:
+    - category2
+    - category37
+
+Location(location43):
+    name: Clock Tower
+    nameKey: china.sars.hong_kong.yau_tsim_mong.clock_tower
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.clock_tower.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.clock_tower.longDesc
+    popularity: 0.0
+    category:
+    - category2
+    - category45
+
+Location(location44):
+    name: Wan Chai Environmental Resource Centre
+    nameKey: china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre
+    shortDescKey: china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.wan_chai_environmental_resource_centre.longDesc
+    popularity: 0.0
+    category:
+    - category2
+    - category45
+
+Location(location45):
+    name: Wong Tai Sin Temple
+    nameKey: china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple
+    shortDescKey: china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple.shortDesc
+    longDescKey: china.sars.hong_kong.wong_tai_sin.wong_tai_sin_temple.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category17
+
+Location(location46):
+    name: Ching Chung Koon
+    nameKey: china.sars.hong_kong.tuen_mun.ching_chung_koon
+    shortDescKey: china.sars.hong_kong.tuen_mun.ching_chung_koon.shortDesc
+    longDescKey: china.sars.hong_kong.tuen_mun.ching_chung_koon.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category17
+
+Location(location47):
+    name: Kwun Yam Temple
+    nameKey: china.sars.hong_kong.central_western.kwun_yam_temple
+    shortDescKey: china.sars.hong_kong.central_western.kwun_yam_temple.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.kwun_yam_temple.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category18
+
+Location(location48):
+    name: Yuen Yuen Institute
+    nameKey: china.sars.hong_kong.tsuen_wan.yuen_yuen_institute
+    shortDescKey: china.sars.hong_kong.tsuen_wan.yuen_yuen_institute.shortDesc
+    longDescKey: china.sars.hong_kong.tsuen_wan.yuen_yuen_institute.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category38
+
+Location(location49):
+    name: Tin Hau Temple
+    nameKey: china.sars.hong_kong.eastern.tin_hau_temple
+    shortDescKey: china.sars.hong_kong.eastern.tin_hau_temple.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.tin_hau_temple.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category46
+
+Location(location50):
+    name: Hung Shing Temple
+    nameKey: china.sars.hong_kong.wan_chai.hung_shing_temple
+    shortDescKey: china.sars.hong_kong.wan_chai.hung_shing_temple.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.hung_shing_temple.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category46
+
+Location(location51):
+    name: Che Kung Miu
+    nameKey: china.sars.hong_kong.sha_tin.che_kung_miu
+    shortDescKey: china.sars.hong_kong.sha_tin.che_kung_miu.shortDesc
+    longDescKey: china.sars.hong_kong.sha_tin.che_kung_miu.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category46
+
+Location(location52):
+    name: St. John's Cathedral
+    nameKey: china.sars.hong_kong.central_western.st_johns_cathedral
+    shortDescKey: china.sars.hong_kong.central_western.st_johns_cathedral.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.st_johns_cathedral.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category39
+
+Location(location53):
+    name: Star of the Sea Church
+    nameKey: china.sars.hong_kong.eastern.star_of_the_sea_church
+    shortDescKey: china.sars.hong_kong.eastern.star_of_the_sea_church.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.star_of_the_sea_church.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category39
+
+Location(location54):
+    name: St. Lawrence's Church
+    nameKey: china.sars.hong_kong.sham_shui_po.st_lawrences_church
+    shortDescKey: china.sars.hong_kong.sham_shui_po.st_lawrences_church.shortDesc
+    longDescKey: china.sars.hong_kong.sham_shui_po.st_lawrences_church.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category39
+
+Location(location55):
+    name: Bethanie
+    nameKey: china.sars.hong_kong.central_western.bethanie
+    shortDescKey: china.sars.hong_kong.central_western.bethanie.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.bethanie.longDesc
+    popularity: 1.0
+    category:
+    - category3
+    - category39
+
+Location(location56):
+    name: Kowloon Mosque
+    nameKey: china.sars.hong_kong.yau_tsim_mong.kowloon_mosque
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.kowloon_mosque.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.kowloon_mosque.longDesc
+    popularity: 0.0
+    category:
+    - category3
+    - category40
+
+Location(location57):
+    name: Tai Po Market
+    nameKey: china.sars.hong_kong.tai_po.tai_po_market
+    shortDescKey: china.sars.hong_kong.tai_po.tai_po_market.shortDesc
+    longDescKey: china.sars.hong_kong. tai_po.tai_po_market.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location58):
+    name: Ladies Market
+    nameKey: china.sars.hong_kong.yau_tsim_mong.ladies_market
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.ladies_market.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.ladies_market.longDesc
+    popularity: 1.0
+    category:
+    - category4
+    - category20
+
+Location(location59):
+    name: Li Yuen Street West
+    nameKey: china.sars.hong_kong.central_western.li_yuen_street_west
+    shortDescKey: china.sars.hong_kong.central_western.li_yuen_street_west.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.li_yuen_street_west.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location60):
+    name: Jade Market
+    nameKey: china.sars.hong_kong.yau_tsim_mong.jade_market
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.jade_market.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.jade_market.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location61):
+    name: Upper Lascar Row
+    nameKey: china.sars.hong_kong.central_western.upper_lascar_row
+    shortDescKey: china.sars.hong_kong.central_western.upper_lascar_row.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.upper_lascar_row.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category20
+
+Location(location62):
+    name: Times Square
+    nameKey: china.sars.hong_kong.eastern.times_square
+    shortDescKey: china.sars.hong_kong.eastern.times_square.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.times_square.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category22
+
+Location(location63):
+    name: Langham Place
+    nameKey: china.sars.hong_kong.yau_tsim_mong.langham_place
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.langham_place.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.langham_place.longDesc
+    popularity: 1.0
+    category:
+    - category4
+    - category22
+
+Location(location64):
+    name: Harbour City
+    nameKey: china.sars.hong_kong.yau_tsim_mong.harbour_city
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.harbour_city.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.harbour_city.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category22
+
+Location(location65):
+    name: Elements
+    nameKey: china.sars.hong_kong.yau_tsim_mong.elements
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.elements.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.elements.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category22
+
+Location(location66):
+    name: The Landmark
+    nameKey: china.sars.hong_kong.central_western.the_landmark
+    shortDescKey: china.sars.hong_kong.central_western.the_landmark.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.the_landmark.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category22
+
+Location(location67):
+    name: Sogo
+    nameKey: china.sars.hong_kong.eastern.sogo
+    shortDescKey: china.sars.hong_kong.eastern.sogo.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.sogo.longDesc
+    popularity: 0.0
+    category:
+    - category4
+    - category47
+
+Location(location68):
+    name: Lei Cheng Uk Han Tomb Museum
+    nameKey: china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum
+    shortDescKey: china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum.shortDesc
+    longDescKey: china.sars.hong_kong.sham_shui_po.lei_cheng_uk_han_tomb museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category25
+
+Location(location69):
+    name: Heritage Museum
+    nameKey: china.sars.hong_kong.sha_tin.heritage_museum
+    shortDescKey: china.sars.hong_kong.sha_tin.heritage_museum.shortDesc
+    longDescKey: china.sars.hong_kong.sha_tin.heritage_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category25
+
+Location(location70):
+    name: Hong Kong Museum of Medical Sciences
+    nameKey: china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences
+    shortDescKey: china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.hong_kong_museum_of_medical_sciences.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category25
+
+Location(location71):
+    name: Wan Chai Livelihood Museum
+    nameKey: china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum
+    shortDescKey: china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.wan_chai_livelihood_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category25
+
+Location(location72):
+    name: Hong Kong Maritime Museum
+    nameKey: china.sars.hong_kong.southern.hong_kong_maritime_museum
+    shortDescKey: china.sars.hong_kong.southern.hong_kong_maritime_museum.shortDesc=
+    longDescKey: china.sars.hong_kong.southern.hong_kong_maritime_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category25
+
+Location(location73):
+    name: Hong Kong Museum of Coastal Defence
+    nameKey: china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence
+    shortDescKey: china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.hong_kong_museum_of_coastal_defence.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category26
+
+Location(location74):
+    name: Police Museum
+    nameKey: china.sars.hong_kong.wan_chai.police_museum
+    shortDescKey: china.sars.hong_kong.wan_chai.police_museum.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.police_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category26
+
+Location(location75):
+    name: Hong Kong Space Museum
+    nameKey: china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.hong_kong_space_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category27
+
+Location(location76):
+    name: Hong Kong Racing Museum
+    nameKey: china.sars.hong_kong.wan_chai.hong_kong_racing_museum
+    shortDescKey: china.sars.hong_kong.wan_chai.hong_kong_racing_museum.shortDesc
+    longDescKey: china.sars.hong_kong.wan_chai.hong_kong_racing_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category41
+
+Location(location77):
+    name: Hong Kong Correctional Services Museum
+    nameKey: china.sars.hong_kong.southern.hong_kong_correctional_services_museum
+    shortDescKey: china.sars.hong_kong.southern.hong_kong_correctional_services_museum.shortDesc
+    longDescKey: china.sars.hong_kong.southern.hong_kong_correctional_services_museum.longDesc
+    popularity: 0.0
+    category:
+    - category5
+    - category41
+
+Location(location78):
+    name: Aberdeen Promenade
+    nameKey: china.sars.hong_kong.southern.aberdeen_promenade
+    shortDescKey: china.sars.hong_kong.southern.aberdeen_promenade.shortDesc
+    longDescKey: china.sars.hong_kong.southern.aberdeen_promenade.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category29
+
+Location(location79):
+    name: Avenue of Stars
+    nameKey: china.sars.hong_kong.yau_tsim_mong.avenue_of_stars
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.avenue_of_stars.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.avenue_of_stars.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category29
+
+Location(location80):
+    name: Mongkok
+    nameKey: china.sars.hong_kong.yau_tsim_mong.mongkok
+    shortDescKey: china.sars.hong_kong.yau_tsim_mong.mongkok.shortDesc
+    longDescKey: china.sars.hong_kong.yau_tsim_mong.mongkok.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category42
+
+Location(location81):
+    name: Sai Kung
+    nameKey: china.sars.hong_kong.sai_kung.sai_kung 
+    shortDescKey: china.sars.hong_kong.sai_kung.sai_kung.shortDesc
+    longDescKey: china.sars.hong_kong.sai_kung.sai_kung.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category42
+
+Location(location82):
+    name: Lan Kwai Fong
+    nameKey: china.sars.hong_kong.central_western.lan_kwai_fong
+    shortDescKey: china.sars.hong_kong.central_western.lan_kwai_fong.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.lan_kwai_fong.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category42
+
+Location(location83):
+    name: Soho
+    nameKey: china.sars.hong_kong.central_western.solo
+    shortDescKey: china.sars.hong_kong.central_western.solo.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.solo.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category42
+
+Location(location84):
+    name: Hollywood Road
+    nameKey: china.sars.hong_kong.central_western.hollywood_road
+    shortDescKey: china.sars.hong_kong.central_western.hollywood_road.shortDesc
+    longDescKey: china.sars.hong_kong.central_western.hollywood_road.longDesc
+    popularity: 1.0
+    category:
+    - category6
+    - category42
+
+Location(location85):
+    name: Causeway Bay
+    nameKey: china.sars.hong_kong.eastern.causeway_bay
+    shortDescKey: china.sars.hong_kong.eastern.causeway_bay.shortDesc
+    longDescKey: china.sars.hong_kong.eastern.causeway_bay.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category42
+
+Location(location86):
+    name: Tai O
+    nameKey: china.sars.hong_kong.islands.tai_o
+    shortDescKey: china.sars.hong_kong.islands.tai_o.shortDesc
+    longDescKey: china.sars.hong_kong.islands.tai_o.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category43
+
+Location(location87):
+    name: Lamma Island
+    nameKey: china.sars.hong_kong.islands.lamma_island
+    shortDescKey: china.sars.hong_kong.islands.lamma_island.shortDesc
+    longDescKey: china.sars.hong_kong.islands.lamma_island.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category43
+
+Location(location88):
+    name: Cheung Chau
+    nameKey: china.sars.hong_kong.islands.cheung_chau
+    shortDescKey: china.sars.hong_kong.islands.cheung_chau.shortDesc
+    longDescKey: china.sars.hong_kong.islands.cheung_chau.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category43
+
+Location(location89):
+    name: Peng Chau
+    nameKey: china.sars.hong_kong.islands.peng_chau
+    shortDescKey: china.sars.hong_kong.islands.peng_chau.shortDesc
+    longDescKey: china.sars.hong_kong.islands.peng_chau.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category43
+
+Location(location90):
+    name: Po Toi Islands
+    nameKey: china.sars.hong_kong.islands.po_toi_islands
+    shortDescKey: china.sars.hong_kong.islands.po_toi_islands.shortDesc
+    longDescKey: china.sars.hong_kong.islands.po_toi_islands.longDesc
+    popularity: 0.0
+    category:
+    - category6
+    - category43
+
+Location(location91):
+    name: Ngong Ping 360
+    nameKey: china.sars.hong_kong.islands.ngong_ping_360
+    shortDescKey: china.sars.hong_kong.islands.ngong_ping_360.shortDesc
+    longDescKey: china.sars.hong_kong.islands.ngong_ping_360.longDesc
+    popularity: 0.0
+    category:
+    - category7
+    - category44
+
+Location(location92):
+    name: MOCA Shanghai
+    nameKey: china.shanghai.peoples_square.moca_sh
+    shortDescKey: china.shanghai.peoples_square.moca_sh.shortDesc
+    longDescKey: china.shanghai.peoples_square.moca_sh.longDesc
+    popularity: 1.0
+    category:
+    - category5
+    - category48
+
+Location(location93):
+    name: Shanghai Wild Animal Park
+    nameKey: china.shanghai.shanghai.pudong.sh_wild_animal_park
+    shortDescKey: china.shanghai.shanghai.pudong.sh_wild_animal_park.shortDesc
+    longDescKey: china.shanghai.shanghai.pudong.sh_wild_animal_park.longDesc
+    popularity: 0.0
+    category:
+    - category1
+    - category12
+
+HoursOfOperation(hoursOfOperation1):
+    mondayOpen: 6:30am
+    mondayClosed: 11pm
+    tuesdayOpen: 6:30am
+    tuesdayClosed: 11pm
+    wednesdayOpen: 6:30am
+    wednesdayClosed: 11pm
+    thursdayOpen: 6:30am
+    thursdayClosed: 11pm
+    fridayOpen: 6:30am
+    saturdayOpen: 6:30am
+    saturdayClosed: 11pm
+    sundayOpen: 6:30am
+    sundayClosed: 11pm
+    location: location1
+
+HoursOfOperation(hoursOfOperation2):
+    mondayOpen: 6:00am
+    mondayClosed: 10:00pm
+    tuesdayOpen: 6:00am
+    tuesdayClosed: 10:00pm
+    wednesdayOpen: 6:00am
+    wednesdayClosed: 10:00pm
+    thursdayOpen: 6:00am
+    thursdayClosed: 10:00pm
+    fridayOpen: 6:00am
+    fridayClosed: 10:00pm
+    saturdayOpen: 6:00am
+    saturdayClosed: 10:00pm
+    sundayOpen: 6:00am
+    sundayClosed: 10:00pm
+    location: location2
+
+HoursOfOperation(hoursOfOperation3):
+    mondayOpen: 7am
+    mondayClosed: 9pm
+    tuesdayOpen: 7am
+    tuesdayClosed: 9pm
+    wednesdayOpen: 7am
+    wednesdayClosed: 9pm
+    thursdayOpen: 7am
+    thursdayClosed: 9pm
+    fridayOpen: 7am
+    fridayClosed: 9pm
+    saturdayOpen: 7am
+    saturdayClosed: 9pm
+    sundayOpen: 7am
+    sundayClosed: 9pm
+    location: location32
+
+HoursOfOperation(hoursOfOperation4):
+    mondayOpen: 10:00 a.m
+    mondayClosed: 5:00 p.m
+    tuesdayOpen: Closed
+    wednesdayOpen: 10:00 a.m
+    wednesdayClosed: 5:00 p.m
+    thursdayOpen: 10:00 a.m
+    thursdayClosed: 5:00 p.m
+    fridayOpen: 10:00 a.m
+    fridayClosed: 5:00 p.m
+    saturdayOpen: 10:00 a.m
+    saturdayClosed: 5:00 p.m
+    sundayOpen: 10:00 a.m
+    sundayClosed: 5:00 p.m
+    location: location44
+
+HoursOfOperation(hoursOfOperation5):
+    mondayOpen: 7:00am
+    mondayClosed: 5:00pm
+    tuesdayOpen: 7:00am
+    tuesdayClosed: 5:00pm
+    wednesdayOpen: 7:00am
+    wednesdayClosed: 5:00pm
+    thursdayOpen: 7:00am
+    thursdayClosed: 5:00pm
+    fridayOpen: 7:00am
+    fridayClosed: 5:00pm
+    saturdayOpen: 7:00am
+    saturdayClosed: 5:00pm
+    sundayOpen: 7:00am
+    sundayClosed: 5:00pm
+    location: location49
+
+HoursOfOperation(hoursOfOperation6):
+    mondayOpen: 9:00am
+    mondayClosed: 5:00pm
+    tuesdayOpen: 9:00am
+    tuesdayClosed: 5:00pm
+    wednesdayOpen: 9:00am
+    wednesdayClosed: 5:00pm
+    thursdayOpen: 9:00am
+    thursdayClosed: 5:00pm
+    fridayOpen: 9:00am
+    fridayClosed: 5:00pm
+    saturdayOpen: 9:00am
+    saturdayClosed: 5:00pm
+    sundayOpen: 9:00am
+    sundayClosed: 5:00pm
+    location: location52
+
+HoursOfOperation(hoursOfOperation7):
+    mondayOpen: Closed
+    tuesdayOpen: 10:00a.m
+    tuesdayClosed: 5:00p.m
+    wednesdayOpen: 10:00a.m
+    wednesdayClosed: 5:00p.m
+    thursdayOpen: 10:00a.m
+    thursdayClosed: 5:00p.m
+    fridayOpen: 10:00a.m
+    fridayClosed: 5:00p.m
+    saturdayOpen: 10:00a.m
+    saturdayClosed: 5:00p.m
+    sundayOpen: 10:00a.m
+    sundayClosed: 5:00p.m
+    location: location70
+
+District(district1):
+    name: Southern
+    nameKey: china.sars.hong_kong.southern
+
+District(district2):
+    name: Central and Western
+    nameKey: china.sars.hong_kong.central_and_western
+
+District(district3):
+    name: Wan Chai
+    nameKey: china.sars.hong_kong.wan_chai
+
+District(district4):
+    name: Eastern
+    nameKey: china.sars.hong_kong.eastern
+
+District(district5):
+    name: Yau Tsim Mong
+    nameKey: china.sars.hong_kong.yau_tsim_mong
+
+District(district6):
+    name: Sham Shui Po
+    nameKey: china.sars.hong_kong.sham_shui_po
+
+District(district7):
+    name: Kowloon City
+    nameKey: china.sars.hong_kong.kowloon_city
+
+District(district8):
+    name: Wong Tai Sin
+    nameKey: china.sars.hong_kong.wong_tai_sin
+
+District(district9):
+    name: Kwun Tong
+    nameKey: china.sars.hong_kong.Kwun_tong
+
+District(district10):
+    name: Kwai Tsing
+    nameKey: china.sars.hong_kong.kwai_tsing
+
+District(district11):
+    name: Tsuen Wan
+    nameKey: china.sars.hong_kong.tsuen_wan
+
+District(district12):
+    name: Tuen Mun
+    nameKey: china.sars.hong_kong.tuen_mun
+
+District(district13):
+    name: Yuen Long
+    nameKey: china.sars.hong_kong.yuen_long
+
+District(district14):
+    name: North
+    nameKey: china.sars.hong_kong.north
+
+District(district15):
+    name: Tai Po
+    nameKey: china.sars.hong_kong.tai_po
+
+District(district16):
+    name: Sha Tin
+    nameKey: china.sars.hong_kong.sha_tin
+
+District(district17):
+    name: Sai Kung
+    nameKey: china.sars.hong_kong.sai_kung
+
+District(district18):
+    name: Islands
+    nameKey: china.sars.hong_kong.islands
+
+District(district19):
+    name: Peoples Square
+    nameKey: china.shanghai.shanghai.peoples_square
+
+District(district20):
+    name: Pudong
+    nameKey: china.shanghai.shanghai.pudong
+
+District(district21):
+    name: Xujiahui
+    nameKey: china.shanghai.shanghai.xujiahui
+
+City(city1):
+    name: Hong Kong
+    nameKey: china.sars.hongkong
+
+City(city2):
+    name: Shanghai
+    nameKey: china.shanghai.shanghai
+
+StateProvince(stateProvince1):
+    name: SARs
+    nameKey: china.sars
+
+StateProvince(stateProvince2):
+    name: Shanghai
+    nameKey: china.shanghai
+
+Country(country1):
+    name: China
+    nameKey: china
+
+Address(address1):
+    street1: 19 Cotton Tree Drive
+    location: location1
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address2):
+    street1: Albany Road
+    location: location2
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address3):
+    street1: 18 Harbour Road
+    location: location3
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address4):
+    street1: 8 Connaught Place
+    location: location4
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address5):
+    street1: 126 Hollywood Road
+    location: location5
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address6):
+    street1: Stanley
+    location: location6
+    district: district1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address7):
+    street1: 94 Bonham Road
+    location: location7
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address8):
+    street1: 126 Peak Road
+    location: location8
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address9):
+    street1: Tung Tsing Road
+    location: location9
+    district: district7
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address10):
+    street1: 10 Sailsbury Road
+    location: location10
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address11):
+    street1: 100 Chatham Road South
+    location: location11
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address12):
+    street1: 2 Science Museum Road
+    location: location12
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address13):
+    street1: Tsim Sha Tsui to Wanchai
+    location: location13
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address14):
+    street1: Kansu Street and Jordan Road
+    location: location14
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address15):
+    street1: Salisbury Road
+    location: location15
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address16):
+    street1: Wetland Park Road
+    location: location16
+    district: district13
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address17):
+    street1: 220 Pai Tau Village
+    location: location17
+    district: district16
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address18):
+    street1: Ocean Park Road
+    location: location18
+    district: district1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address19):
+    street1: Lantau Island
+    location: location19
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address20):
+    street1: Lantau Island
+    location: location20
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address21):
+    street1: 7 Castle Road, Mid-Levels
+    location: location21
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address22):
+    street1: 10 Chancery Lane
+    location: location22
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address23):
+    street1: 60C Leighton Rd
+    location: location23
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address24):
+    street1: Lam Kam Road, Tai Po
+    location: location24
+    district: district15
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address25):
+    street1: 1 Lugard Rd
+    location: location26
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address26):
+    street1: Tung Choi Street
+    location: location27
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address27):
+    street1: 8 Finance Street
+    location: location28
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address28):
+    street1: 29th and 30th fl., One Peking, 1 Peking Rd
+    location: location29
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address29):
+    street1: Lower basement, 79 Wyndham Street
+    location: location30
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address30):
+    street1: Flower Market Road
+    location: location31
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address31):
+    street1: Kennedy Town to Shau Kei Wan
+    location: location25
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address32):
+    street1: 60, Fung Tak Road
+    location: location32
+    district: district8
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address33):
+    street1: 1 Hing Fat Street
+    location: location33
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address34):
+    street1: Haiphong Road
+    location: location34
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address35):
+    street1: Sheung Wan
+    location: location35
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address36):
+    street1: Wing Shun Street
+    location: location36
+    district: district11
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address37):
+    street1: 80 Fung Mo Street
+    location: location37
+    district: district8
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address38):
+    street1: Yuen Po Street
+    location: location38
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address39):
+    street1: Eastern Street
+    location: location39
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address40):
+    street1: 71 Des Voeux Road Central
+    location: location40
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address41):
+    street1: 1 Queen's Road Central
+    location: location41
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address42):
+    street1: 1 Expo Drive
+    location: location42
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address43):
+    street1: Tsim Sha Tsui Star Ferry Pier
+    location: location43
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address44):
+    street1: 221 Queen's Road East
+    location: location44
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address45):
+    street1: Wong Tai Sin
+    location: location45
+    district: district8
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address46):
+    street1: Tsing Tin Road
+    location: location46
+    district: district12
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address47):
+    street1: 16 Tai Ping San Street
+    location: location47
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address48):
+    street1: Lo Wai Road
+    location: location48
+    district: district11
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address49):
+    street1: 10 Tin Hau Temple Road
+    location: location49
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address50):
+    street1: 129-131 Queen's Road East
+    location: location50
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address51):
+    street1: Che Kung Miu Road
+    location: location51
+    district: district16
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address52):
+    street1: 4-8 Garden Road
+    location: location52
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address53):
+    street1: 200, Chaiwan Road
+    location: location53
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address54):
+    street1: 9 Kwong Lee Road
+    location: location54
+    district: district6
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address55):
+    street1: 139 Pok Fu Lam Road
+    location: location55
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address56):
+    street1: 105 Nathan Road
+    location: location56
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address57):
+    street1: Tai Wo Town
+    location: location57
+    district: district15
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address58):
+    street1: Tung Choi Street
+    location: location58
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address59):
+    street1: Li Yuen Street West
+    location: location59
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address60):
+    street1: Kansu Street
+    location: location60
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address61):
+    street1: Upper Lascar Row
+    location: location61
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address62):
+    street1: 1 Matheson St
+    location: location62
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address63):
+    street1: 555 Shanghai Street
+    location: location63
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address64):
+    street1: 3 - 27 Canton Road
+    location: location64
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address65):
+    street1: 1 Austin Road West
+    location: location65
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address66):
+    street1: 15 Queen's Road Central
+    location: location66
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address67):
+    street1: 555 Hennessy Road
+    location: location67
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address68):
+    street1: 41 Tonkin Street,
+    location: location68
+    district: district6
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address69):
+    street1: 1 Man Lam Road
+    location: location69
+    district: district16
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address70):
+    street1: 1 Caine Lane
+    location: location70
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address71):
+    street1: 74 Stone Nullah Lane
+    location: location71
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address72):
+    street1: G/F, Murray House, Stanley Plaza
+    location: location72
+    district: district1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address73):
+    street1: 175 Tung Hei Road
+    location: location73
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address74):
+    street1: 27 Coombe Road
+    location: location74
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address75):
+    street1: 10 Salisbury Road
+    location: location75
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address76):
+    street1: 2/F, Happy Valley Stand
+    location: location76
+    district: district3
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address77):
+    street1: No 45, Tung Tau Wan Road
+    location: location77
+    district: district1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address78):
+    street1: Aberdeen
+    location: location78
+    district: district1
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address79):
+    street1: Tsim Sha Tsui
+    location: location79
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address80):
+    street1: Mongkok
+    location: location80
+    district: district5
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address81):
+    street1: Sai Kung
+    location: location81
+    district: district17
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address82):
+    street1: Lan Kwai Fong
+    location: location82
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address83):
+    street1: Soho
+    location: location83
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address84):
+    street1: Hollywood Road
+    location: location84
+    district: district2
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address85):
+    street1: Causeway Bay
+    location: location85
+    district: district4
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address86):
+    street1: Tai O
+    location: location86
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address87):
+    street1: Lamma Island
+    location: location87
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address88):
+    street1: Cheung Chau
+    location: location88
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address89):
+    street1: Peng Chau
+    location: location89
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address90):
+    street1: Po Toi Islands
+    location: location90
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address91):
+    street1: Lantau Island
+    location: location91
+    district: district18
+    city: city1
+    stateProvince: stateProvince1
+    country: country1
+
+Address(address92):
+    street1: 231 Nanjing Xi Lu,
+    location: location92
+    district: district19
+    city: city2
+    stateProvince: stateProvince2
+    country: country1
+
+Address(address93):
+    street1: 178 Nan Liu Gong Lu,
+    location: location93
+    district: district20
+    city: city2
+    stateProvince: stateProvince2
+    country: country1
+
+Admission(admission1):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location1
+
+Admission(admission2):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location2
+
+Admission(admission3):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location3
+
+Admission(admission4):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location4
+
+Admission(admission5):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location5
+
+Admission(admission6):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location6
+
+Admission(admission7):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location7
+
+Admission(admission8):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location8
+
+Admission(admission9):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location9
+
+Admission(admission10):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location10
+
+Admission(admission11):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location11
+
+Admission(admission12):
+    type: General
+    amount: 25.0
+    currency: HKD
+    location: location12
+
+Admission(admission13):
+    type: Adult
+    amount: 2.5
+    currency: HKD
+    location: location13
+
+Admission(admission14):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location14
+
+Admission(admission15):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location15
+
+Admission(admission16):
+    type: Adult
+    amount: 30.0
+    currency: HKD
+    location: location16
+
+Admission(admission17):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location17
+
+Admission(admission18):
+    type: Adult
+    amount: 280.0
+    currency: HKD
+    location: location18
+
+Admission(admission19):
+    type: Adult
+    amount: 399.0
+    currency: HKD
+    location: location19
+
+Admission(admission20):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location20
+
+Admission(admission21):
+    type: General
+    amount: 10.0
+    currency: HKD
+    location: location21
+
+Admission(admission22):
+    type: Student
+    amount: 5.0
+    currency: HKD
+    location: location21
+
+Admission(admission23):
+    type: Group
+    amount: 7.0
+    currency: HKD
+    location: location21
+
+Admission(admission24):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location22
+
+Admission(admission25):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location23
+
+Admission(admission26):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location24
+
+Admission(admission27):
+    type: Adult Round Trip
+    amount: 40.0
+    currency: HKD
+    location: location26
+
+Admission(admission28):
+    type: Child
+    amount: 18.0
+    currency: HKD
+    location: location26
+
+Admission(admission29):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location27
+
+Admission(admission30):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location28
+
+Admission(admission31):
+    type: General
+    amount: 0.0
+    currency: HKD
+    location: location31
+
+Admission(admission32):
+    type: Adults
+    amount: 10.0
+    currency: HKD
+    location: location70
+
+Admission(admission33):
+    type: Full-time students
+    amount: 5.0
+    currency: HKD
+    location: location70
+
+Phone(phone1):
+    type: Museum
+    countryCode: 852
+    number: 28690690
+    location: location1
+
+Phone(phone2):
+    type: General
+    countryCode: 852
+    number: 25300154
+    location: location2
+
+Phone(phone3):
+    type: General
+    countryCode: 852
+    number: 25868111
+    location: location3
+
+Phone(phone4):
+    type: General
+    countryCode: 852
+    number: 25400350
+    location: location5
+
+Phone(phone5):
+    type: General
+    countryCode: 852
+    number: 22415500
+    location: location7
+
+Phone(phone6):
+    type: General
+    countryCode: 852
+    number: 27169962
+    location: location9
+
+Phone(phone7):
+    type: General
+    countryCode: 852
+    number: 27210116
+    location: location10
+
+Phone(phone8):
+    type: General
+    countryCode: 852
+    number: 27249042
+    location: location11
+
+Phone(phone9):
+    type: General
+    countryCode: 852
+    number: 27323232
+    location: location12
+
+Phone(phone10):
+    type: General
+    countryCode: 852
+    number: 21186028
+    location: location13
+
+Phone(phone11):
+    type: General
+    countryCode: 852
+    number: 31522666
+    location: location16
+
+Phone(phone12):
+    type: General
+    countryCode: 852
+    number: 39232323
+    location: location18
+
+Phone(phone13):
+    type: Reservation
+    countryCode: 852
+    number: 1830830
+    location: location19
+
+Phone(phone14):
+    type: General
+    countryCode: 852
+    number: 28100065
+    location: location22
+
+Phone(phone15):
+    type: General
+    countryCode: 852
+    number: 28870313
+    location: location23
+
+Phone(phone16):
+    type: General
+    countryCode: 852
+    number: 24837200
+    location: location24
+
+Phone(phone17):
+    type: General
+    countryCode: 852
+    number: 25220922
+    location: location26
+
+Phone(phone18):
+    type: General
+    countryCode: 852
+    number: 34272288
+    location: location29
+
+Phone(phone19):
+    type: General
+    countryCode: 852
+    number: 21472382
+    location: location30
+
+Phone(phone20):
+    type: general
+    countryCode: 852
+    number: 23298811
+    location: location32
+
+Phone(phone21):
+    type: general
+    countryCode: 852
+    number: 28505272
+    location: location40
+
+Phone(phone22):
+    type: general
+    countryCode: 852
+    number: 25828888
+    location: location42
+
+Phone(phone23):
+    type: general
+    countryCode: 852
+    number: 2893 2856
+    location: location44
+
+Phone(phone24):
+    type: general
+    countryCode: 852
+    number: 25234157
+    location: location52
+
+Phone(phone25):
+    type: general
+    countryCode: 852
+    number: 25495123
+    location: location70
+
+Phone(phone26):
+    type: general
+    countryCode: 852
+    number: 28354376
+    location: location71
+
+Phone(phone27):
+    type: general
+    countryCode: 852
+    number: 28132322
+    location: location72
+
+Phone(phone28):
+    type: general
+    countryCode: 852
+    number: 25691500
+    location: location73
+
+Picture(picture1):
+    location: location18
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/ocean_park/result.jpg
+
+Picture(picture2):
+    location: location1
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hk_park/result.jpg
+
+Picture(picture3):
+    location: location31
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/flower_market/result.jpg
+
+Picture(picture4):
+    location: location2
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hk_zoological_and_botanical_gardens/result.jpg
+
+Picture(picture5):
+    location: location3
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/central_plaza/result.jpg
+
+Picture(picture6):
+    location: location4
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/exchange_square/result.jpg
+
+Picture(picture7):
+    location: location5
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/man_mo_temple/result.jpg
+
+Picture(picture8):
+    location: location6
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/stanley_market/result.jpg
+
+Picture(picture9):
+    location: location7
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/university_museum_and_art_gallery/result.jpg
+
+Picture(picture10):
+    location: location8
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/victoria_peak/result.jpg
+
+Picture(picture11):
+    location: location9
+    type: result
+    url: /public/images/china/sars/hong_kong/kowloon_city/kowloon_walled_city_park/result.jpg
+
+Picture(picture12):
+    location: location10
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_art/result.jpg
+
+Picture(picture13):
+    location: location11
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_history/result.jpg
+
+Picture(picture14):
+    location: location12
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/science_museum/result.jpg
+
+Picture(picture15):
+    location: location14
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/temple_street/result.jpg
+
+Picture(picture16):
+    location: location15
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/waterfront_promenade/result.jpg
+
+Picture(picture17):
+    location: location16
+    type: result
+    url: /public/images/china/sars/hong_kong/yuen_long/hk_wetland_park/result.jpg
+
+Picture(picture18):
+    location: location17
+    type: result
+    url: /public/images/china/sars/hong_kong/sha_tin/ten_thousand_buddhas_temple/result.jpg
+
+Picture(picture19):
+    location: location19
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/hk_disneyland/result.jpg
+
+Picture(picture20):
+    location: location20
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/po_lin_buddha/result.jpg
+
+Picture(picture21):
+    location: location21
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/dr_sun_yat_sen_museum/result.jpg
+
+Picture(picture22):
+    location: location22
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/10_chancery_lane_gallery/result.jpg
+
+Picture(picture23):
+    location: location23
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/edge_gallery/result.jpg
+
+Picture(picture24):
+    location: location24
+    type: result
+    url: /public/images/china/sars/hong_kong/tai_po/kadoorie_farm_botanic_ garden/result.jpg
+
+Picture(picture25):
+    location: location26
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/peak_tram/result.jpg
+
+Picture(picture26):
+    location: location27
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/goldfish_market/result.jpg
+
+Picture(picture27):
+    location: location28
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/ifc_mall/result.jpg
+
+Picture(picture28):
+    location: location29
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/aqua_spirit/result.jpg
+
+Picture(picture29):
+    location: location30
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/yumla/result.jpg
+
+Picture(picture30):
+    location: location13
+    type: result
+    url: /public/images/china/sars/hong_kong/star_ferry/result.jpg
+
+Picture(picture31):
+    location: location25
+    type: result
+    url: /public/images/china/sars/hong_kong/hk_island_tram/result.jpg
+
+Picture(picture32):
+    location: location32
+    type: result
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/nan_lian_garden/result.jpg
+
+Picture(picture33):
+    location: location32
+    type: detail
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/nan_lian_garden/detail.jpg
+
+Picture(picture34):
+    location: location33
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/victoria_park/result.jpg
+
+Picture(picture35):
+    location: location34
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/kowloon_park/result.jpg
+
+Picture(picture36):
+    location: location34
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/kowloon_park/detail.jpg
+
+Picture(picture37):
+    location: location35
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/blake_garden/result.jpg
+
+Picture(picture38):
+    location: location35
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/blake_garden/detail.jpg
+
+Picture(picture39):
+    location: location36
+    type: result
+    url: /public/images/china/sars/hong_kong/tsuen_wan/tsuen_wan_park/result.jpg
+
+Picture(picture40):
+    location: location36
+    type: detail
+    url: /public/images/china/sars/hong_kong/tsuen_wan/tsuen_wan_park/detail.jpg
+
+Picture(picture41):
+    location: location37
+    type: result
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/morse_park/result.jpg
+
+Picture(picture42):
+    location: location37
+    type: detail
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/morse_park/detail.jpg
+
+Picture(picture43):
+    location: location38
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/yuen_po_street_bird_garden/result.jpg
+
+Picture(picture44):
+    location: location38
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/yuen_po_street_bird_garden/detail.jpg
+
+Picture(picture45):
+    location: location39
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/king_george_v_memorial_park/result.jpg
+
+Picture(picture46):
+    location: location39
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/king_george_v_memorial_park/detail.jpg
+
+Picture(picture47):
+    location: location40
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/bank_of_china_tower/result.jpg
+
+Picture(picture48):
+    location: location40
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/bank_of_china_tower/detail.jpg
+
+Picture(picture49):
+    location: location41
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hong_kong_and_shanghai_bank/result.jpg
+
+Picture(picture50):
+    location: location41
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/hong_kong_and_shanghai_bank/detail.jpg
+
+Picture(picture51):
+    location: location42
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/hong_kong_convention_and_ exhibition_centre/result.jpg
+
+Picture(picture52):
+    location: location42
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/hong_kong_convention_and_ exhibition_centre/detail.jpg
+
+Picture(picture53):
+    location: location43
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/clock_tower/result.jpg
+
+Picture(picture54):
+    location: location43
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/clock_tower/detail.jpg
+
+Picture(picture55):
+    location: location44
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/wan_chai_environmental_resource_centre/result.jpg
+
+Picture(picture56):
+    location: location44
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/wan_chai_environmental_resource_centre/detail.jpg
+
+Picture(picture57):
+    location: location45
+    type: result
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/wong_tai_sin_temple/result.jpg
+
+Picture(picture58):
+    location: location45
+    type: detail
+    url: /public/images/china/sars/hong_kong/wong_tai_sin/wong_tai_sin_temple/detail.jpg
+
+Picture(picture59):
+    location: location46
+    type: result
+    url: /public/images/china/sars/hong_kong/tuen_mun/ching_chung_koon/result.jpg
+
+Picture(picture60):
+    location: location46
+    type: detail
+    url: /public/images/china/sars/hong_kong/tuen_mun/ching_chung_koon/detail.jpg
+
+Picture(picture61):
+    location: location47
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/kwun_yam_temple/result.jpg
+
+Picture(picture62):
+    location: location47
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/kwun_yam_temple/detail.jpg
+
+Picture(picture63):
+    location: location48
+    type: result
+    url: /public/images/china/sars/hong_kong/tsuen_wan/yuen_yuen_institute/result.jpg
+
+Picture(picture64):
+    location: location48
+    type: detail
+    url: /public/images/china/sars/hong_kong/tsuen_wan/yuen_yuen_institute/detail.jpg
+
+Picture(picture65):
+    location: location49
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/tin_hau_temple/result.jpg
+
+Picture(picture66):
+    location: location49
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/tin_hau_temple/detail.jpg
+
+Picture(picture67):
+    location: location50
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/hung_shing_temple/result.jpg
+
+Picture(picture68):
+    location: location50
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/hung_shing_temple/detail.jpg
+
+Picture(picture69):
+    location: location51
+    type: result
+    url: /public/images/china/sars/hong_kong/sha_tin/che_kung_miu/result.jpg
+
+Picture(picture70):
+    location: location51
+    type: detail
+    url: /public/images/china/sars/hong_kong/sha_tin/che_kung_miu/detail.jpg
+
+Picture(picture71):
+    location: location52
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/st_johns_cathedral/result.jpg
+
+Picture(picture72):
+    location: location52
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/st_johns_cathedral/detail.jpg
+
+Picture(picture73):
+    location: location53
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/star_of_the_sea_church/result.jpg
+
+Picture(picture74):
+    location: location53
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/star_of_the_sea_church/detail.jpg
+
+Picture(picture75):
+    location: location54
+    type: result
+    url: /public/images/china/sars/hong_kong/sham_shui_po/st_lawrences_church/result.jpg
+
+Picture(picture76):
+    location: location54
+    type: detail
+    url: /public/images/china/sars/hong_kong/sham_shui_po/st_lawrences_church/detail.jpg
+
+Picture(picture77):
+    location: location55
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/bethanie/result.jpg
+
+Picture(picture78):
+    location: location55
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/bethanie/detail.jpg
+
+Picture(picture79):
+    location: location56
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/kowloon_mosque/result.jpg
+
+Picture(picture80):
+    location: location56
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/kowloon_mosque/detail.jpg
+
+Picture(picture81):
+    location: location57
+    type: result
+    url: /public/images/china/sars/hong_kong/tai_po/tai_po_market/result.jpg
+
+Picture(picture82):
+    location: location57
+    type: detail
+    url: /public/images/china/sars/hong_kong/tai_po/tai_po_market/detail.jpg
+
+Picture(picture83):
+    location: location58
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/ladies_market/result.jpg
+
+Picture(picture84):
+    location: location58
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/ladies_market/detail.jpg
+
+Picture(picture85):
+    location: location59
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/li_yuen_street_west/result.jpg
+
+Picture(picture86):
+    location: location59
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/li_yuen_street_west/detail.jpg
+
+Picture(picture87):
+    location: location60
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/jade_market/result.jpg
+
+Picture(picture88):
+    location: location60
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/jade_market/detail.jpg
+
+Picture(picture89):
+    location: location61
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/upper_lascar_row/result.jpg
+
+Picture(picture90):
+    location: location61
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/upper_lascar_row/detail.jpg
+
+Picture(picture91):
+    location: location62
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/times_square/result.jpg
+
+Picture(picture92):
+    location: location62
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/times_square/detail.jpg
+
+Picture(picture93):
+    location: location63
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/langham_place/result.jpg
+
+Picture(picture94):
+    location: location63
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/langham_place/detail.jpg
+
+Picture(picture95):
+    location: location64
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/harbour_city/result.jpg
+
+Picture(picture96):
+    location: location64
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/harbour_city/detail.jpg
+
+Picture(picture97):
+    location: location65
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/elements/result.jpg
+
+Picture(picture98):
+    location: location65
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/elements/detail.jpg
+
+Picture(picture99):
+    location: location66
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/the_landmark/result.jpg
+
+Picture(picture100):
+    location: location66
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/the_landmark/detail.jpg
+
+Picture(picture101):
+    location: location67
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/sogo/result.jpg
+
+Picture(picture102):
+    location: location67
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/sogo/detail.jpg
+
+Picture(picture103):
+    location: location68
+    type: result
+    url: /public/images/china/sars/hong_kong/sham_shui_po/lei_cheng_uk_han_tomb museum/result.jpg
+
+Picture(picture104):
+    location: location68
+    type: detail
+    url: /public/images/china/sars/hong_kong/sham_shui_po/lei_cheng_uk_han_tomb museum/detail.jpg
+
+Picture(picture105):
+    location: location69
+    type: result
+    url: /public/images/china/sars/hong_kong/sha_tin/heritage_museum/result.jpg
+
+Picture(picture106):
+    location: location69
+    type: detail
+    url: /public/images/china/sars/hong_kong/sha_tin/heritage_museum/detail.jpg
+
+Picture(picture107):
+    location: location70
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hong_kong_museum_of_medical_sciences/result.jpg
+
+Picture(picture108):
+    location: location70
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/hong_kong_museum_of_medical_sciences/detail.jpg
+
+Picture(picture109):
+    location: location71
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/wan_chai_livelihood_museum/result.jpg
+
+Picture(picture110):
+    location: location71
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/wan_chai_livelihood_museum/detail.jpg
+
+Picture(picture111):
+    location: location72
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/hong_kong_maritime_museum/result.jpg
+
+Picture(picture112):
+    location: location72
+    type: detail
+    url: /public/images/china/sars/hong_kong/southern/hong_kong_maritime_museum/detail.jpg
+
+Picture(picture113):
+    location: location73
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/hong_kong_museum_of_coastal_defence/result.jpg
+
+Picture(picture114):
+    location: location73
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/hong_kong_museum_of_coastal_defence/detail.jpg
+
+Picture(picture115):
+    location: location74
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/police_museum/result.jpg
+
+Picture(picture116):
+    location: location74
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/police_museum/detail.jpg
+
+Picture(picture117):
+    location: location75
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/hong_kong_space_museum/result.jpg
+
+Picture(picture118):
+    location: location75
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/hong_kong_space_museum/detail.jpg
+
+Picture(picture119):
+    location: location76
+    type: result
+    url: /public/images/china/sars/hong_kong/wan_chai/hong_kong_racing_museum/result.jpg
+
+Picture(picture120):
+    location: location76
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/hong_kong_racing_museum/detail.jpg
+
+Picture(picture121):
+    location: location77
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/hong_kong_correctional_services_museum/result.jpg
+
+Picture(picture122):
+    location: location77
+    type: detail
+    url: /public/images/china/sars/hong_kong/southern/hong_kong_correctional_services_museum/detail.jpg
+
+Picture(picture123):
+    location: location78
+    type: result
+    url: /public/images/china/sars/hong_kong/southern/aberdeen_promenade/result.jpg
+
+Picture(picture124):
+    location: location78
+    type: detail
+    url: /public/images/china/sars/hong_kong/southern/aberdeen_promenade/detail.jpg
+
+Picture(picture125):
+    location: location79
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/avenue_of_stars/result.jpg
+
+Picture(picture126):
+    location: location79
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/avenue_of_stars/detail.jpg
+
+Picture(picture127):
+    location: location80
+    type: result
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/mongkok/result.jpg
+
+Picture(picture128):
+    location: location80
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/mongkok/detail.jpg
+
+Picture(picture129):
+    location: location81
+    type: result
+    url: /public/images/china/sars/hong_kong/sai_kung/sai_kung/result.jpg
+
+Picture(picture130):
+    location: location81
+    type: detail
+    url: /public/images/china/sars/hong_kong/sai_kung/sai_kung/detail.jpg
+
+Picture(picture131):
+    location: location82
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/lan_kwai_fong/result.jpg
+
+Picture(picture132):
+    location: location82
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/lan_kwai_fong/detail.jpg
+
+Picture(picture133):
+    location: location83
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/solo/result.jpg
+
+Picture(picture134):
+    location: location83
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/solo/detail.jpg
+
+Picture(picture135):
+    location: location84
+    type: result
+    url: /public/images/china/sars/hong_kong/central_western/hollywood_road/result.jpg
+
+Picture(picture136):
+    location: location84
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/hollywood_road/detail.jpg
+
+Picture(picture137):
+    location: location85
+    type: result
+    url: /public/images/china/sars/hong_kong/eastern/causeway_bay/result.jpg
+
+Picture(picture138):
+    location: location85
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/causeway_bay/detail.jpg
+
+Picture(picture139):
+    location: location86
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/tai_o/result.jpg
+
+Picture(picture140):
+    location: location86
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/tai_o/detail.jpg
+
+Picture(picture141):
+    location: location87
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/lamma_island/result.jpg
+
+Picture(picture142):
+    location: location87
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/lamma_island/detail.jpg
+
+Picture(picture143):
+    location: location88
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/cheung_chau/result.jpg
+
+Picture(picture144):
+    location: location88
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/cheung_chau/detail.jpg
+
+Picture(picture145):
+    location: location89
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/peng_chau /result.jpg
+
+Picture(picture146):
+    location: location89
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/peng_chau /detail.jpg
+
+Picture(picture147):
+    location: location90
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/po_toi_islands/result.jpg
+
+Picture(picture148):
+    location: location90
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/po_toi_islands/detail.jpg
+
+Picture(picture149):
+    location: location91
+    type: result
+    url: /public/images/china/sars/hong_kong/islands/ngong_ping_360/result.jpg
+
+Picture(picture150):
+    location: location91
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/ngong_ping_360/detail.jpg
+
+Picture(picture151):
+    location: location1
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/hk_park/detail.jpg
+
+Picture(picture152):
+    location: location33
+    type: detail
+    url: /public/images/china/sars/hong_kong/eastern/victoria_park/detail.jpg
+
+Picture(picture153):
+    location: location16
+    type: detail
+    url: /public/images/china/sars/hong_kong/yuen_long/hk_wetland_park/detail.jpg
+
+Picture(picture154):
+    location: location2
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/hk_zoological_and_botanical_gardens/detail.jpg
+
+Picture(picture155):
+    location: location18
+    type: detail
+    url: /public/images/china/sars/hong_kong/southern/ocean_park/detail.jpg
+
+Picture(picture156):
+    location: location19
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/hk_disneyland/detail.jpg
+
+Picture(picture157):
+    location: location24
+    type: detail
+    url: /public/images/china/sars/hong_kong/tai_po/kadoorie_farm_botanic_ garden/detail.jpg
+
+Picture(picture158):
+    location: location9
+    type: detail
+    url: /public/images/china/sars/hong_kong/kowloon_city/kowloon_walled_city_park/detail.jpg
+
+Picture(picture159):
+    location: location3
+    type: detail
+    url: /public/images/china/sars/hong_kong/wan_chai/central_plaza/detail.jpg
+
+Picture(picture160):
+    location: location4
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/exchange_square/detail.jpg
+
+Picture(picture161):
+    location: location5
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/man_mo_temple/detail.jpg
+
+Picture(picture162):
+    location: location17
+    type: detail
+    url: /public/images/china/sars/hong_kong/sha_tin/ten_thousand_buddhas_temple/detail.jpg
+
+Picture(picture163):
+    location: location20
+    type: detail
+    url: /public/images/china/sars/hong_kong/islands/po_lin_buddha/detail.jpg
+
+Picture(picture164):
+    location: location6
+    type: detail
+    url: /public/images/china/sars/hong_kong/southern/stanley_market/detail.jpg
+
+Picture(picture165):
+    location: location27
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/goldfish_market/detail.jpg
+
+Picture(picture166):
+    location: location31
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/flower_market/detail.jpg
+
+Picture(picture167):
+    location: location14
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/temple_street/detail.jpg
+
+Picture(picture168):
+    location: location28
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/ifc_mall/detail.jpg
+
+Picture(picture169):
+    location: location7
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/university_museum_and_art_gallery/detail.jpg
+
+Picture(picture170):
+    location: location10
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_art/detail.jpg
+
+Picture(picture171):
+    location: location11
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/museum_of_history/detail.jpg
+
+Picture(picture172):
+    location: location21
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/dr_sun_yat_sen_museum/detail.jpg
+
+Picture(picture173):
+    location: location12
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/science_museum/detail.jpg
+
+Picture(picture174):
+    location: location8
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/victoria_peak/detail.jpg
+
+Picture(picture175):
+    location: location15
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/waterfront_promenade/detail.jpg
+
+Picture(picture176):
+    location: location13
+    type: detail
+    url: /public/images/china/sars/hong_kong/star_ferry/detail.jpg
+
+Picture(picture177):
+    location: location25
+    type: detail
+    url: /public/images/china/sars/hong_kong/hk_island_tram/detail.jpg
+
+Picture(picture178):
+    location: location26
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/peak_tram/detail.jpg
+
+Picture(picture179):
+    location: location22
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/10_chancery_lane_gallery/detail.jpg
+
+Picture(picture180):
+    location: location29
+    type: detail
+    url: /public/images/china/sars/hong_kong/yau_tsim_mong/aqua_spirit/detail.jpg
+
+Picture(picture181):
+    location: location30
+    type: detail
+    url: /public/images/china/sars/hong_kong/central_western/yumla/detail.jpg
+
+Picture(picture182):
+    location: location92
+    type: result
+    url: /public/images/china/shanghai/peoples_square/moca_sh/result.jpg
+
+Picture(picture183):
+    location: location92
+    type: detail
+    url: /public/images/china/shanghai/peoples_square/moca_sh/detail.jpg
+
+Picture(picture184):
+    location: location93
+    type: result
+    url: /public/images/china/shanghai/pudong/sh_wild_animal_park/result.jpg
+
+Picture(picture185):
+    location: location93
+    type: detail
+    url: /public/images/china/shanghai/pudong/sh_wild_animal_park/detail.jpg
+
+User(user1):
+    email: alan@test.com
+    displayName: Alan Smith
+
+Score(score1):
+    score: 43.0
+    user: user1
+    category: category13
+
+Score(score2):
+    score: 8.0
+    user: user1
+    category: category18
+
+Score(score3):
+    score: 112.0
+    user: user1
+    category: category1
+
+Score(score4):
+    score: 4.0
+    user: user1
+    category: category20
+
+Score(score5):
+    score: 6.0
+    user: user1
+    category: category4
+
+Score(score6):
+    score: 106.0
+    user: user1
+    category: category12
+
+Score(score7):
+    score: 37.0
+    user: user1
+    category: category2
+
+Score(score8):
+    score: 80.0
+    user: user1
+    category: category16
+
+Score(score9):
+    score: 68.0
+    user: user1
+    category: category10
+
+Score(score10):
+    score: 8.0
+    user: user1
+    category: category15
+
+Score(score11):
+    score: 6.0
+    user: user1
+    category: category8
+
+Score(score12):
+    score: 8.0
+    user: user1
+    category: category32
+
+Score(score13):
+    score: 4.0
+    user: user1
+    category: category7
+
+Score(score14):
+    score: 8.0
+    user: user1
+    category: category31
+
+Score(score15):
+    score: 4.0
+    user: user1
+    category: category33
+
+Score(score16):
+    score: 2.0
+    user: user1
+    category: category6
+
+Score(score17):
+    score: 2.0
+    user: user1
+    category: category28
+
+Score(score18):
+    score: 2.0
+    user: user1
+    category: category5
+
+Score(score19):
+    score: 2.0
+    user: user1
+    category: category26
+
+Score(score20):
+    score: 6.0
+    user: user1
+    category: category14
+
+Score(score21):
+    score: 2.0
+    user: user1
+    category: category42
+
+Score(score22):
+    score: 4.0
+    user: user1
+    category: category3
+
+Score(score23):
+    score: 2.0
+    user: user1
+    category: category39
+
+Score(score24):
+    score: 8.0
+    user: user1
+    category: category22
+
+Score(score25):
+    score: 2.0
+    user: user1
+    category: category48
+
