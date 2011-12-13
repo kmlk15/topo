@@ -14,15 +14,15 @@
 		<div id="leftCol">
 			<div class="trvTab">TRAVELER</div>
 			<div class="trvHolder">
-				<div class="trvBdy"><h1>Mauri Smith</h1>
+				<div class="trvBdy"><h1>Michelle C.</h1>
 					<div class="trvImg"><a href="@{app.profile.index()}"><img src="@{'public/images/users/user_mauri.jpg'}" alt="Mauri Smith" /></a></div>
-					<div class="trvCont">heading towards:<br />
+					<div class="trvCont">traveling from <br />Beijing, China to<br />
 					<h3>Hong Kong, China</h3>
 					from: <br />
-					8/25 - 9/8</div>
+					2/12 - 2/18</div>
 					<div class="clear"></div>
 				</div>
-				<div class="locTab" id="knapsack"><strong>Your knapsack</strong></div>
+				<div class="locTab" id="knapsack"><strong>Your Knapsack</strong></div>
 				#{if knapsacks}
 	                #{list items:knapsacks, as:'knapsack'}
 	                    <div class="locList" id="list${knapsack?.id}">
